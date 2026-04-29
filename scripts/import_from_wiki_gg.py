@@ -1,36 +1,13 @@
 import argparse
-import hashlib
 import json
-from functools import cache
-from urllib.error import HTTPError, URLError
-from urllib.request import urlopen
+
+from helper import hash_file, hash_string, read_json_from_url
 
 # Source: https://github.com/wiki-gg-oss/redirect-extension
 SOURCE_URL = "https://raw.githubusercontent.com/wiki-gg-oss/redirect-extension/refs/heads/master/sites.json"
 IMPORT_FILE = "./sources/import_from_wiki_gg.txt"
 FAILSAFE_FIRST_ID = "13sentinels"
-
-
-@cache
-def read_json_from_url(url):
-    try:
-        with urlopen(url) as r:
-            data = json.load(r)
-            # data = json.loads(r.read().decode())
-            return data
-
-    except HTTPError as e:
-        print(f"HTTP Error: {e.code} - {e.reason}")
-        return None
-    except URLError as e:
-        print(f"URL Error: {e.reason}")
-        return None
-    except json.JSONDecodeError as e:
-        print(f"Invalid JSON: {e}")
-        return None
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
-        return None
+FAILSAFE_FIRST_OLDID = "13-sentinels-aegis-rim"
 
 
 def get_unwanted_from_entry(entry):
@@ -45,26 +22,7 @@ def get_unwanted_from_entry(entry):
     return None
 
 
-def hash_file(filename):
-    # hashlib.file_digest() supported since Python 3.11
-    # return hashlib.file_digest(fp, 'md5').hexdigest()
-    # CANNOT use because it does not support text streams, only binary.
-    # do not use 'rb' for binary mode because it will never compare with the string hash
-    # do not use 'buffering=0'. Can't have unbuffered text I/O
-    hash_object = hashlib.md5()
-    with open(filename, "rt", encoding="utf-8") as fp:
-        while chunk := fp.read(8192):
-            hash_object.update(chunk.encode("utf-8"))
-
-    return hash_object.hexdigest()
-
-
-def hash_string(text):
-    # Strings must be encoded before hashing
-    return hashlib.md5(text.encode("utf-8")).hexdigest()
-
-
-def create_list_from_json(json_object, args):
+def create_list_from_json(json_object):
     text = []
     for entry in json_object:
         if isinstance(entry, list):
@@ -112,12 +70,26 @@ if __name__ == "__main__":
             print(json.dumps(source))
 
         print("\nSuccessfully fetched data:")
-        print("Expected ID: {FAILSAFE_FIRST_ID}")
-        test_first_id = source[1]["id"]
+
+        print(f"Expected ID: {FAILSAFE_FIRST_ID}")
+        try:
+            test_first_id = source[1]["id"]
+        except AttributeError, IndexError, KeyError, TypeError:
+            test_first_id = ""
         print(f"First ID: {test_first_id}")
 
-        if FAILSAFE_FIRST_ID == test_first_id:
-            create_list_from_json(source, args)
+        print(f"Expected old ID: {FAILSAFE_FIRST_OLDID}")
+        try:
+            test_first_oldid = source[1]["oldId"]
+        except AttributeError, IndexError, KeyError, TypeError:
+            test_first_oldid = ""
+        print(f"First old ID: {test_first_oldid}")
+
+        if (
+            FAILSAFE_FIRST_ID == test_first_id
+            and FAILSAFE_FIRST_OLDID == test_first_oldid
+        ):
+            create_list_from_json(source)
         else:
             print(
                 "IMPORT CANCELLED: First ID does not match expected value. Please verify the source data."

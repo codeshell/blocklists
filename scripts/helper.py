@@ -1,0 +1,46 @@
+import hashlib
+import json
+from functools import cache
+from urllib.error import HTTPError, URLError
+from urllib.request import urlopen
+
+
+@cache
+def read_json_from_url(url):
+    try:
+        with urlopen(url) as r:
+            data = json.load(r)
+            # data = json.loads(r.read().decode())
+            return data
+
+    except HTTPError as e:
+        print(f"HTTP Error: {e.code} - {e.reason}")
+        return None
+    except URLError as e:
+        print(f"URL Error: {e.reason}")
+        return None
+    except json.JSONDecodeError as e:
+        print(f"Invalid JSON: {e}")
+        return None
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        return None
+
+
+def hash_file(filename):
+    # hashlib.file_digest() supported since Python 3.11
+    # return hashlib.file_digest(fp, 'md5').hexdigest()
+    # CANNOT use because it does not support text streams, only binary.
+    # do not use 'rb' for binary mode because it will never compare with the string hash
+    # do not use 'buffering=0'. Can't have unbuffered text I/O
+    hash_object = hashlib.md5()
+    with open(filename, "rt", encoding="utf-8") as fp:
+        while chunk := fp.read(8192):
+            hash_object.update(chunk.encode("utf-8"))
+
+    return hash_object.hexdigest()
+
+
+def hash_string(text):
+    # Strings must be encoded before hashing
+    return hashlib.md5(text.encode("utf-8")).hexdigest()
