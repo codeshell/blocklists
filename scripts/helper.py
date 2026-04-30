@@ -34,9 +34,13 @@ def hash_file(filename):
     # do not use 'rb' for binary mode because it will never compare with the string hash
     # do not use 'buffering=0'. Can't have unbuffered text I/O
     hash_object = hashlib.md5()
-    with open(filename, "rt", encoding="utf-8") as fp:
-        while chunk := fp.read(8192):
-            hash_object.update(chunk.encode("utf-8"))
+    try:
+        with open(filename, "rt", encoding="utf-8") as fp:
+            while chunk := fp.read(8192):
+                hash_object.update(chunk.encode("utf-8"))
+    except FileNotFoundError:
+        print(f"{filename} does not exists (yet).")
+        return None
 
     return hash_object.hexdigest()
 
@@ -44,3 +48,26 @@ def hash_file(filename):
 def hash_string(text):
     # Strings must be encoded before hashing
     return hashlib.md5(text.encode("utf-8")).hexdigest()
+
+
+def write_list_from_lines(filename: str, lines: dict, args):
+    """
+    docstring
+    """
+    new_hash = hash_string("\n".join(lines) + "\n")
+    print(f"Hash (md5) new data: {new_hash}")
+
+    old_hash = hash_file(filename)
+    print(f"Hash (md5) old data: {old_hash}")
+
+    if old_hash == new_hash:
+        print("Nothing to update.")
+        return lines
+
+    if not args.dry_run and len(lines) > 0:
+        print(f"writing import file with {len(lines)} entries")
+        with open(filename, "wt", encoding="utf-8") as fp:
+            # always end a text file with a blank line
+            fp.write("\n".join(lines) + "\n")
+
+    return lines
