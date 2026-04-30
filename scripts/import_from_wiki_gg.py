@@ -1,11 +1,13 @@
 import argparse
 import json
+from pathlib import Path
 
 from helper import hash_file, hash_string, read_json_from_url
 
 # Source: https://github.com/wiki-gg-oss/redirect-extension
 SOURCE_URL = "https://raw.githubusercontent.com/wiki-gg-oss/redirect-extension/refs/heads/master/sites.json"
-IMPORT_FILE = "./sources/import_from_wiki_gg.txt"
+ROOT_PATH = Path(__file__).parent.parent
+IMPORT_FILE = Path(ROOT_PATH, "sources", "import_from_wiki_gg.txt")
 FAILSAFE_FIRST_ID = "13sentinels"
 FAILSAFE_FIRST_OLDID = "13-sentinels-aegis-rim"
 
