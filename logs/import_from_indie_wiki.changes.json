@@ -1,0 +1,118 @@
+{
+  "date": "2026-05-01T02:42:47+00:00",
+  "changes": 22,
+  "removed": [],
+  "added": [
+    {
+      "path": "sitesCA.json",
+      "sha": "d6aa2eb18ad4d66137eab06133ef803e785b9417",
+      "size": 631
+    },
+    {
+      "path": "sitesDE.json",
+      "sha": "1c7b0c144a95efa7afd95b66ebe8cd36cc3e3c2a",
+      "size": 9947
+    },
+    {
+      "path": "sitesEN.json",
+      "sha": "d897e7a6800a37d3057d790359d2f472817eb399",
+      "size": 452599
+    },
+    {
+      "path": "sitesES.json",
+      "sha": "89c45ec143e1f75734d6f3aeac008e60be642b56",
+      "size": 12263
+    },
+    {
+      "path": "sitesFI.json",
+      "sha": "5b6efa636629edf4f8625026b38e477b2dd9e825",
+      "size": 1865
+    },
+    {
+      "path": "sitesFR.json",
+      "sha": "1ce49bdaeae27af9a5470357549d480c5884afb4",
+      "size": 21957
+    },
+    {
+      "path": "sitesHR.json",
+      "sha": "613b048f62ea52b70dcccfb30599c61055c7bf90",
+      "size": 636
+    },
+    {
+      "path": "sitesHU.json",
+      "sha": "8cc9a9baffd985aa47902eea6439b072b222a10f",
+      "size": 678
+    },
+    {
+      "path": "sitesIT.json",
+      "sha": "086b88668c9ade512f75694d1134b115767f2b1b",
+      "size": 3680
+    },
+    {
+      "path": "sitesJA.json",
+      "sha": "357a50a08e203a6f21a0314beb058ab554a41346",
+      "size": 3839
+    },
+    {
+      "path": "sitesKO.json",
+      "sha": "7e0e6ca47a0ac362a33969d19570fb49305b6726",
+      "size": 1275
+    },
+    {
+      "path": "sitesLZH.json",
+      "sha": "c299bce2938f92db2440f4e89999ffecfd3439a6",
+      "size": 580
+    },
+    {
+      "path": "sitesNL.json",
+      "sha": "eb0f83029cf1805bdc3237bd7299a566d2209e64",
+      "size": 599
+    },
+    {
+      "path": "sitesPL.json",
+      "sha": "7a9180a591308ebbbbf61c392d50ab66c887e1f7",
+      "size": 4460
+    },
+    {
+      "path": "sitesPT.json",
+      "sha": "874e3bc574bee5d0c6f62dbda1097473c67f5fdd",
+      "size": 6376
+    },
+    {
+      "path": "sitesRU.json",
+      "sha": "027316106506a2043287dc2ae2c788b10761025c",
+      "size": 7445
+    },
+    {
+      "path": "sitesSV.json",
+      "sha": "93765bb3a40252b6fb016a0821ab503eb8ffd06d",
+      "size": 609
+    },
+    {
+      "path": "sitesTH.json",
+      "sha": "71fa48f515292ae96a7904456ed28a74660aab8a",
+      "size": 1281
+    },
+    {
+      "path": "sitesTOK.json",
+      "sha": "7916c5c0fc6f9f4be9aeb6d577a3e7ff5d430317",
+      "size": 595
+    },
+    {
+      "path": "sitesTR.json",
+      "sha": "f1d60d9c4442eb3d1247a55414c80075c1d9b2b6",
+      "size": 594
+    },
+    {
+      "path": "sitesUK.json",
+      "sha": "7a28f3a837b189a26ccd86a9090d26200605d75c",
+      "size": 1309
+    },
+    {
+      "path": "sitesZH.json",
+      "sha": "02051b46f577241dc24ea6985ee2e8cff08486ee",
+      "size": 9364
+    }
+  ],
+  "updated": []
+},
