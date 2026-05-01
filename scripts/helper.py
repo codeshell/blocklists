@@ -27,6 +27,24 @@ def read_json_from_url(url):
         return None
 
 
+def read_json_from_file(filename):
+    try:
+        with open(filename, "rt", encoding="utf-8") as fp:
+            data = json.load(fp)
+            # data = json.loads(r.read().decode())
+            return data
+
+    except FileNotFoundError:
+        print(f"{filename} does not exist.")
+        return None
+    except json.JSONDecodeError as e:
+        print(f"Invalid JSON: {e}")
+        return None
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        return None
+
+
 def hash_file(filename):
     # hashlib.file_digest() supported since Python 3.11
     # return hashlib.file_digest(fp, 'md5').hexdigest()
