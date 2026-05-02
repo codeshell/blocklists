@@ -9,8 +9,8 @@ Not reinventing the wheel. Only create lists for topics that are not yet covered
 
 ## Topics
 
-> [!HINT] Check for existing resources
-> Head over to
+> [!TIP]
+> Check for existing resources. Head over to
 > 
 > - https://ublacklist.github.io/rulesets
 > - https://github.com/rjaus/awesome-ublacklist
@@ -32,7 +32,7 @@ Both parties offer extensions that not only work on search results, but notify o
 
 If you don't want to install dedicated extensions, this blocklist allows you to get rid of the clutter from the search results.
 
-### ...
+### topic ...
 
 If there is a topic you couldn't find any subscription links for, feel free to propose an addition. 
 
@@ -77,7 +77,7 @@ This project was created out of the desire to declutter web search results by pr
 This has become increasingly relevant in recent years. Even before the advent of commonly available AI services, there was an influx of generated "content" flooding the web.
 
 While using technical means to aggregate information is neither good nor bad by itself, the amount[^1] of content produced with malevolent or at least ignorant intentions seems to surpass the amount considered legitimate or at least non-disturbing / harmless. Click-bait, copycat, low-quality, fake, malware, addictive, you name it.
-This reminds of the pitiable success of email spam[^2] and I even like to think of it as a evenly questionable continuation or progression.
+This reminds of the pitiable success of email spam[^2] <details><summary>Statista</summary><img src="https://www.statista.com/graphic/1/420400/spam-email-traffic-share-annual.jpg" alt="Statistic: Global spam volume as percentage of total e-mail traffic from 2011 to 2023 | Statista" style="width: 50%; height: auto !important;"/></details> and I even like to think of it as a evenly questionable continuation or progression.
 However, bad content just sitting there shouldn't affect me enough to bother. Thus it needs to be distributed to hit .
 
 ... and that's where web search providers come in.
@@ -86,5 +86,5 @@ You probably all know the situation where searching for content within a specifi
 [^wiki1]: https://web.archive.org/web/20250916131203/https://git.32bit.cafe/nu/uBlacklistFandomWikis
 [^wiki2]: https://github.com/rjaus/awesome-ublacklist/pull/20
 [^1]: I'm using the description "amount of content" here, rather than accounting for actors because a very small group of disturbing actors is able to impact an overwhelmingly large group of legitimate actors.
-[^2]: <a href="https://www.statista.com/statistics/420400/spam-email-traffic-share-annual/" rel="nofollow"><img src="https://www.statista.com/graphic/1/420400/spam-email-traffic-share-annual.jpg" alt="Statistic: Global spam volume as percentage of total e-mail traffic from 2011 to 2023 | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>Find more statistics at  <a href="https://www.statista.com" rel="nofollow">Statista</a>
+[^2]: [Statistic: Global spam volume as percentage of total e-mail traffic from 2011 to 2023 | Statista](href="https://www.statista.com/statistics/420400/spam-email-traffic-share-annual/)
 [^3]: https://www.spamhaus.org/reputation-statistics/countries/spam/
