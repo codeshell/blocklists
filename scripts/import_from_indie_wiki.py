@@ -363,7 +363,7 @@ def update_indie_wiki_source():
     else:
         # NOTE: This should be the only location where config files like hashes are updated
         with open(IMPORT_SITES_FILE, "wt", encoding="utf-8") as fp:
-            json.dump(remote_hash_tree, fp)
+            json.dump(remote_hash_tree, fp=fp, indent=2)
             print(f"Saved new hashes to: {IMPORT_SITES_FILE}")
         return True
 
