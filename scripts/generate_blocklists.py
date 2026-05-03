@@ -1,6 +1,7 @@
 import argparse
-from os import error
+import re
 from enum import Enum
+from os import error
 from pathlib import Path
 
 from helper import write_list_from_lines
@@ -37,13 +38,48 @@ def process_wiki_farm(lines, suffix):
     Special treatment for wiki farm domains
     domain name needs to be added
     """
-    lines_with_domain = list(map(lambda x: x.strip() + ".fandom.com", lines))
-    generate_format(lines_with_domain, ListFormat.UBLACKLIST, "wikifarms" + suffix)
-    generate_format(lines_with_domain, ListFormat.ADBLOCK, "wikifarms" + suffix)
-    generate_format(lines_with_domain, ListFormat.DNSMASQ, "wikifarms" + suffix)
-    generate_format(lines_with_domain, ListFormat.HOSTSETC, "wikifarms" + suffix)
-    generate_format(lines_with_domain, ListFormat.HOSTSIP4, "wikifarms" + suffix)
-    generate_format(lines_with_domain, ListFormat.HOSTSIP6, "wikifarms" + suffix)
+
+    # lines will most likely contain whitespaces such as newlines.
+    # They must be removed first because they will likely break the following string operations.
+    lines = list(map(lambda x: x.strip(), lines))
+
+    match suffix:
+        case "-by-wiki-gg":
+            lines_with_domain = list(map(lambda x: x + ".fandom.com", lines))
+            generate_format(lines_with_domain, ListFormat.UBLACKLIST, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.ADBLOCK, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.DNSMASQ, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.HOSTSETC, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP4, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP6, "wikifarms" + suffix)
+            return lines_with_domain
+        case "-by-indie-wiki":
+            lines_with_path = list(map(lambda x: x.strip(r"\/ "), lines))
+            lines_with_domain = list(map(lambda x: re.match(r"[^\/:?]*", x.strip(r"\/ ")).group(0), lines))
+            generate_format(lines_with_path, ListFormat.UBLACKLIST, "wikifarms" + suffix)
+            generate_format(lines_with_path, ListFormat.ADBLOCK, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.DNSMASQ, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.HOSTSETC, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP4, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP6, "wikifarms" + suffix)
+            return lines_with_path
+        case ".all":
+            # TODO: check, if one entry is part of another rule
+            # those redundant rules should be removed.
+            # Need to check domains vs subdomains
+            # and subdomains vs paths
+            lines_with_path = list(map(lambda x: x.strip(r"\/ "), lines))
+            lines_with_domain = list(map(lambda x: re.match(r"[^\/:?]*", x.strip(r"\/ ")).group(0), lines))
+            generate_format(lines_with_path, ListFormat.UBLACKLIST, "wikifarms" + suffix)
+            generate_format(lines_with_path, ListFormat.ADBLOCK, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.DNSMASQ, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.HOSTSETC, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP4, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP6, "wikifarms" + suffix)
+            return lines_with_path
+        case _:
+            print(f"Suffix {suffix} not defined for processing.")
+            return None
 
 
 def generate_format(lines, format: ListFormat, label: str):
@@ -133,8 +169,17 @@ if __name__ == "__main__":
 
     if init_folders():
         bundle = {}
-        bundle[1] = get_source_file_lines(Path(SOURCE_PATH, "import_from_wiki_gg.txt"))
-        process_wiki_farm(bundle[1], "-by-wiki-gg")
-        bundle[2] = get_source_file_lines(Path(SOURCE_PATH, "import_from_wiki_gg.txt"))
-        # process_wiki_farm(bundle[2], "-by-wiki-gg")
-        process_wiki_farm(sorted(set(sum(bundle.values(), []))), ".all")
+
+        bundle[1] = []
+        bundle[1] += get_source_file_lines(Path(SOURCE_PATH, "import_from_wiki_gg.txt"))
+        bundle[1] = process_wiki_farm(bundle[1], "-by-wiki-gg")
+
+        bundle[2] = []
+        # for source_filename in glob(SOURCE_PATH.rglob("import_from_indie_wiki*")):
+        for source_file in SOURCE_PATH.rglob("import_from_indie_wiki*"):
+            bundle[2] += get_source_file_lines(source_file)
+        bundle[2] = process_wiki_farm(bundle[2], "-by-indie-wiki")
+
+        # process_wiki_farm(sorted(set(sum(bundle.values(), []))), ".all")
+        # sorting will happen just before writing to file
+        process_wiki_farm(sum(bundle.values(), []), ".all")

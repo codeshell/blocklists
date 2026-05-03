@@ -72,6 +72,11 @@ def write_list_from_lines(filename: str, lines: dict, args):
     """
     docstring
     """
+    # all lines need to pass here before being written so this is the best place
+    # to remove duplicates and sort to ensure it is done the same way for all files.
+
+    lines = sorted(set(lines))
+
     new_hash = hash_string("\n".join(lines) + "\n")
     print(f"Hash (md5) new data: {new_hash}")
 
