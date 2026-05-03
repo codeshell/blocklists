@@ -1,3 +1,8 @@
+[tool.pylint]
+# https://github.com/pylint-dev/pylint/blob/main/examples/pyproject.toml
+basic.docstring-min-length = -1
+format.max-line-length = 120
+
 [tool.ruff]
 # Allow lines to be as long as 120.
 line-length = 120
