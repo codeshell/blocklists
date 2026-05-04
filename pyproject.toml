@@ -3,9 +3,9 @@
 basic.docstring-min-length = -1
 format.max-line-length = 120
 # Specify a score threshold under which the program will exit with error.
-fail-under=9.5
+main.fail-under=9.5
 # Return non-zero exit code if any of these messages/categories are detected
-fail-on=E
+main.fail-on=E
 
 [tool.ruff]
 # Allow lines to be as long as 120.
