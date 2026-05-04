@@ -1,0 +1,63 @@
+# This workflow will install Python dependencies, fetch external sources and generate blocklists with a single version of Python
+
+name: Fetch updates
+
+on:
+  schedule:
+    - cron: '17 11 * * 1-5'
+      timezone: "Europe/Berlin"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-updates:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v6
+      with:
+        ref: ${{ github.head_ref }}
+    - name: Set up Python 3.14
+      uses: actions/setup-python@v6
+      with:
+        python-version: "3.14"
+        cache: "pip"
+        check-latest: false
+    - name: Install dependencies
+      run: |
+        # python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Update external sources
+      run: |
+        python "./scripts/import_from_wiki_gg.py"
+        python "./scripts/import_from_indie_wiki.py"
+    - name: Generate blocklists from sources
+      run: |
+        python "./scripts/generate_blocklists.py"
+    - name: Check for Changes
+      id: check_changes
+      run: |
+        if [[ -n "$(git diff --exit-code)" ]]; then
+          echo "Changes detected."
+          echo "has_changes=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "No changes detected."
+          echo "has_changes=false" >> "$GITHUB_OUTPUT"
+        fi
+    - name: Commit and Push Changes
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        # configure user
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+        # stage any file changes to be committed
+        git add .
+
+        # make commit with staged changes
+        git commit -m 'build(lists): auto update blocklists'
+
+        # push the commit back up to source GitHub repository
+        git push
