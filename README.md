@@ -1,11 +1,29 @@
-# blacklists
-Blacklists to block unwanted domains (or sites) from web searches or dns queries.
+# TMW Blocklists
+
+Generate subscribable text files in various formats containing domains/subdomains/paths to block unwanted sites from web searches or dns queries.
 
 ## Goal
 
-Make existing resources available for common blocking applications by ingesting them and converting to linkable blocklist files.
+- Make existing resources available for common blocking applications by ingesting them and converting to linkable blocklist files.
+- Not reinventing the wheel. Only create lists for topics that are not yet covered by recommended lists. If I miss something, please voice it.
 
-Not reinventing the wheel. Only create lists for topics that are not yet covered by recommended lists. If I miss something, please voice it.
+## Generated lists
+
+Lists are generated in separate folders sorted `by-format` as my take is that users are usually looking for lists in only one format at a time. Thus the structure allows to ignore all the unrelated stuff and allows to browse for lists and topics compatible with that specific format.
+
+> [!IMPORTANT]
+> Folders and filenames in repository paths starting with `/by-*` are meant to be static/constant and thus used as subscription targets.
+
+Everything else is considered "technical" stuff used to generate the lists and might change as I see fit.
+
+## Formats
+
+- adblock ⚠️ UNTESTED
+- dnsmasq ⚠️ UNTESTED
+- hostsetc ⚠️ UNTESTED
+- hostsip4 ⚠️ UNTESTED
+- hostsip6 ⚠️ UNTESTED
+- uBlacklist [README](./by-format/ublacklist/README.md)
 
 ## Topics
 
@@ -19,7 +37,7 @@ Not reinventing the wheel. Only create lists for topics that are not yet covered
 
 If existing resources are missing a specific format, I might consider generating that. Feel free to suggest additions.
 
-### wikifarm
+### wikifarms
 
 Inspired by the no longer available nu/uBlacklistFandomWikis[^wiki1] project discussed[^wiki2] in [rjaus/awesome-ublacklist](https://github.com/rjaus/awesome-ublacklist/), this blocklist aims to hide proprietary wikis from search results in favour of independent alternatives.
 
@@ -38,24 +56,6 @@ If there is a topic you couldn't find any subscription links for, feel free to p
 
 Convertible public sources are obviously the preferred way because they allow for continuous updating of lists through automated workflows without my interference / manual involvement.
 
-## Generated lists
-
-Lists are generated it separate folders sorted `by-format` as my take is that users are usually looking for lists in only one format at a time. Thus the structure allows to ignore all the unrelated stuff and allows to browse for lists and topics compatible with that specific format.
-
-> [!IMPORTANT]
-> Folders and filenames in repository paths starting with `/by-*` are meant to be static/constant and thus used as subscription targets.
-
-Everything else is just considered "technical" stuff used to generate the lists and might change as I see fit.
-
-## Formats
-
-- adblock ⚠️ UNTESTED
-- dnsmasq ⚠️ UNTESTED
-- hostetc ⚠️ UNTESTED
-- hostsip4 ⚠️ UNTESTED
-- hostsip6 ⚠️ UNTESTED
-- ublacklist [README](./by-format/ublacklist/README.md)
-
 ## Details
 
 The original focus is on creating subscribable lists for uBlacklist. Other formats, however can be created just as easily from the source file. Bear in mind though, that the resulting blocking behavior may vary depending on the granularity and complexity of search expressions (matches) supported by the different formats.
@@ -69,7 +69,7 @@ How different / unsupported entries are treated when generating a certain list f
 
 Which approach will be used depends on the context (of both, the topic of the list as well as the content variety of the domain in question). Blocking a multi-topic platform (like SNS) because a specific path is mentioned in a specific topic list (like gaming or ai), will not be done for those topic lists because it targets the wrong (too broad) context. You are not out of options though, as you will most likely find another list for that other context. Like a list to block sites of SNS in this example, if that is what you where aiming at.
 
-There can be other cases, where falling back to blocking a domain instead of only certain paths can be justified. That is most likely the case, if the scope of content on the platform matches that of the blocking list for a specific topic. As an example, the wikifarm source contains only paths to specific wikis as unwanted if there is a known alternative hosted elsewhere. For target blocklist formats, that do not support this level of detail, it makes sense to block the parent domain instead (it would be empty otherwise). Users are free to choose to subscribe or not. If they need / want more granularity, they must switch to a blocking solution that supports another format that supports the desired level of detail.
+There can be other cases, where falling back to blocking a domain instead of only certain paths can be justified. That is most likely the case, if the scope of content on the platform matches that of the blocking list for a specific topic. As an example, the wikifarms source contains only paths to specific wikis as unwanted if there is a known alternative hosted elsewhere. For target blocklist formats, that do not support this level of detail, it makes sense to block the parent domain instead (it would be empty otherwise). Users are free to choose to subscribe or not. If they need / want more granularity, they must switch to a blocking solution that supports another format that supports the desired level of detail.
 
 ## Motivation
 
