@@ -82,7 +82,7 @@ def hash_string(text):
     return hashlib.md5(text.encode("utf-8")).hexdigest()
 
 
-def write_list_from_lines(filename: str, lines: dict, args):
+def write_list_from_lines(filename: str, lines: list[str], args) -> list[str]:
     """
     all lines need to pass here before being written so this is the best place
     to remove duplicates and sort to ensure it is done the same way for all files.

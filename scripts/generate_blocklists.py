@@ -1,3 +1,5 @@
+"""Generate different block list formats from source files"""
+
 import argparse
 import re
 from enum import Enum
@@ -8,6 +10,8 @@ from helper import write_list_from_lines
 
 
 class ListFormat(Enum):
+    """Class enumerating block list formats"""
+
     UBLACKLIST = "ublacklist"
     ADBLOCK = "adblock"
     DNSMASQ = "dnsmasq"
@@ -21,7 +25,8 @@ FORMAT_PATH = Path(ROOT_PATH, "by-format")
 SOURCE_PATH = Path(ROOT_PATH, "sources")
 
 
-def get_source_file_lines(filename):
+def get_source_file_lines(filename) -> list[str] | None:
+    """Try to read file as list of strings"""
     try:
         with open(filename, "rt", encoding="utf-8") as fp:
             return fp.readlines()
@@ -33,7 +38,7 @@ def get_source_file_lines(filename):
         return None
 
 
-def process_wiki_farm(lines, suffix):
+def process_wiki_farm(lines: list[str], suffix: str, args: argparse.Namespace):
     """
     Special treatment for wiki farm domains
     domain name needs to be added
@@ -46,22 +51,22 @@ def process_wiki_farm(lines, suffix):
     match suffix:
         case "-by-wiki-gg":
             lines_with_domain = list(map(lambda x: x + ".fandom.com", lines))
-            generate_format(lines_with_domain, ListFormat.UBLACKLIST, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.ADBLOCK, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.DNSMASQ, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.HOSTSETC, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.HOSTSIP4, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.HOSTSIP6, "wikifarms" + suffix)
+            generate_format(lines_with_domain, ListFormat.UBLACKLIST, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.ADBLOCK, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.DNSMASQ, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.HOSTSETC, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP4, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP6, "wikifarms" + suffix, args)
             return lines_with_domain
         case "-by-indie-wiki":
             lines_with_path = list(map(lambda x: x.strip(r"\/ "), lines))
             lines_with_domain = list(map(lambda x: re.match(r"[^\/:?]*", x.strip(r"\/ ")).group(0), lines))
-            generate_format(lines_with_path, ListFormat.UBLACKLIST, "wikifarms" + suffix)
-            generate_format(lines_with_path, ListFormat.ADBLOCK, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.DNSMASQ, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.HOSTSETC, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.HOSTSIP4, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.HOSTSIP6, "wikifarms" + suffix)
+            generate_format(lines_with_path, ListFormat.UBLACKLIST, "wikifarms" + suffix, args)
+            generate_format(lines_with_path, ListFormat.ADBLOCK, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.DNSMASQ, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.HOSTSETC, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP4, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP6, "wikifarms" + suffix, args)
             return lines_with_path
         case ".all":
             # TODO: check, if one entry is part of another rule
@@ -70,45 +75,44 @@ def process_wiki_farm(lines, suffix):
             # and subdomains vs paths
             lines_with_path = list(map(lambda x: x.strip(r"\/ "), lines))
             lines_with_domain = list(map(lambda x: re.match(r"[^\/:?]*", x.strip(r"\/ ")).group(0), lines))
-            generate_format(lines_with_path, ListFormat.UBLACKLIST, "wikifarms" + suffix)
-            generate_format(lines_with_path, ListFormat.ADBLOCK, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.DNSMASQ, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.HOSTSETC, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.HOSTSIP4, "wikifarms" + suffix)
-            generate_format(lines_with_domain, ListFormat.HOSTSIP6, "wikifarms" + suffix)
+            generate_format(lines_with_path, ListFormat.UBLACKLIST, "wikifarms" + suffix, args)
+            generate_format(lines_with_path, ListFormat.ADBLOCK, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.DNSMASQ, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.HOSTSETC, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP4, "wikifarms" + suffix, args)
+            generate_format(lines_with_domain, ListFormat.HOSTSIP6, "wikifarms" + suffix, args)
             return lines_with_path
         case _:
             print(f"Suffix {suffix} not defined for processing.")
             return None
 
 
-def generate_format(lines, format: ListFormat, label: str):
+def generate_format(lines: list[str], custom_format: ListFormat, label: str, args: argparse.Namespace) -> bool:
     """
     Use list of lines to generate different formats
     """
-    match format:
+
+    written_lines = []
+
+    match custom_format:
         case ListFormat.UBLACKLIST:
-            target_file = Path(FORMAT_PATH, format.value, label + ".txt")
+            target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
             target_lines = list(map(lambda x: "*://*." + x.strip() + "/*", lines))
-            write_list_from_lines(target_file, target_lines, args)
-            return True
+            written_lines = write_list_from_lines(target_file, target_lines, args)
         case ListFormat.ADBLOCK:
-            target_file = Path(FORMAT_PATH, format.value, label + ".txt")
+            target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
             target_lines = list(map(lambda x: "||" + x.strip() + "^", lines))
-            write_list_from_lines(target_file, target_lines, args)
-            return True
+            written_lines = write_list_from_lines(target_file, target_lines, args)
         case ListFormat.DNSMASQ:
-            target_file = Path(FORMAT_PATH, format.value, label + ".txt")
+            target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
             target_lines = list(map(lambda x: "address=/" + x.strip() + "/", lines))
-            write_list_from_lines(target_file, target_lines, args)
-            return True
+            written_lines = write_list_from_lines(target_file, target_lines, args)
         case ListFormat.HOSTSETC:
-            target_file = Path(FORMAT_PATH, format.value, label + ".txt")
+            target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
             target_lines = list(map(lambda x: '"*://*.' + x.strip() + '/*",', lines))
-            write_list_from_lines(target_file, target_lines, args)
-            return True
+            written_lines = write_list_from_lines(target_file, target_lines, args)
         case ListFormat.HOSTSIP4:
-            target_file = Path(FORMAT_PATH, format.value, label + ".txt")
+            target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
             target_lines = list(
                 map(
                     lambda x: (
@@ -118,10 +122,9 @@ def generate_format(lines, format: ListFormat, label: str):
                     lines,
                 )
             )
-            write_list_from_lines(target_file, target_lines, args)
-            return True
+            written_lines = write_list_from_lines(target_file, target_lines, args)
         case ListFormat.HOSTSIP6:
-            target_file = Path(FORMAT_PATH, format.value, label + ".txt")
+            target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
             target_lines = list(
                 map(
                     lambda x: (
@@ -131,14 +134,15 @@ def generate_format(lines, format: ListFormat, label: str):
                     lines,
                 )
             )
-            write_list_from_lines(target_file, target_lines, args)
-            return True
+            written_lines = write_list_from_lines(target_file, target_lines, args)
         case _:
-            print(f"Format {format} not implemented.")
+            print(f"Format {custom_format} not implemented.")
             return None
 
+    return len(written_lines) > 0
 
-def init_folders():
+
+def init_folders(args: argparse.Namespace):
     """
     docstring
     """
@@ -160,26 +164,33 @@ def init_folders():
     return result
 
 
-if __name__ == "__main__":
+def main():
+    """
+    Entry point.
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument("--debug", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--init-folders", action="store_true")
     args = parser.parse_args()
 
-    if init_folders():
+    if init_folders(args=args):
         bundle = {}
 
         bundle[1] = []
         bundle[1] += get_source_file_lines(Path(SOURCE_PATH, "import_from_wiki_gg.txt"))
-        bundle[1] = process_wiki_farm(bundle[1], "-by-wiki-gg")
+        bundle[1] = process_wiki_farm(bundle[1], "-by-wiki-gg", args=args)
 
         bundle[2] = []
         # for source_filename in glob(SOURCE_PATH.rglob("import_from_indie_wiki*")):
         for source_file in SOURCE_PATH.rglob("import_from_indie_wiki*"):
             bundle[2] += get_source_file_lines(source_file)
-        bundle[2] = process_wiki_farm(bundle[2], "-by-indie-wiki")
+        bundle[2] = process_wiki_farm(bundle[2], "-by-indie-wiki", args=args)
 
         # process_wiki_farm(sorted(set(sum(bundle.values(), []))), ".all")
         # sorting will happen just before writing to file
-        process_wiki_farm(sum(bundle.values(), []), ".all")
+        process_wiki_farm(sum(bundle.values(), []), ".all", args=args)
+
+
+if __name__ == "__main__":
+    main()
