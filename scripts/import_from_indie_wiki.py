@@ -1,3 +1,8 @@
+"""
+Fetches redirect definitions from indie-wiki-buddy and safes them as plain text list of subdomain names.
+Datasource: https://github.com/KevinPayravi/indie-wiki-buddy
+"""
+
 import argparse
 import json
 from datetime import datetime, timezone
@@ -5,10 +10,12 @@ from enum import Enum
 from os import error
 from pathlib import Path
 
-from helper import hash_file, hash_string, read_json_from_url, read_json_from_file
+from helper import hash_file, hash_string, read_json_from_file, read_json_from_url
 
 
 class ChangeLog(Enum):
+    """Class enumerating hash comparison result sections"""
+
     DATE = "date"
     CHANGES = "changes"
     REMOVED = "removed"
@@ -16,24 +23,22 @@ class ChangeLog(Enum):
     UPDATED = "updated"
 
 
-# Source: https://github.com/KevinPayravi/indie-wiki-buddy
-SOURCE_URL_FOLDER = "https://raw.githubusercontent.com/KevinPayravi/indie-wiki-buddy/refs/heads/main/data/"
-SOURCE_TREE = (
-    "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/trees/main"
+MY_VERSION = "1.0.1"
+MY_DESCRIPTION = (
+    "Fetches redirect definitions from indie-wiki-buddy and safes them as plain text list of subdomain names."
 )
+SOURCE_URL_FOLDER = "https://raw.githubusercontent.com/KevinPayravi/indie-wiki-buddy/refs/heads/main/data/"
+SOURCE_TREE = "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/trees/main"
 ROOT_PATH = Path(__file__).parent.parent
 IMPORT_PREFIX = "import_from_indie_wiki"
 IMPORT_FOLDER = Path(ROOT_PATH, "sources")
 IMPORT_FILE = Path(IMPORT_FOLDER, f"{IMPORT_PREFIX}.txt")
 IMPORT_HIST_FILE = Path(ROOT_PATH, "logs", f"{IMPORT_PREFIX}.changes.json")
 IMPORT_SITES_FILE = Path(ROOT_PATH, "logs", f"{IMPORT_PREFIX}.sites.json")
-TEST_DUMMY = Path(ROOT_PATH, "eggs", "sites_dummy.json")
-
-# IMPORT_STATE_FILE = Path(ROOT_PATH, "logs", f"{IMPORT_PREFIX}.state.json")
-# TEST_FILE = Path(ROOT_PATH, "eggs",  "sites.json")
 
 
-def get_unwanted_from_origin(origin):
+def get_unwanted_from_origin(origin) -> str | None:
+    """Get unwanted url from source data"""
     if isinstance(origin, dict):
         test_value = origin.get("origin_base_url", "")
         if len(test_value) > 0:
@@ -44,7 +49,16 @@ def get_unwanted_from_origin(origin):
     return None
 
 
-def create_list_from_json(json_object, site_import_file):
+def create_list_from_json(json_object, site_import_file, args: argparse.Namespace) -> list:
+    """Find unwanted subdomains in source and write them to plain text file
+
+    Args:
+        json_object (_type_): object containing retrieved source data
+        site_import_file (_type_): location of text file to write list to
+
+    Returns:
+        list: list of strings containing subdomain names
+    """
     text = []
     for wiki in json_object:
         if isinstance(wiki, list):
@@ -68,9 +82,9 @@ def create_list_from_json(json_object, site_import_file):
 
     if old_hash == new_hash:
         print("Nothing to update.")
-        return optimized_list
-
-    if not args.dry_run and len(optimized_list) > 0:
+    elif not len(optimized_list) > 0:
+        print("No entries found.")
+    elif not args.dry_run:
         print(f"writing import file with {len(optimized_list)} entries")
         with open(site_import_file, "wt", encoding="utf-8") as fp:
             # always end a text file with a blank line
@@ -94,25 +108,46 @@ def get_data_tree(url):
     return None
 
 
+def get_site_import_filename(site_name) -> Path | None:
+    """
+    docstring
+    """
+    if site_name and site_name[-5:] == ".json":
+        return Path(IMPORT_FOLDER, IMPORT_PREFIX + "." + site_name[:-5].lower() + ".txt")
+    return None
+
+def remove_site_file(filename: Path):
+    """
+    Delete file, skip if it does not exist, fail otherwise.
+    """
+
+    if filename:
+        try:
+            filename.unlink()
+            print(f"SUCCESS: Removed {filename.name}")
+            return True
+        except FileNotFoundError:
+            print(f"SKIP: {filename} does not exist.")
+            return True
+        except error as e:
+            print(f"ERROR: Failed to remove file {e}")
+
+    return False
+
+
 def get_sites_with_new_data(remote_sites_cleaned, local_sites_cleaned):
     """
     Compare the new github tree to the last run (if exists)
     and only return sites where the SHA hash does not match
     """
     sites_with_changes = {}
-    sites_with_changes[ChangeLog.DATE.value] = datetime.now(timezone.utc).isoformat(
-        timespec="seconds"
-    )
+    sites_with_changes[ChangeLog.DATE.value] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     sites_with_changes[ChangeLog.CHANGES.value] = 0
     sites_with_changes[ChangeLog.REMOVED.value] = list(
         filter(
             lambda item: (
                 next(
-                    (
-                        sub
-                        for sub in remote_sites_cleaned
-                        if sub["path"] == item["path"]
-                    ),
+                    (sub for sub in remote_sites_cleaned if sub["path"] == item["path"]),
                     None,
                 )
                 is None
@@ -120,9 +155,7 @@ def get_sites_with_new_data(remote_sites_cleaned, local_sites_cleaned):
             local_sites_cleaned,
         )
     )
-    sites_with_changes[ChangeLog.CHANGES.value] += len(
-        sites_with_changes[ChangeLog.REMOVED.value]
-    )
+    sites_with_changes[ChangeLog.CHANGES.value] += len(sites_with_changes[ChangeLog.REMOVED.value])
     sites_with_changes[ChangeLog.ADDED.value] = list(
         filter(
             lambda item: (
@@ -135,18 +168,12 @@ def get_sites_with_new_data(remote_sites_cleaned, local_sites_cleaned):
             remote_sites_cleaned,
         )
     )
-    sites_with_changes[ChangeLog.CHANGES.value] += len(
-        sites_with_changes[ChangeLog.ADDED.value]
-    )
+    sites_with_changes[ChangeLog.CHANGES.value] += len(sites_with_changes[ChangeLog.ADDED.value])
     sites_with_changes[ChangeLog.UPDATED.value] = list(
         filter(
             lambda item: (
                 next(
-                    (
-                        sub
-                        for sub in local_sites_cleaned
-                        if sub["path"] == item["path"] and sub["sha"] != item["sha"]
-                    ),
+                    (sub for sub in local_sites_cleaned if sub["path"] == item["path"] and sub["sha"] != item["sha"]),
                     None,
                 )
                 is not None
@@ -154,47 +181,39 @@ def get_sites_with_new_data(remote_sites_cleaned, local_sites_cleaned):
             remote_sites_cleaned,
         )
     )
-    sites_with_changes[ChangeLog.CHANGES.value] += len(
-        sites_with_changes[ChangeLog.UPDATED.value]
-    )
+    sites_with_changes[ChangeLog.CHANGES.value] += len(sites_with_changes[ChangeLog.UPDATED.value])
     return sites_with_changes
 
 
-def validate_github_tree_list(tree) -> bool:
+def validate_github_tree_list(tree, args: argparse.Namespace) -> bool:
     """
     docstring
     """
     if not isinstance(tree, dict):
-        print(
-            "CANCELED: Expected root element: dict, data contains: {0}".format(
-                type(tree)
-            )
-        )
+        print(f"VALIDATION FAILED: Expected root element: dict, data contains: {type(tree)}")
         return False
 
-    match tree.get("truncated", "missing"):
-        case "missing":
-            # First check for "missing", because a filled string is also = True (see second case)
-            print("CANCELED: Source data not valid. Field 'truncated' is missing.")
-            return False
-        case True:
-            print(
-                "CANCELED: Source data is 'truncated' which indicates a change in the repository structure."
-            )
-            return False
-        case False:
-            # This is what we are looking for
-            pass
-        case _:
-            print(
-                "CANCELED: Check of truncation field ended in undefined state. Please check."
-            )
-            return False
+    if tree.get("truncated", "missing") is not False:
+        # tree contains a "truncated" field for pagination.
+        # As this script does not expect multiple pages,
+        # only results with no truncation should be processed
+        match tree.get("truncated", "missing"):
+            case "missing":
+                print("VALIDATION FAILED: Source data not valid. Field 'truncated' is missing.")
+            case True:
+                print(
+                    "VALIDATION FAILED:"
+                    + "Source data is 'truncated' which indicates a change in the repository structure."
+                )
+            case _:
+                print("VALIDATION FAILED: Check of truncation field ended in undefined state. Please check.")
+        return False
 
     twigs = tree.get("tree", None)
     if not isinstance(twigs, list):
-        print("CANCELED: No valid file listing (tree) found in data.")
+        print("VALIDATION FAILED: No valid file listing (tree) found in data.")
         return False
+
     for site in twigs:
         if (
             site.get("type", None) == "blob"
@@ -204,13 +223,16 @@ def validate_github_tree_list(tree) -> bool:
         ):
             # Only if there is at least one page entry that can be processed, the file is considered "valid"
             return True
-        else:
+
+        if args.debug:
             print(
-                f"|| {site.get('type', None)} || {site.get('path', '')[-5:]} || {site.get('sha', None)} || {site.get('size', None)} ||"
+                " || ".join(
+                    [site.get("type", None), site.get("path", "")[-5:], site.get("sha", None), site.get("size", None)]
+                )
             )
             print(f"Checked {site} and found nothing valid.")
 
-    print("Validation completed without finding at least one valid site entry.")
+    print("VALIDATION FAILED: Validation completed without finding at least one valid site entry.")
     return False
 
 
@@ -225,9 +247,7 @@ def clean_github_tree_list(tree):
         return None
     sites = list(
         filter(
-            lambda item: (
-                item.get("type") == "blob" and item.get("path", "")[-5:] == ".json"
-            ),
+            lambda item: item.get("type") == "blob" and item.get("path", "")[-5:] == ".json",
             twigs,
         )
     )
@@ -240,63 +260,10 @@ def clean_github_tree_list(tree):
     return list(map(lambda site: {k: site[k] for k in whitelist if k in site}, sites))
 
 
-def update_indie_wiki_source():
+def process_sites_with_changes(sites_with_changes: dict, args: argparse.Namespace) -> bool:
     """
-    docstring
+    Calculates changes from hashes and returns a dict of critical errors.
     """
-
-    # NOTE: REMOVE DUMMY AFTER TESTING!!!
-    # TODO: DO NOT FORGET!
-    remote_hash_tree = get_data_tree(SOURCE_TREE)
-    # with open(TEST_DUMMY, "rt", encoding="utf-8") as fp:
-    #     remote_hash_tree = json.load(fp)
-
-    if not validate_github_tree_list(remote_hash_tree):
-        # we need to get out of here
-        # without valid remote data, there is nothing to do
-        print("FAILED to validate remote_hash_tree")
-        return False
-    else:
-        print("SUCCESS: remote_hash_tree is _valid_")
-
-    remote_sites_cleaned = clean_github_tree_list(remote_hash_tree)
-    if not remote_sites_cleaned:
-        # same
-        print("FAILED to clean up remote_hash_tree")
-        return False
-    else:
-        print(
-            f"SUCCESS: remote_hash_tree is _cleaned_ ({len(remote_sites_cleaned)} sites)"
-        )
-
-    local_hash_tree = read_json_from_file(IMPORT_SITES_FILE)
-    local_sites_cleaned = None
-
-    # a local comparison file is not necessary, but if we have one
-    # use it to prevent constantly recreating year old stuff
-
-    if validate_github_tree_list(local_hash_tree):
-        print("SUCCESS: local_hash_tree is _valid_")
-        local_sites_cleaned = clean_github_tree_list(local_hash_tree)
-
-    if not local_sites_cleaned:
-        print("SKIP: local_hash_tree because no valid entries were found.")
-        # just make sure, its a list to create the needed updates against it
-        local_sites_cleaned = []
-    else:
-        print(
-            f"SUCCESS: local_hash_tree is _cleaned_ ({len(local_sites_cleaned)} sites)"
-        )
-
-    if args.debug:
-        print(json.dumps(remote_sites_cleaned, indent=2))
-
-    sites_with_changes = get_sites_with_new_data(
-        remote_sites_cleaned, local_sites_cleaned
-    )
-    if args.debug:
-        print(json.dumps(sites_with_changes, indent=2))
-
     if not (sites_with_changes and sites_with_changes.get("changes", 0) > 0):
         # NOTE: Until now, no files should be changed. No logs, no new timestamps
         # If the data get no update, nothing else should change in the repo from
@@ -317,73 +284,102 @@ def update_indie_wiki_source():
 
     for site in sites_with_changes[ChangeLog.REMOVED.value]:
         filename = get_site_import_filename(site.get("path", None))
-        if filename:
-            try:
-                filename.unlink()
-            except FileNotFoundError:
-                print(f"SKIP DELETION: {filename} does not exist.")
-            except error as e:
-                critical_errors.append(f"DEL: {filename}")
-                print(f"FAILED DELETION: {e}")
-            else:
-                print(f"REMOVED: {filename.name}")
+
+        if remove_site_file(filename):
+            print(f"REMOVED: {filename.name}")
+        else:
+            critical_errors.append(f"DEL: {filename}")
 
     for site in sites_with_changes[ChangeLog.ADDED.value]:
         filename = get_site_import_filename(site.get("path", None))
-        if filename:
-            try:
-                source = read_json_from_url(SOURCE_URL_FOLDER + site.get("path", None))
-                if not create_list_from_json(source, filename):
-                    critical_errors.append(f"ADD: {filename}")
-            except error as e:
-                critical_errors.append(f"ADD: {filename}")
-                print(f"FAILED ADDITION: {e}")
-            else:
-                print(f"ADDED: {filename.name}")
+        source = read_json_from_url(SOURCE_URL_FOLDER + site.get("path", None))
+        if create_list_from_json(source, filename, args=args):
+            print(f"ADDED: {filename.name}")
+        else:
+            critical_errors.append(f"ADD: {filename}")
+
 
     for site in sites_with_changes[ChangeLog.UPDATED.value]:
         filename = get_site_import_filename(site.get("path", None))
-        if filename:
-            try:
-                source = read_json_from_url(SOURCE_URL_FOLDER + site.get("path", None))
-                if not create_list_from_json(source, filename):
-                    critical_errors.append(f"UPD: {filename}")
-            except error as e:
-                critical_errors.append(f"UPD: {filename}")
-                print(f"FAILED UPDATE: {e}")
-            else:
-                print(f"UPDATED: {filename.name}")
+        source = read_json_from_url(SOURCE_URL_FOLDER + site.get("path", None))
+        if create_list_from_json(source, filename, args=args):
+            print(f"ADDED: {filename.name}")
+        else:
+            critical_errors.append(f"UPD: {filename}")
 
-    if len(critical_errors) > 0:
-        print(
-            f"Cannot pin new hash version because of critical errors ({len(critical_errors)})"
-        )
-    elif args.dry_run:
-        print("Hash values not updated because dry run is active.")
+    if len(critical_errors) == 0:
+        print(critical_errors)
+
+    return len(critical_errors) == 0
+
+
+def main():
+    """
+    Entry point
+    """
+    parser = argparse.ArgumentParser(description=MY_DESCRIPTION)
+    parser.add_argument("--debug", action="store_true")
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--version", action="version", version=MY_VERSION)
+    args = parser.parse_args()
+
+    remote_hash_tree = get_data_tree(SOURCE_TREE)
+    # with open(TEST_DUMMY, "rt", encoding="utf-8") as fp:
+    #     remote_hash_tree = json.load(fp)
+
+    if not validate_github_tree_list(remote_hash_tree, args=args):
+        # we need to get out of here
+        # without valid remote data, there is nothing to do
+        print("FAILED to validate remote_hash_tree")
+        return False
+    print("SUCCESS: remote_hash_tree is _valid_")
+
+    remote_sites_cleaned = clean_github_tree_list(remote_hash_tree)
+    if not remote_sites_cleaned:
+        # same
+        print("FAILED to clean up remote_hash_tree")
+        return False
+    print(f"SUCCESS: remote_hash_tree is _cleaned_ ({len(remote_sites_cleaned)} sites)")
+
+    local_hash_tree = read_json_from_file(IMPORT_SITES_FILE)
+    local_sites_cleaned = None
+
+    # a local comparison file is not necessary, but if we have one
+    # use it to prevent constantly recreating year old stuff
+
+    if validate_github_tree_list(local_hash_tree, args):
+        print("SUCCESS: local_hash_tree is _valid_")
+        local_sites_cleaned = clean_github_tree_list(local_hash_tree)
+
+    if not local_sites_cleaned:
+        print("SKIP: local_hash_tree because no valid entries were found.")
+        # just make sure, its a list to create the needed updates against it
+        local_sites_cleaned = []
     else:
-        # NOTE: This should be the only location where config files like hashes are updated
-        with open(IMPORT_SITES_FILE, "wt", encoding="utf-8") as fp:
-            json.dump(remote_hash_tree, fp=fp, indent=2)
-            print(f"Saved new hashes to: {IMPORT_SITES_FILE}")
-        return True
+        print(f"SUCCESS: local_hash_tree is _cleaned_ ({len(local_sites_cleaned)} sites)")
+
+    if args.debug:
+        print(json.dumps(remote_sites_cleaned, indent=2))
+
+    sites_with_changes = get_sites_with_new_data(remote_sites_cleaned, local_sites_cleaned)
+    if args.debug:
+        print(json.dumps(sites_with_changes, indent=2))
+
+    if process_sites_with_changes(sites_with_changes, args=args):
+        if args.dry_run:
+            print("Hash values not updated because dry run is active.")
+        else:
+            # NOTE: This should be the only location where config files like hashes are updated
+            with open(IMPORT_SITES_FILE, "wt", encoding="utf-8") as fp:
+                json.dump(remote_hash_tree, fp=fp, indent=2)
+                print(f"Saved new hashes to: {IMPORT_SITES_FILE}")
+            return True
+    else:
+        print("Cannot pin new hash version because of critical errors.")
+
 
     return False
 
 
-def get_site_import_filename(sitename) -> Path | None:
-    """
-    docstring
-    """
-    if sitename and sitename[-5:] == ".json":
-        return Path(IMPORT_FOLDER, IMPORT_PREFIX + "." + sitename[:-5].lower() + ".txt")
-    return None
-
-
-# Usage
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--debug", action="store_true")
-    parser.add_argument("--dry-run", action="store_true")
-    args = parser.parse_args()
-
-    update_indie_wiki_source()
+    main()

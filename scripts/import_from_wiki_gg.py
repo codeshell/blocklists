@@ -1,18 +1,28 @@
+"""
+Fetches redirect definitions from wiki.gg and safes them as plain text list of subdomain names.
+Datasource: https://github.com/wiki-gg-oss/redirect-extension
+"""
+
 import argparse
 import json
 from pathlib import Path
 
 from helper import hash_file, hash_string, read_json_from_url
 
-# Source: https://github.com/wiki-gg-oss/redirect-extension
+MY_VERSION = "1.0.1"
+MY_DESCRIPTION = "Fetches redirect definitions from wiki.gg and safes them as plain text list of subdomain names."
 SOURCE_URL = "https://raw.githubusercontent.com/wiki-gg-oss/redirect-extension/refs/heads/master/sites.json"
 ROOT_PATH = Path(__file__).parent.parent
 IMPORT_FILE = Path(ROOT_PATH, "sources", "import_from_wiki_gg.txt")
 FAILSAFE_FIRST_ID = "13sentinels"
-FAILSAFE_FIRST_OLDID = "13-sentinels-aegis-rim"
+FAILSAFE_FIRST_OLD_ID = "13-sentinels-aegis-rim"
 
 
 def get_unwanted_from_entry(entry):
+    """
+    The source data only has an old id set, if the new wiki has a different domain name.
+    Therefore, use oldId if it exists, otherwise fall back to id.
+    """
     test_value = entry.get("oldId", "")
     if len(test_value) > 0:
         return test_value
@@ -24,7 +34,11 @@ def get_unwanted_from_entry(entry):
     return None
 
 
-def create_list_from_json(json_object):
+def create_list_from_json(json_object, args: argparse.Namespace):
+    """
+    Takes the source data as json object and creates a plain text file
+    from it containing the unwanted wiki names
+    """
     text = []
     for entry in json_object:
         if isinstance(entry, list):
@@ -58,42 +72,63 @@ def create_list_from_json(json_object):
     return optimized_list
 
 
-# Usage
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+def validate_source_data(json_object, args: argparse.Namespace) -> bool:
+    """
+    Check the retrieved source data for some expected value.
+    This should prevent processing if the source structure has been changed.
+    """
+
+    if not json_object:
+        print("VALIDATION FAILED: Source data missing.")
+        return False
+
+    try:
+        test_first_id = json_object[1]["id"]
+    except (AttributeError, IndexError, KeyError, TypeError):
+        test_first_id = ""
+
+    if args.debug:
+        print(f"Expected ID: {FAILSAFE_FIRST_ID}")
+        print(f"First ID: {test_first_id}")
+
+    try:
+        test_first_old_id = json_object[1]["oldId"]
+    except (AttributeError, IndexError, KeyError, TypeError):
+        test_first_old_id = ""
+
+    if args.debug:
+        print(f"Expected old ID: {FAILSAFE_FIRST_OLD_ID}")
+        print(f"First old ID: {test_first_old_id}")
+
+    if FAILSAFE_FIRST_ID == test_first_id and FAILSAFE_FIRST_OLD_ID == test_first_old_id:
+        return True
+
+    print("VALIDATION FAILED: Content unexpected.")
+    return False
+
+
+def main():
+    """
+    Entry point
+    """
+    parser = argparse.ArgumentParser(description=MY_DESCRIPTION)
     parser.add_argument("--debug", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--version", action="version", version=MY_VERSION)
     args = parser.parse_args()
 
     source = read_json_from_url(SOURCE_URL)
-
     if source:
-        if args.debug:
-            print(json.dumps(source))
+        print("Successfully fetched data.")
+    if source and args.debug:
+        print(json.dumps(source))
 
-        print("\nSuccessfully fetched data:")
+    if validate_source_data(source, args):
+        create_list_from_json(source, args)
+    else:
+        print("IMPORT CANCELLED: Please verify the source data.")
+        print("If the source has a new structure or order, adjust this script.")
 
-        print(f"Expected ID: {FAILSAFE_FIRST_ID}")
-        try:
-            test_first_id = source[1]["id"]
-        except AttributeError, IndexError, KeyError, TypeError:
-            test_first_id = ""
-        print(f"First ID: {test_first_id}")
 
-        print(f"Expected old ID: {FAILSAFE_FIRST_OLDID}")
-        try:
-            test_first_oldid = source[1]["oldId"]
-        except AttributeError, IndexError, KeyError, TypeError:
-            test_first_oldid = ""
-        print(f"First old ID: {test_first_oldid}")
-
-        if (
-            FAILSAFE_FIRST_ID == test_first_id
-            and FAILSAFE_FIRST_OLDID == test_first_oldid
-        ):
-            create_list_from_json(source)
-        else:
-            print(
-                "IMPORT CANCELLED: First ID does not match expected value. Please verify the source data."
-            )
-            print("If the source has a new structure or order, adjust this script.")
+if __name__ == "__main__":
+    main()

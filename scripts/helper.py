@@ -1,3 +1,5 @@
+"""Helper functions"""
+
 import hashlib
 import json
 from functools import cache
@@ -6,7 +8,15 @@ from urllib.request import urlopen
 
 
 @cache
-def read_json_from_url(url):
+def read_json_from_url(url: str):
+    """Read url content into json object
+
+    Args:
+        url (str): Url pointing to a json file
+
+    Returns:
+        Any | None: JSON object or None
+    """
     try:
         with urlopen(url) as r:
             data = json.load(r)
@@ -22,12 +32,17 @@ def read_json_from_url(url):
     except json.JSONDecodeError as e:
         print(f"Invalid JSON: {e}")
         return None
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
-        return None
 
 
 def read_json_from_file(filename):
+    """Read file content into json object
+
+    Args:
+        filename (Any): String or Path pointing to file
+
+    Returns:
+        Any | None: JSON object or None
+    """
     try:
         with open(filename, "rt", encoding="utf-8") as fp:
             data = json.load(fp)
@@ -40,12 +55,10 @@ def read_json_from_file(filename):
     except json.JSONDecodeError as e:
         print(f"Invalid JSON: {e}")
         return None
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
-        return None
 
 
-def hash_file(filename):
+def hash_file(filename) -> None | str:
+    """Generate md5 hash for file if it exists"""
     # hashlib.file_digest() supported since Python 3.11
     # return hashlib.file_digest(fp, 'md5').hexdigest()
     # CANNOT use because it does not support text streams, only binary.
@@ -64,16 +77,16 @@ def hash_file(filename):
 
 
 def hash_string(text):
+    """Generate md5 hash for string"""
     # Strings must be encoded before hashing
     return hashlib.md5(text.encode("utf-8")).hexdigest()
 
 
 def write_list_from_lines(filename: str, lines: dict, args):
     """
-    docstring
+    all lines need to pass here before being written so this is the best place
+    to remove duplicates and sort to ensure it is done the same way for all files.
     """
-    # all lines need to pass here before being written so this is the best place
-    # to remove duplicates and sort to ensure it is done the same way for all files.
 
     lines = sorted(set(lines))
 
