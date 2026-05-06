@@ -97,7 +97,7 @@ def write_list_from_lines(filename: str, lines: list[str], args) -> list[str]:
     print(f"Hash (md5) old data: {old_hash}")
 
     if old_hash == new_hash:
-        print("Nothing to update.")
+        print(f"Nothing to update ({filename}).")
         return lines
 
     if not args.dry_run and len(lines) > 0:
