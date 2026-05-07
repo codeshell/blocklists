@@ -82,6 +82,34 @@ def hash_string(text):
     return hashlib.md5(text.encode("utf-8")).hexdigest()
 
 
+def compare_url_subsets(main_str: str, search_str: str) -> bool:
+    """
+    Split search, but not before the length of main because that creates false negatives and could never match anyway
+    There is no start pos for split so we need to slice the protected part first, then split and add it back
+
+    For best match quality make sure the input does not contain protocol prefixes (http://, https://, etc://)
+    """
+
+    # speed things up
+    if len(main_str) > len(search_str):
+        return False
+
+    # get direct hits out of the way. This includes all root domain entries.
+    # root domains MUST NOT be tested later with "in string" search, because this will create false matches
+    # e.g. anotherexample.com vs example.com
+    if search_str.startswith(main_str):
+        return True
+
+    protected_search_part = search_str[: len(main_str)]
+    restored_search = protected_search_part + search_str[len(main_str) :].split("/", maxsplit=1)[0]
+    # print(f"Protected {protected_search_part} from {search_str} when checking {main_str}.")
+    # print(f"Reassembled search is {restored_search}")
+
+    # make sure this never triggers on parts of domain names, because they are totally unrelated
+    # e.g. crap-and-not-amazing.example.com vs amazing.example.com
+    return "." + main_str in restored_search
+
+
 def write_list_from_lines(
     filename: str, lines: list[str], args, header: list[str] = None, footer: list[str] = None
 ) -> list[str]:

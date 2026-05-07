@@ -7,7 +7,7 @@ from enum import Enum
 from os import error
 from pathlib import Path
 
-from helper import write_list_from_lines
+from helper import compare_url_subsets, write_list_from_lines
 
 
 class ListFormat(Enum):
@@ -55,10 +55,23 @@ def optimize_lines(lines: list[str]) -> list[str]:
     NOT IMPLEMENTED YET
     Remove lines that are only a subset of another line
     """
-    # TODO: check, if one entry is part of another rule
-    # those redundant rules should be removed.
-    # Need to check domains vs subdomains
-    # and subdomains vs paths
+    # NOTE: check, if one entry is part of another rule
+    # This hits pretty hard performance-wise on big lists
+    # because the check must iterate lines as n:n
+
+    optimized_lines = [
+        search_str
+        for search_str in lines
+        if not any(compare_url_subsets(main_str, search_str) for main_str in lines if search_str != main_str)
+    ]
+
+    # removed = difflib.unified_diff(lines, result, "full", "stripped", n=0, lineterm="")
+    # print("\n".join(filter(lambda x: x[1] != "@", removed)))
+
+    i_old = len(lines)
+    i_new = len(optimized_lines)
+    if i_new < i_old:
+        print(f"Optimization returned {i_new} from {i_old} entries. ({i_new - i_old})")
 
     # NOTE: no need to sort and remove duplicates here, because this
     # is done only and directly before writing files to storage
@@ -66,9 +79,9 @@ def optimize_lines(lines: list[str]) -> list[str]:
     # catch most but not all cases (e.g. generate_format() changes the
     # lines output for multi-variant lists) and might run multiple times.
 
-    # lines = sorted(set(lines))
+    # optimized_lines = sorted(set(optimized_lines))
 
-    return lines
+    return optimized_lines
 
 
 class UnwantedSites:
