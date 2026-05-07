@@ -1,5 +1,8 @@
 # TMW Blocklists
 
+[![Fetch updates](https://github.com/codeshell/blocklists/actions/workflows/fetch-and-regenerate-lists.yml/badge.svg)](https://github.com/codeshell/blocklists/actions/workflows/fetch-and-regenerate-lists.yml)
+[![Pylint](https://github.com/codeshell/blocklists/actions/workflows/pylint.yml/badge.svg)](https://github.com/codeshell/blocklists/actions/workflows/pylint.yml)
+
 Generate subscribable text files in various formats containing domains/subdomains/paths to block unwanted sites from web searches or dns queries.
 
 ## Goal
@@ -23,7 +26,7 @@ Everything else is considered "technical" stuff used to generate the lists and m
 - hostsetc ⚠️ UNTESTED
 - hostsip4 ⚠️ UNTESTED
 - hostsip6 ⚠️ UNTESTED
-- uBlacklist [README](./by-format/ublacklist/README.md)
+- uBlacklist ➡️ [README](./by-format/ublacklist/README.md)
 
 ## Topics
 
