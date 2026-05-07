@@ -5,7 +5,7 @@ name: Fetch updates
 on:
   schedule:
     - cron: '17 11 * * 1-5'
-      timezone: "Europe/Berlin"
+  workflow_dispatch:
 
 permissions:
   contents: write
