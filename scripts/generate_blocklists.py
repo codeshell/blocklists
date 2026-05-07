@@ -24,6 +24,8 @@ class ListFormat(Enum):
 ROOT_PATH = Path(__file__).parent.parent
 FORMAT_PATH = Path(ROOT_PATH, "by-format")
 SOURCE_PATH = Path(ROOT_PATH, "sources")
+REPO_URL = "https://github.com/codeshell/blocklists/"
+FORMAT_URL = REPO_URL + "tree/main/by-format/"
 
 
 def get_source_file_lines(filename) -> list[str] | None:
@@ -87,6 +89,8 @@ class UnwantedSites:
         self._lines_up_to_path = None
         self.label = label
         self.lines = lines
+        self.list_description = ""
+        self.list_variants: list[str] = []
 
     @property
     def lines(self) -> list[str]:
@@ -107,6 +111,11 @@ class UnwantedSites:
     def lines_up_to_path(self) -> list[str]:
         """lines containing domain + subdomain + path"""
         return self._lines_up_to_path
+
+    @property
+    def list_name(self) -> list[str]:
+        """Public name of a list"""
+        return f"TMW BL {self.label}"
 
     def _notice_if_lines_adjusted(self, a, b):
         """
@@ -143,26 +152,36 @@ def process_wiki_farm(lines: list[str], suffix: str, args: argparse.Namespace):
     domain name needs to be added
     """
 
+    label = "wikifarms"
+    description = ""
+
     match suffix:
         case "-by-wiki-gg":
+            description = "Wikifarms as identified by wiki.gg Redirect (https://www.wiki.gg/redirect)"
             lines = sanitize_lines(lines)
             lines = list(map(lambda x: x + ".fandom.com", lines))
         case "-by-indie-wiki":
+            description = "Wikifarms as identified by Indie Wiki Buddy (https://getindie.wiki/)"
             lines = sanitize_lines(lines)
         case ".all":
-            lines = optimize_lines(lines)  # input for aggregated lists is already sanitized
+            # input for aggregated lists is already sanitized
+            # optimization happens in UnwantedSites
+            description = "Aggregates all wikifarms lists. See variants."
         case _:
             print(f"Suffix {suffix} not defined for processing.")
             return None
 
-    unwanted = UnwantedSites(lines=lines, label="wikifarms" + suffix)
+    unwanted = UnwantedSites(lines=lines, label=label + suffix)
+    unwanted.list_variants = sorted([label + "-by-wiki-gg", label + "-by-indie-wiki", label + ".all"])
+    unwanted.list_description = description
     generate_format(unwanted, ListFormat.UBLACKLIST, args)
     generate_format(unwanted, ListFormat.ADBLOCK, args)
     generate_format(unwanted, ListFormat.DNSMASQ, args)
     generate_format(unwanted, ListFormat.HOSTSETC, args)
     generate_format(unwanted, ListFormat.HOSTSIP4, args)
     generate_format(unwanted, ListFormat.HOSTSIP6, args)
-    return unwanted.lines
+    # unwanted.lines would be mostly unfiltered so it is better to return, the longest variation instead
+    return unwanted.lines_up_to_path
 
 
 def generate_format(unwanted: UnwantedSites, custom_format: ListFormat, args: argparse.Namespace) -> bool:
@@ -177,7 +196,14 @@ def generate_format(unwanted: UnwantedSites, custom_format: ListFormat, args: ar
         case ListFormat.UBLACKLIST:
             target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
             target_lines = list(map(lambda x: "*://*." + x.strip() + "/*", unwanted.lines_up_to_path))
-            written_lines = write_list_from_lines(target_file, target_lines, args)
+            header = []
+            header.append("---")
+            header.append(f"name: {unwanted.list_name}")
+            header.append(f"description: {unwanted.list_description}")
+            header.append(f"homepage: {FORMAT_URL}{custom_format.value}")
+            header.append(f"variants: {', '.join(unwanted.list_variants)}")
+            header.append("---")
+            written_lines = write_list_from_lines(target_file, target_lines, args, header=header)
         case ListFormat.ADBLOCK:
             target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
             target_lines = list(map(lambda x: "||" + x.strip() + "^", unwanted.lines_up_to_path))

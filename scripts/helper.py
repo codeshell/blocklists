@@ -82,13 +82,21 @@ def hash_string(text):
     return hashlib.md5(text.encode("utf-8")).hexdigest()
 
 
-def write_list_from_lines(filename: str, lines: list[str], args) -> list[str]:
+def write_list_from_lines(
+    filename: str, lines: list[str], args, header: list[str] = None, footer: list[str] = None
+) -> list[str]:
     """
     all lines need to pass here before being written so this is the best place
     to remove duplicates and sort to ensure it is done the same way for all files.
     """
 
-    lines = sorted(set(lines))
+    if header is None:
+        header = []
+
+    if footer is None:
+        footer = []
+
+    lines = header + sorted(set(lines)) + footer
 
     new_hash = hash_string("\n".join(lines) + "\n")
     print(f"Hash (md5) new data: {new_hash}")
