@@ -1,3 +1,9 @@
+---
+name: TMW BL wikifarms-by-indie-wiki
+description: Wikifarms as identified by Indie Wiki Buddy (https://getindie.wiki/)
+homepage: https://github.com/codeshell/blocklists/tree/main/by-format/ublacklist
+variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
+---
 *://*.1000xresist.fandom.com/wiki/*
 *://*.100orangejuice.fandom.com/wiki/*
 *://*.18trip.fandom.com/wiki/*

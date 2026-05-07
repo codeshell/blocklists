@@ -1,3 +1,9 @@
+---
+name: TMW BL wikifarms-by-wiki-gg
+description: Wikifarms as identified by wiki.gg Redirect (https://www.wiki.gg/redirect)
+homepage: https://github.com/codeshell/blocklists/tree/main/by-format/ublacklist
+variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
+---
 *://*.13-sentinels-aegis-rim.fandom.com/*
 *://*.20-minutes-till-dawn.fandom.com/*
 *://*.20xx.fandom.com/*
