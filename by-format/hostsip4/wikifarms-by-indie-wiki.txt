@@ -138,6 +138,8 @@
 0.0.0.0 www.baldursgate3.wiki.fextralife.com
 0.0.0.0 ballisticng.fandom.com
 0.0.0.0 www.ballisticng.fandom.com
+0.0.0.0 ballpit.fandom.com
+0.0.0.0 www.ballpit.fandom.com
 0.0.0.0 ballxpit.fandom.com
 0.0.0.0 www.ballxpit.fandom.com
 0.0.0.0 bandori.fandom.com
@@ -682,8 +684,6 @@
 0.0.0.0 www.horticular.fandom.com
 0.0.0.0 houkai2nd.fandom.com
 0.0.0.0 www.houkai2nd.fandom.com
-0.0.0.0 https
-0.0.0.0 www.https
 0.0.0.0 hybridanimals.fandom.com
 0.0.0.0 www.hybridanimals.fandom.com
 0.0.0.0 hyperrogue.fandom.com

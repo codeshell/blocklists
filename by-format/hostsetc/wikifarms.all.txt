@@ -504,7 +504,6 @@
 "*://*.horticular.fandom.com/*",
 "*://*.houkai2nd.fandom.com/*",
 "*://*.houseflipper.fandom.com/*",
-"*://*.https/*",
 "*://*.hyboriangates.fandom.com/*",
 "*://*.hybridanimals.fandom.com/*",
 "*://*.hyperlightbreaker.fandom.com/*",

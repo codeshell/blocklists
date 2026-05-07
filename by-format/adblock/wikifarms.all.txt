@@ -127,6 +127,7 @@
 ||baldurs-gate-3-guide.fandom.com/wiki^
 ||baldursgate3.wiki.fextralife.com^
 ||ballisticng.fandom.com/wiki^
+||ballpit.fandom.com/wiki^
 ||ballpit.fandom.com^
 ||ballxpit.fandom.com/wiki^
 ||bandori.fandom.com/wiki^
@@ -617,7 +618,6 @@
 ||horticular.fandom.com^
 ||houkai2nd.fandom.com/wiki^
 ||houseflipper.fandom.com^
-||https://ballpit.fandom.com/wiki^
 ||hyboriangates.fandom.com^
 ||hybridanimals.fandom.com/wiki^
 ||hybridanimals.fandom.com^

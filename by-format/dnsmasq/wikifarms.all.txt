@@ -504,7 +504,6 @@ address=/horizonxi.fandom.com/
 address=/horticular.fandom.com/
 address=/houkai2nd.fandom.com/
 address=/houseflipper.fandom.com/
-address=/https/
 address=/hyboriangates.fandom.com/
 address=/hybridanimals.fandom.com/
 address=/hyperlightbreaker.fandom.com/

@@ -1010,8 +1010,6 @@
 0.0.0.0 www.houkai2nd.fandom.com
 0.0.0.0 houseflipper.fandom.com
 0.0.0.0 www.houseflipper.fandom.com
-0.0.0.0 https
-0.0.0.0 www.https
 0.0.0.0 hyboriangates.fandom.com
 0.0.0.0 www.hyboriangates.fandom.com
 0.0.0.0 hybridanimals.fandom.com

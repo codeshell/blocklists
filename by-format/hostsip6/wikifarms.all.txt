@@ -1010,8 +1010,6 @@
 ::1 www.houkai2nd.fandom.com
 ::1 houseflipper.fandom.com
 ::1 www.houseflipper.fandom.com
-::1 https
-::1 www.https
 ::1 hyboriangates.fandom.com
 ::1 www.hyboriangates.fandom.com
 ::1 hybridanimals.fandom.com

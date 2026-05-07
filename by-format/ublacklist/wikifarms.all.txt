@@ -128,6 +128,7 @@
 *://*.baldursgate3.wiki.fextralife.com/*
 *://*.ballisticng.fandom.com/wiki/*
 *://*.ballpit.fandom.com/*
+*://*.ballpit.fandom.com/wiki/*
 *://*.ballxpit.fandom.com/wiki/*
 *://*.bandori.fandom.com/wiki/*
 *://*.banjokazooie.fandom.com/wiki/*
@@ -617,7 +618,6 @@
 *://*.horticular.fandom.com/wiki/*
 *://*.houkai2nd.fandom.com/wiki/*
 *://*.houseflipper.fandom.com/*
-*://*.https://ballpit.fandom.com/wiki/*
 *://*.hyboriangates.fandom.com/*
 *://*.hybridanimals.fandom.com/*
 *://*.hybridanimals.fandom.com/wiki/*
