@@ -238,8 +238,6 @@
 0.0.0.0 www.darkdeity.fandom.com
 0.0.0.0 darkestdungeon.fandom.com
 0.0.0.0 www.darkestdungeon.fandom.com
-0.0.0.0 darzas.fandom.com
-0.0.0.0 www.darzas.fandom.com
 0.0.0.0 date-everything.fandom.com
 0.0.0.0 www.date-everything.fandom.com
 0.0.0.0 day-r.fandom.com
@@ -584,8 +582,6 @@
 0.0.0.0 www.level-zero-extraction.fandom.com
 0.0.0.0 library-of-ruina.fandom.com
 0.0.0.0 www.library-of-ruina.fandom.com
-0.0.0.0 life-in-adventure.fandom.com
-0.0.0.0 www.life-in-adventure.fandom.com
 0.0.0.0 life-makeover.fandom.com
 0.0.0.0 www.life-makeover.fandom.com
 0.0.0.0 liftlands.fandom.com

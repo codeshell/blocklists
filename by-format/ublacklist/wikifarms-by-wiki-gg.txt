@@ -124,7 +124,6 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.darkage-bizarre.fandom.com/*
 *://*.darkdeity.fandom.com/*
 *://*.darkestdungeon.fandom.com/*
-*://*.darzas.fandom.com/*
 *://*.date-everything.fandom.com/*
 *://*.day-r.fandom.com/*
 *://*.dayr.fandom.com/*
@@ -297,7 +296,6 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.letitdie.fandom.com/*
 *://*.level-zero-extraction.fandom.com/*
 *://*.library-of-ruina.fandom.com/*
-*://*.life-in-adventure.fandom.com/*
 *://*.life-makeover.fandom.com/*
 *://*.liftlands.fandom.com/*
 *://*.light-no-fire.fandom.com/*

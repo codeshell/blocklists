@@ -476,8 +476,6 @@
 0.0.0.0 www.darkestdungeon.fandom.com
 0.0.0.0 darkestdungeon2.wiki.fextralife.com
 0.0.0.0 www.darkestdungeon2.wiki.fextralife.com
-0.0.0.0 darzas.fandom.com
-0.0.0.0 www.darzas.fandom.com
 0.0.0.0 dashbored.fandom.com
 0.0.0.0 www.dashbored.fandom.com
 0.0.0.0 date-everything.fandom.com
@@ -1202,8 +1200,6 @@
 0.0.0.0 www.lgbtqia.fandom.com
 0.0.0.0 library-of-ruina.fandom.com
 0.0.0.0 www.library-of-ruina.fandom.com
-0.0.0.0 life-in-adventure.fandom.com
-0.0.0.0 www.life-in-adventure.fandom.com
 0.0.0.0 life-makeover.fandom.com
 0.0.0.0 www.life-makeover.fandom.com
 0.0.0.0 liftlands.fandom.com

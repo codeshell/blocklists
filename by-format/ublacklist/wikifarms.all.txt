@@ -247,7 +247,6 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.darkdeity.fandom.com/*
 *://*.darkestdungeon.fandom.com/*
 *://*.darkestdungeon2.wiki.fextralife.com/*
-*://*.darzas.fandom.com/*
 *://*.dashbored.fandom.com/wiki/*
 *://*.date-everything.fandom.com/*
 *://*.day-r.fandom.com/*
@@ -629,7 +628,6 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.lexington-and-concord.fandom.com/wiki/*
 *://*.lgbtqia.fandom.com/wiki/*
 *://*.library-of-ruina.fandom.com/*
-*://*.life-in-adventure.fandom.com/*
 *://*.life-makeover.fandom.com/*
 *://*.liftlands.fandom.com/*
 *://*.light-no-fire.fandom.com/*

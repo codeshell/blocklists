@@ -118,7 +118,6 @@ d2mc
 darkage-bizarre
 darkdeity
 darkestdungeon
-darzas
 date-everything
 day-r
 dayr
@@ -291,7 +290,6 @@ legiontd2
 letitdie
 level-zero-extraction
 library-of-ruina
-life-in-adventure
 life-makeover
 liftlands
 light-no-fire

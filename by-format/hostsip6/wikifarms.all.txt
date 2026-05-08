@@ -476,8 +476,6 @@
 ::1 www.darkestdungeon.fandom.com
 ::1 darkestdungeon2.wiki.fextralife.com
 ::1 www.darkestdungeon2.wiki.fextralife.com
-::1 darzas.fandom.com
-::1 www.darzas.fandom.com
 ::1 dashbored.fandom.com
 ::1 www.dashbored.fandom.com
 ::1 date-everything.fandom.com
@@ -1202,8 +1200,6 @@
 ::1 www.lgbtqia.fandom.com
 ::1 library-of-ruina.fandom.com
 ::1 www.library-of-ruina.fandom.com
-::1 life-in-adventure.fandom.com
-::1 www.life-in-adventure.fandom.com
 ::1 life-makeover.fandom.com
 ::1 www.life-makeover.fandom.com
 ::1 liftlands.fandom.com
