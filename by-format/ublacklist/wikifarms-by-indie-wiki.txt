@@ -347,6 +347,8 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.grounded.fandom.com/wiki/*
 *://*.growtopia.fandom.com/wiki/*
 *://*.gta.fandom.com/wiki/*
+*://*.gta.neoseeker.com/wiki/*
+*://*.gta5.neoseeker.com/wiki/*
 *://*.gtfo.fandom.com/wiki/*
 *://*.gttod.fandom.com/wiki/*
 *://*.guildwars.fandom.com/fr/wiki/*

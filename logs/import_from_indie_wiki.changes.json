@@ -116,3 +116,16 @@
   ],
   "updated": []
 },
+{
+  "date": "2026-05-11T13:59:34+00:00",
+  "changes": 1,
+  "removed": [],
+  "added": [],
+  "updated": [
+    {
+      "path": "sitesEN.json",
+      "sha": "6a642dcb6122420df673e8b177aa0248c7f83b2b",
+      "size": 452979
+    }
+  ]
+},

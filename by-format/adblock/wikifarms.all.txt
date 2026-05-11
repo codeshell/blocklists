@@ -470,6 +470,8 @@
 ||grounded.fandom.com^
 ||growtopia.fandom.com/wiki^
 ||gta.fandom.com/wiki^
+||gta.neoseeker.com/wiki^
+||gta5.neoseeker.com/wiki^
 ||gtfo.fandom.com^
 ||gttod.fandom.com^
 ||guildwars.fandom.com/fr/wiki^

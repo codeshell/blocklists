@@ -622,6 +622,10 @@
 ::1 www.growtopia.fandom.com
 ::1 gta.fandom.com
 ::1 www.gta.fandom.com
+::1 gta.neoseeker.com
+::1 www.gta.neoseeker.com
+::1 gta5.neoseeker.com
+::1 www.gta5.neoseeker.com
 ::1 gtfo.fandom.com
 ::1 www.gtfo.fandom.com
 ::1 gttod.fandom.com

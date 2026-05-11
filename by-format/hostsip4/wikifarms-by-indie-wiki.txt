@@ -622,6 +622,10 @@
 0.0.0.0 www.growtopia.fandom.com
 0.0.0.0 gta.fandom.com
 0.0.0.0 www.gta.fandom.com
+0.0.0.0 gta.neoseeker.com
+0.0.0.0 www.gta.neoseeker.com
+0.0.0.0 gta5.neoseeker.com
+0.0.0.0 www.gta5.neoseeker.com
 0.0.0.0 gtfo.fandom.com
 0.0.0.0 www.gtfo.fandom.com
 0.0.0.0 gttod.fandom.com
