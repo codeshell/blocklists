@@ -552,6 +552,8 @@
 0.0.0.0 www.fridaynightfunkin.fandom.com
 0.0.0.0 friendsatthetable.fandom.com
 0.0.0.0 www.friendsatthetable.fandom.com
+0.0.0.0 frojoapps.fandom.com
+0.0.0.0 www.frojoapps.fandom.com
 0.0.0.0 ftlmultiverse.fandom.com
 0.0.0.0 www.ftlmultiverse.fandom.com
 0.0.0.0 futurama.fandom.com
@@ -688,6 +690,8 @@
 0.0.0.0 www.horticular.fandom.com
 0.0.0.0 houkai2nd.fandom.com
 0.0.0.0 www.houkai2nd.fandom.com
+0.0.0.0 hyblock.fandom.com
+0.0.0.0 www.hyblock.fandom.com
 0.0.0.0 hybridanimals.fandom.com
 0.0.0.0 www.hybridanimals.fandom.com
 0.0.0.0 hyperrogue.fandom.com
@@ -948,6 +952,8 @@
 0.0.0.0 www.mr-love-queens-choice.fandom.com
 0.0.0.0 mtg.fandom.com
 0.0.0.0 www.mtg.fandom.com
+0.0.0.0 mtg.neoseeker.com
+0.0.0.0 www.mtg.neoseeker.com
 0.0.0.0 multiversus.fandom.com
 0.0.0.0 www.multiversus.fandom.com
 0.0.0.0 muse.fandom.com
@@ -1340,6 +1346,8 @@
 0.0.0.0 www.stormlightarchive.fandom.com
 0.0.0.0 strinova.fandom.com
 0.0.0.0 www.strinova.fandom.com
+0.0.0.0 subnautica.fandom.com
+0.0.0.0 www.subnautica.fandom.com
 0.0.0.0 sugary-spire.fandom.com
 0.0.0.0 www.sugary-spire.fandom.com
 0.0.0.0 suikoden.fandom.com

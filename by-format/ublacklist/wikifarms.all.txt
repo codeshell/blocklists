@@ -425,6 +425,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.freespace.fandom.com/wiki/*
 *://*.fridaynightfunkin.fandom.com/*
 *://*.friendsatthetable.fandom.com/wiki/*
+*://*.frojoapps.fandom.com/wiki/*
 *://*.ftlmultiverse.fandom.com/wiki/*
 *://*.futurama.fandom.com/wiki/*
 *://*.futurama.neoseeker.com/wiki/*
@@ -527,6 +528,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.horticular.fandom.com/*
 *://*.houkai2nd.fandom.com/wiki/*
 *://*.houseflipper.fandom.com/*
+*://*.hyblock.fandom.com/wiki/*
 *://*.hyboriangates.fandom.com/*
 *://*.hybridanimals.fandom.com/*
 *://*.hyperlightbreaker.fandom.com/*
@@ -754,6 +756,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.mother.neoseeker.com/wiki/*
 *://*.mr-love-queens-choice.fandom.com/wiki/*
 *://*.mtg.fandom.com/wiki/*
+*://*.mtg.neoseeker.com/wiki/*
 *://*.multiversus.fandom.com/*
 *://*.muse.fandom.com/wiki/*
 *://*.myboovirtualpet.fandom.com/wiki/*
@@ -1054,6 +1057,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.stormlightarchive.fandom.com/wiki/*
 *://*.strinova.fandom.com/*
 *://*.subnautica-mods.fandom.com/*
+*://*.subnautica.fandom.com/wiki/*
 *://*.sugary-spire.fandom.com/*
 *://*.suikoden.fandom.com/wiki/*
 *://*.sulfur.fandom.com/*
