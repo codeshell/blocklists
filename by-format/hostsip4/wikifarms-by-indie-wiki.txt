@@ -6,10 +6,14 @@
 0.0.0.0 www.18trip.fandom.com
 0.0.0.0 20-minutes-till-dawn.fandom.com
 0.0.0.0 www.20-minutes-till-dawn.fandom.com
+0.0.0.0 20xx.fandom.com
+0.0.0.0 www.20xx.fandom.com
 0.0.0.0 2xko.fandom.com
 0.0.0.0 www.2xko.fandom.com
 0.0.0.0 7daystodie.fandom.com
 0.0.0.0 www.7daystodie.fandom.com
+0.0.0.0 7thjojo.fandom.com
+0.0.0.0 www.7thjojo.fandom.com
 0.0.0.0 a-minecraft-movie.fandom.com
 0.0.0.0 www.a-minecraft-movie.fandom.com
 0.0.0.0 abiotic-factor.fandom.com
@@ -42,6 +46,8 @@
 0.0.0.0 www.aitg.fandom.com
 0.0.0.0 akudamadrive.fandom.com
 0.0.0.0 www.akudamadrive.fandom.com
+0.0.0.0 ale-and-tale-tavern.fandom.com
+0.0.0.0 www.ale-and-tale-tavern.fandom.com
 0.0.0.0 aloft.fandom.com
 0.0.0.0 www.aloft.fandom.com
 0.0.0.0 alphaver.fandom.com
@@ -174,6 +180,8 @@
 0.0.0.0 www.bleed-game.fandom.com
 0.0.0.0 blhx.fandom.com
 0.0.0.0 www.blhx.fandom.com
+0.0.0.0 blockate.fandom.com
+0.0.0.0 www.blockate.fandom.com
 0.0.0.0 blockfrontmc.fandom.com
 0.0.0.0 www.blockfrontmc.fandom.com
 0.0.0.0 blood-1997.fandom.com
@@ -218,6 +226,8 @@
 0.0.0.0 www.caseoh.fandom.com
 0.0.0.0 catacomb.fandom.com
 0.0.0.0 www.catacomb.fandom.com
+0.0.0.0 cats-are-liquid-game.fandom.com
+0.0.0.0 www.cats-are-liquid-game.fandom.com
 0.0.0.0 celestegame.fandom.com
 0.0.0.0 www.celestegame.fandom.com
 0.0.0.0 cerasus.fandom.com
@@ -292,6 +302,8 @@
 0.0.0.0 www.counterweight.fandom.com
 0.0.0.0 crabchampions.fandom.com
 0.0.0.0 www.crabchampions.fandom.com
+0.0.0.0 craftersmc-skyblock.fandom.com
+0.0.0.0 www.craftersmc-skyblock.fandom.com
 0.0.0.0 creatures.fandom.com
 0.0.0.0 www.creatures.fandom.com
 0.0.0.0 criticalrole.fandom.com
@@ -320,6 +332,8 @@
 0.0.0.0 www.darkestdungeon2.wiki.fextralife.com
 0.0.0.0 dashbored.fandom.com
 0.0.0.0 www.dashbored.fandom.com
+0.0.0.0 date-everything.fandom.com
+0.0.0.0 www.date-everything.fandom.com
 0.0.0.0 dayz.fandom.com
 0.0.0.0 www.dayz.fandom.com
 0.0.0.0 deadbydaylight.fandom.com
@@ -344,6 +358,8 @@
 0.0.0.0 www.deltarune.fandom.com
 0.0.0.0 deltatraveler.fandom.com
 0.0.0.0 www.deltatraveler.fandom.com
+0.0.0.0 desert-bus.fandom.com
+0.0.0.0 www.desert-bus.fandom.com
 0.0.0.0 destiny.fandom.com
 0.0.0.0 www.destiny.fandom.com
 0.0.0.0 destiny.neoseeker.com
@@ -362,6 +378,8 @@
 0.0.0.0 www.dfo.fandom.com
 0.0.0.0 diceblock.fandom.com
 0.0.0.0 www.diceblock.fandom.com
+0.0.0.0 digdug.fandom.com
+0.0.0.0 www.digdug.fandom.com
 0.0.0.0 digimon.fandom.com
 0.0.0.0 www.digimon.fandom.com
 0.0.0.0 digimon.neoseeker.com
@@ -424,6 +442,8 @@
 0.0.0.0 www.dreamsphere.fandom.com
 0.0.0.0 dredge.fandom.com
 0.0.0.0 www.dredge.fandom.com
+0.0.0.0 duneawakening.fandom.com
+0.0.0.0 www.duneawakening.fandom.com
 0.0.0.0 dungeondefenders2.fandom.com
 0.0.0.0 www.dungeondefenders2.fandom.com
 0.0.0.0 dungeonrampage.fandom.com
@@ -474,6 +494,8 @@
 0.0.0.0 www.endfield.fandom.com
 0.0.0.0 endlesslegend.fandom.com
 0.0.0.0 www.endlesslegend.fandom.com
+0.0.0.0 enfosi.fandom.com
+0.0.0.0 www.enfosi.fandom.com
 0.0.0.0 enshrouded.fandom.com
 0.0.0.0 www.enshrouded.fandom.com
 0.0.0.0 enterthegungeon.fandom.com
@@ -564,6 +586,8 @@
 0.0.0.0 www.fzero.fandom.com
 0.0.0.0 fzero.neoseeker.com
 0.0.0.0 www.fzero.neoseeker.com
+0.0.0.0 ga2dojo.fandom.com
+0.0.0.0 www.ga2dojo.fandom.com
 0.0.0.0 gagharv.fandom.com
 0.0.0.0 www.gagharv.fandom.com
 0.0.0.0 galactica.fandom.com
@@ -662,6 +686,8 @@
 0.0.0.0 www.hearthstone.fandom.com
 0.0.0.0 hearthstone.neoseeker.com
 0.0.0.0 www.hearthstone.neoseeker.com
+0.0.0.0 heavy-gear.fandom.com
+0.0.0.0 www.heavy-gear.fandom.com
 0.0.0.0 helldivers.fandom.com
 0.0.0.0 www.helldivers.fandom.com
 0.0.0.0 hellmet-roblox.fandom.com
@@ -690,10 +716,14 @@
 0.0.0.0 www.horticular.fandom.com
 0.0.0.0 houkai2nd.fandom.com
 0.0.0.0 www.houkai2nd.fandom.com
+0.0.0.0 hunter-the-parenting.fandom.com
+0.0.0.0 www.hunter-the-parenting.fandom.com
 0.0.0.0 hyblock.fandom.com
 0.0.0.0 www.hyblock.fandom.com
 0.0.0.0 hybridanimals.fandom.com
 0.0.0.0 www.hybridanimals.fandom.com
+0.0.0.0 hyperdimensionneptunia.fandom.com
+0.0.0.0 www.hyperdimensionneptunia.fandom.com
 0.0.0.0 hyperrogue.fandom.com
 0.0.0.0 www.hyperrogue.fandom.com
 0.0.0.0 hypixel-skyblock.fandom.com
@@ -720,6 +750,8 @@
 0.0.0.0 www.illusion-carnival.fandom.com
 0.0.0.0 immortal-life.fandom.com
 0.0.0.0 www.immortal-life.fandom.com
+0.0.0.0 in-birth.fandom.com
+0.0.0.0 www.in-birth.fandom.com
 0.0.0.0 in-stars-and-time.fandom.com
 0.0.0.0 www.in-stars-and-time.fandom.com
 0.0.0.0 industrialist.fandom.com
@@ -776,6 +808,8 @@
 0.0.0.0 www.kiseki.fandom.com
 0.0.0.0 kitatcho-labs.fandom.com
 0.0.0.0 www.kitatcho-labs.fandom.com
+0.0.0.0 klonoa.fandom.com
+0.0.0.0 www.klonoa.fandom.com
 0.0.0.0 knighthood.fandom.com
 0.0.0.0 www.knighthood.fandom.com
 0.0.0.0 knucklecracker.fandom.com
@@ -818,12 +852,16 @@
 0.0.0.0 www.lgbtqia.fandom.com
 0.0.0.0 library-of-ruina.fandom.com
 0.0.0.0 www.library-of-ruina.fandom.com
+0.0.0.0 lightyear-frontier.fandom.com
+0.0.0.0 www.lightyear-frontier.fandom.com
 0.0.0.0 limbuscompany.fandom.com
 0.0.0.0 www.limbuscompany.fandom.com
 0.0.0.0 linkinpark.fandom.com
 0.0.0.0 www.linkinpark.fandom.com
 0.0.0.0 littlekingsstory.fandom.com
 0.0.0.0 www.littlekingsstory.fandom.com
+0.0.0.0 live-a-live.fandom.com
+0.0.0.0 www.live-a-live.fandom.com
 0.0.0.0 lobotomycorp.fandom.com
 0.0.0.0 www.lobotomycorp.fandom.com
 0.0.0.0 look-outside.fandom.com
@@ -932,6 +970,8 @@
 0.0.0.0 www.minehutmc.fandom.com
 0.0.0.0 minicraft.fandom.com
 0.0.0.0 www.minicraft.fandom.com
+0.0.0.0 mio-memories-in-orbit.fandom.com
+0.0.0.0 www.mio-memories-in-orbit.fandom.com
 0.0.0.0 miside.fandom.com
 0.0.0.0 www.miside.fandom.com
 0.0.0.0 mistborn.fandom.com
@@ -950,6 +990,8 @@
 0.0.0.0 www.mother.neoseeker.com
 0.0.0.0 mr-love-queens-choice.fandom.com
 0.0.0.0 www.mr-love-queens-choice.fandom.com
+0.0.0.0 mrdriller.fandom.com
+0.0.0.0 www.mrdriller.fandom.com
 0.0.0.0 mtg.fandom.com
 0.0.0.0 www.mtg.fandom.com
 0.0.0.0 mtg.neoseeker.com
@@ -976,6 +1018,8 @@
 0.0.0.0 www.needy-streamer-overload.fandom.com
 0.0.0.0 neocron-guide.fandom.com
 0.0.0.0 www.neocron-guide.fandom.com
+0.0.0.0 neptunia.fandom.com
+0.0.0.0 www.neptunia.fandom.com
 0.0.0.0 nethack.fandom.com
 0.0.0.0 www.nethack.fandom.com
 0.0.0.0 newgrounds.fandom.com
@@ -994,6 +1038,8 @@
 0.0.0.0 www.ninesols.fandom.com
 0.0.0.0 nitrome.fandom.com
 0.0.0.0 www.nitrome.fandom.com
+0.0.0.0 noisz.fandom.com
+0.0.0.0 www.noisz.fandom.com
 0.0.0.0 noita.fandom.com
 0.0.0.0 www.noita.fandom.com
 0.0.0.0 norland.fandom.com
@@ -1080,6 +1126,8 @@
 0.0.0.0 www.pikmin.neoseeker.com
 0.0.0.0 pikminfanon.fandom.com
 0.0.0.0 www.pikminfanon.fandom.com
+0.0.0.0 pilgrammed-rblx.fandom.com
+0.0.0.0 www.pilgrammed-rblx.fandom.com
 0.0.0.0 pixarcars.fandom.com
 0.0.0.0 www.pixarcars.fandom.com
 0.0.0.0 pixelgun.fandom.com
@@ -1126,6 +1174,8 @@
 0.0.0.0 www.project-gorgon.fandom.com
 0.0.0.0 project-mili.fandom.com
 0.0.0.0 www.project-mili.fandom.com
+0.0.0.0 project-silverfish.fandom.com
+0.0.0.0 www.project-silverfish.fandom.com
 0.0.0.0 projectsekai.fandom.com
 0.0.0.0 www.projectsekai.fandom.com
 0.0.0.0 projectwingman.fandom.com
@@ -1144,6 +1194,8 @@
 0.0.0.0 www.python.fandom.com
 0.0.0.0 rabbitandsteel.fandom.com
 0.0.0.0 www.rabbitandsteel.fandom.com
+0.0.0.0 raccoin.fandom.com
+0.0.0.0 www.raccoin.fandom.com
 0.0.0.0 rain-web-comic.fandom.com
 0.0.0.0 www.rain-web-comic.fandom.com
 0.0.0.0 rain-webcomic.fandom.com
@@ -1192,6 +1244,8 @@
 0.0.0.0 www.roblox-critical-strike.fandom.com
 0.0.0.0 roblox-sc.fandom.com
 0.0.0.0 www.roblox-sc.fandom.com
+0.0.0.0 roblox-shipping-lanes.fandom.com
+0.0.0.0 www.roblox-shipping-lanes.fandom.com
 0.0.0.0 robloxarsenal.fandom.com
 0.0.0.0 www.robloxarsenal.fandom.com
 0.0.0.0 rogue-legacy.fandom.com
@@ -1200,6 +1254,8 @@
 0.0.0.0 www.rollercoaster.fandom.com
 0.0.0.0 rootsofpacha.fandom.com
 0.0.0.0 www.rootsofpacha.fandom.com
+0.0.0.0 rt3.fandom.com
+0.0.0.0 www.rt3.fandom.com
 0.0.0.0 runescape.fandom.com
 0.0.0.0 www.runescape.fandom.com
 0.0.0.0 runescape.neoseeker.com
@@ -1286,6 +1342,8 @@
 0.0.0.0 www.sm64-speedrun.fandom.com
 0.0.0.0 smashbros.neoseeker.com
 0.0.0.0 www.smashbros.neoseeker.com
+0.0.0.0 somniumfiles.fandom.com
+0.0.0.0 www.somniumfiles.fandom.com
 0.0.0.0 songs-of-syx.fandom.com
 0.0.0.0 www.songs-of-syx.fandom.com
 0.0.0.0 sonny.fandom.com
@@ -1322,6 +1380,8 @@
 0.0.0.0 www.starbound.fandom.com
 0.0.0.0 starcitizen.fandom.com
 0.0.0.0 www.starcitizen.fandom.com
+0.0.0.0 stardew-valley-expanded.fandom.com
+0.0.0.0 www.stardew-valley-expanded.fandom.com
 0.0.0.0 stardew-valley-fr.fandom.com
 0.0.0.0 www.stardew-valley-fr.fandom.com
 0.0.0.0 stardewvalley.fandom.com
@@ -1346,8 +1406,14 @@
 0.0.0.0 www.stormlightarchive.fandom.com
 0.0.0.0 strinova.fandom.com
 0.0.0.0 www.strinova.fandom.com
+0.0.0.0 styleboutique.fandom.com
+0.0.0.0 www.styleboutique.fandom.com
+0.0.0.0 stylesavvy.fandom.com
+0.0.0.0 www.stylesavvy.fandom.com
 0.0.0.0 subnautica.fandom.com
 0.0.0.0 www.subnautica.fandom.com
+0.0.0.0 subnautica2.fandom.com
+0.0.0.0 www.subnautica2.fandom.com
 0.0.0.0 sugary-spire.fandom.com
 0.0.0.0 www.sugary-spire.fandom.com
 0.0.0.0 suikoden.fandom.com
@@ -1376,6 +1442,8 @@
 0.0.0.0 www.tallyhall.fandom.com
 0.0.0.0 tardis.fandom.com
 0.0.0.0 www.tardis.fandom.com
+0.0.0.0 tbcte.fandom.com
+0.0.0.0 www.tbcte.fandom.com
 0.0.0.0 tboirevelations.fandom.com
 0.0.0.0 www.tboirevelations.fandom.com
 0.0.0.0 team-fortress.fandom.com
@@ -1414,10 +1482,14 @@
 0.0.0.0 www.the-finals.fandom.com
 0.0.0.0 the-fire-rises-unoffical-database.fandom.com
 0.0.0.0 www.the-fire-rises-unoffical-database.fandom.com
+0.0.0.0 the-hundred-line.fandom.com
+0.0.0.0 www.the-hundred-line.fandom.com
 0.0.0.0 the-magical-mixture-mill.fandom.com
 0.0.0.0 www.the-magical-mixture-mill.fandom.com
 0.0.0.0 the-matchless-kungfu.fandom.com
 0.0.0.0 www.the-matchless-kungfu.fandom.com
+0.0.0.0 the-squishable.fandom.com
+0.0.0.0 www.the-squishable.fandom.com
 0.0.0.0 the-void-rains-upon-her-heart.fandom.com
 0.0.0.0 www.the-void-rains-upon-her-heart.fandom.com
 0.0.0.0 theadventurezone.fandom.com
@@ -1434,6 +1506,8 @@
 0.0.0.0 www.thesarahjaneadventures.fandom.com
 0.0.0.0 thewanderinginn.fandom.com
 0.0.0.0 www.thewanderinginn.fandom.com
+0.0.0.0 theworldendswithyou.neoseeker.com
+0.0.0.0 www.theworldendswithyou.neoseeker.com
 0.0.0.0 theymightbegiants.fandom.com
 0.0.0.0 www.theymightbegiants.fandom.com
 0.0.0.0 thoriummod.fandom.com
@@ -1482,6 +1556,8 @@
 0.0.0.0 www.traveller-rpg.fandom.com
 0.0.0.0 treasureadventuregame.fandom.com
 0.0.0.0 www.treasureadventuregame.fandom.com
+0.0.0.0 trouble-in-terrorist-town.fandom.com
+0.0.0.0 www.trouble-in-terrorist-town.fandom.com
 0.0.0.0 truck-simulator.fandom.com
 0.0.0.0 www.truck-simulator.fandom.com
 0.0.0.0 tw2.fandom.com
@@ -1518,12 +1594,18 @@
 0.0.0.0 www.undertale.fandom.com
 0.0.0.0 undertaleyellow.fandom.com
 0.0.0.0 www.undertaleyellow.fandom.com
+0.0.0.0 unforgotten-realms-live.fandom.com
+0.0.0.0 www.unforgotten-realms-live.fandom.com
 0.0.0.0 universalunion.fandom.com
 0.0.0.0 www.universalunion.fandom.com
+0.0.0.0 unofficialrgd.fandom.com
+0.0.0.0 www.unofficialrgd.fandom.com
 0.0.0.0 unrealworld.fandom.com
 0.0.0.0 www.unrealworld.fandom.com
 0.0.0.0 unturned.fandom.com
 0.0.0.0 www.unturned.fandom.com
+0.0.0.0 urealms-live.fandom.com
+0.0.0.0 www.urealms-live.fandom.com
 0.0.0.0 usagishima.fandom.com
 0.0.0.0 www.usagishima.fandom.com
 0.0.0.0 usi.fandom.com
@@ -1586,6 +1668,8 @@
 0.0.0.0 www.whoniverse.fandom.com
 0.0.0.0 wiki-arcane.fandom.com
 0.0.0.0 www.wiki-arcane.fandom.com
+0.0.0.0 wikiaforge.fandom.com
+0.0.0.0 www.wikiaforge.fandom.com
 0.0.0.0 wildfrost.fandom.com
 0.0.0.0 www.wildfrost.fandom.com
 0.0.0.0 willyousnail.fandom.com
@@ -1624,6 +1708,8 @@
 0.0.0.0 www.xenharmonic.fandom.com
 0.0.0.0 xenoblade.fandom.com
 0.0.0.0 www.xenoblade.fandom.com
+0.0.0.0 xform-games.fandom.com
+0.0.0.0 www.xform-games.fandom.com
 0.0.0.0 xkcd.fandom.com
 0.0.0.0 www.xkcd.fandom.com
 0.0.0.0 xyy.fandom.com
@@ -1664,3 +1750,5 @@
 0.0.0.0 www.zeldatearsofthekingdom.wiki.fextralife.com
 0.0.0.0 zeroranger.fandom.com
 0.0.0.0 www.zeroranger.fandom.com
+0.0.0.0 zootycoon.fandom.com
+0.0.0.0 www.zootycoon.fandom.com

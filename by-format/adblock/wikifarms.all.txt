@@ -6,6 +6,7 @@
 ||20xx.fandom.com^
 ||2xko.fandom.com/wiki^
 ||7daystodie.fandom.com^
+||7thjojo.fandom.com/wiki^
 ||9kings.fandom.com^
 ||a-chorus-of-dragons.fandom.com^
 ||a-minecraft-movie.fandom.com/wiki^
@@ -31,6 +32,7 @@
 ||aitg.fandom.com/wiki^
 ||akudamadrive.fandom.com/wiki^
 ||albionworld.fandom.com^
+||ale-and-tale-tavern.fandom.com/wiki^
 ||alekon.fandom.com^
 ||almost-a-hero.fandom.com^
 ||aloft.fandom.com^
@@ -128,6 +130,7 @@
 ||blight.fandom.com^
 ||block-n-load-2.fandom.com^
 ||block-story.fandom.com^
+||blockate.fandom.com/wiki^
 ||blockfrontmc.fandom.com^
 ||blockstarplanet.fandom.com^
 ||bloobs-adventure-idle.fandom.com^
@@ -268,6 +271,7 @@
 ||demons-vs-fairyland.fandom.com^
 ||densha-de-go.fandom.com^
 ||derailvalley.fandom.com^
+||desert-bus.fandom.com/wiki^
 ||destiny.fandom.com/wiki^
 ||destiny.neoseeker.com/wiki^
 ||destiny.wiki.fextralife.com^
@@ -278,6 +282,7 @@
 ||dfo.fandom.com/wiki^
 ||diceblock.fandom.com/wiki^
 ||dicefolk.fandom.com^
+||digdug.fandom.com/wiki^
 ||digimon.fandom.com/wiki^
 ||digimon.neoseeker.com/wiki^
 ||discoelysium.fandom.com/wiki^
@@ -323,6 +328,7 @@
 ||dredge.fandom.com^
 ||dredgers.fandom.com^
 ||drug-dealer-simulator-2.fandom.com^
+||duneawakening.fandom.com/wiki^
 ||dungeon-now-loading.fandom.com^
 ||dungeondefenders.fandom.com^
 ||dungeondefenders2.fandom.com/wiki^
@@ -355,6 +361,7 @@
 ||endfield.fandom.com/wiki^
 ||endlessdungeon.fandom.com^
 ||endlesslegend.fandom.com^
+||enfosi.fandom.com/wiki^
 ||enshrouded.fandom.com/wiki^
 ||enterthegungeon.fandom.com^
 ||epicbattlefantasy.fandom.com^
@@ -425,6 +432,7 @@
 ||futurama.neoseeker.com/wiki^
 ||fzero.fandom.com/wiki^
 ||fzero.neoseeker.com/wiki^
+||ga2dojo.fandom.com/wiki^
 ||gagharv.fandom.com/wiki^
 ||galactica.fandom.com/fr/wiki^
 ||galactica.fandom.com/wiki^
@@ -522,9 +530,11 @@
 ||horticular.fandom.com^
 ||houkai2nd.fandom.com/wiki^
 ||houseflipper.fandom.com^
+||hunter-the-parenting.fandom.com/wiki^
 ||hyblock.fandom.com/wiki^
 ||hyboriangates.fandom.com^
 ||hybridanimals.fandom.com^
+||hyperdimensionneptunia.fandom.com/wiki^
 ||hyperlightbreaker.fandom.com^
 ||hyperrogue.fandom.com/wiki^
 ||hypixel-skyblock.fandom.com/wiki^
@@ -596,6 +606,7 @@
 ||kiseki.fandom.com/wiki^
 ||kitatcho-labs.fandom.com^
 ||kletka-enoffical.fandom.com^
+||klonoa.fandom.com/wiki^
 ||knighthood.fandom.com^
 ||knucklecracker.fandom.com/wiki^
 ||koei.fandom.com/wiki^
@@ -631,6 +642,7 @@
 ||light-no-fire.fandom.com^
 ||lightnofire.fandom.com^
 ||lightskies.fandom.com^
+||lightyear-frontier.fandom.com/wiki^
 ||lilium.fandom.com^
 ||limbuscompany.fandom.com^
 ||linkinpark.fandom.com/wiki^
@@ -730,6 +742,7 @@
 ||minehutmc.fandom.com^
 ||minicraft.fandom.com^
 ||minihealer.fandom.com^
+||mio-memories-in-orbit.fandom.com/wiki^
 ||miside.fandom.com/wiki^
 ||mist-train-girls.fandom.com^
 ||mistborn.fandom.com/wiki^
@@ -749,6 +762,7 @@
 ||moshionline.fandom.com^
 ||mother.neoseeker.com/wiki^
 ||mr-love-queens-choice.fandom.com/wiki^
+||mrdriller.fandom.com/wiki^
 ||mtg.fandom.com/wiki^
 ||mtg.neoseeker.com/wiki^
 ||multiversus.fandom.com^
@@ -762,6 +776,7 @@
 ||necromerger.fandom.com^
 ||needy-streamer-overload.fandom.com^
 ||neocron-guide.fandom.com/wiki^
+||neptunia.fandom.com/wiki^
 ||nethack.fandom.com/wiki^
 ||neutronized.fandom.com^
 ||newgrounds.fandom.com^
@@ -775,6 +790,7 @@
 ||ninesols.fandom.com^
 ||nitrome.fandom.com^
 ||nivalisgame.fandom.com^
+||noisz.fandom.com/wiki^
 ||noita.fandom.com^
 ||norland.fandom.com/wiki^
 ||nox.fandom.com^
@@ -834,6 +850,7 @@
 ||pikmin.fandom.com/wiki^
 ||pikmin.neoseeker.com/wiki^
 ||pikminfanon.fandom.com/wiki^
+||pilgrammed-rblx.fandom.com/wiki^
 ||pixarcars.fandom.com/wiki^
 ||pixel-tribe.fandom.com^
 ||pixelgun.fandom.com^
@@ -878,6 +895,7 @@
 ||prodigium-reforged.fandom.com^
 ||project-gorgon.fandom.com/wiki^
 ||project-mili.fandom.com^
+||project-silverfish.fandom.com/wiki^
 ||projectarrhythmia.fandom.com^
 ||projectmalice.fandom.com^
 ||projectmoon.fandom.com^
@@ -894,6 +912,7 @@
 ||python.fandom.com/wiki^
 ||quasimorph.fandom.com^
 ||rabbitandsteel.fandom.com/wiki^
+||raccoin.fandom.com/wiki^
 ||racingvtuber-encyclopedia.fandom.com^
 ||radiance-projects.fandom.com^
 ||rain-web-comic.fandom.com/wiki^
@@ -929,6 +948,7 @@
 ||rlcraft.fandom.com^
 ||roblox-critical-strike.fandom.com/wiki^
 ||roblox-sc.fandom.com/wiki^
+||roblox-shipping-lanes.fandom.com/wiki^
 ||robloxarsenal.fandom.com/wiki^
 ||roboquest.fandom.com^
 ||rogue-legacy.fandom.com^
@@ -939,6 +959,7 @@
 ||roody2d.fandom.com^
 ||rootsofpacha.fandom.com^
 ||rsmc.fandom.com^
+||rt3.fandom.com/wiki^
 ||rumble.fandom.com^
 ||runescape.fandom.com/pt/wiki^
 ||runescape.fandom.com/wiki^
@@ -1003,6 +1024,7 @@
 ||smashbros.neoseeker.com/wiki^
 ||smile-for-me.fandom.com^
 ||sol-invictus.fandom.com^
+||somniumfiles.fandom.com/wiki^
 ||songs-of-syx.fandom.com/wiki^
 ||sonny.fandom.com^
 ||sons-of-valhalla.fandom.com/wiki^
@@ -1030,6 +1052,7 @@
 ||starbound.fandom.com/wiki^
 ||starcitizen.fandom.com/de/wiki^
 ||starcitizen.fandom.com/wiki^
+||stardew-valley-expanded.fandom.com/wiki^
 ||stardew-valley-fr.fandom.com/fr/wiki^
 ||stardewvalley.fandom.com/de/wiki^
 ||stardewvalley.fandom.com/es/wiki^
@@ -1050,8 +1073,11 @@
 ||stone-story-rpg.fandom.com/wiki^
 ||stormlightarchive.fandom.com/wiki^
 ||strinova.fandom.com^
+||styleboutique.fandom.com/wiki^
+||stylesavvy.fandom.com/wiki^
 ||subnautica-mods.fandom.com^
 ||subnautica.fandom.com/wiki^
+||subnautica2.fandom.com/wiki^
 ||sugary-spire.fandom.com^
 ||suikoden.fandom.com/wiki^
 ||sulfur.fandom.com^
@@ -1111,6 +1137,7 @@
 ||the-elder-scrolls.fandom.com/wiki^
 ||the-finals.fandom.com/wiki^
 ||the-fire-rises-unoffical-database.fandom.com/wiki^
+||the-hundred-line.fandom.com/wiki^
 ||the-infected.fandom.com^
 ||the-inner-world.fandom.com^
 ||the-lord-of-embers.fandom.com^
@@ -1120,6 +1147,7 @@
 ||the-new-order-last-days-of-europe.fandom.com^
 ||the-precinct.fandom.com^
 ||the-rewinder-game.fandom.com^
+||the-squishable.fandom.com/wiki^
 ||the-vales-end.fandom.com^
 ||the-void-rains-upon-her-heart.fandom.com^
 ||the-walten-files-new.fandom.com^
@@ -1135,6 +1163,7 @@
 ||thestanleyparable.fandom.com^
 ||thevoid.fandom.com^
 ||thewanderinginn.fandom.com/wiki^
+||theworldendswithyou.neoseeker.com/wiki^
 ||theymightbegiants.fandom.com/wiki^
 ||thoriummod.fandom.com^
 ||thunderbolt-fantasy.fandom.com/wiki^
@@ -1202,9 +1231,12 @@
 ||undertale.fandom.com/wiki^
 ||undertale.fandom.com/zh/wiki^
 ||undertaleyellow.fandom.com^
+||unforgotten-realms-live.fandom.com/wiki^
 ||universalunion.fandom.com/wiki^
+||unofficialrgd.fandom.com/wiki^
 ||unrealworld.fandom.com/wiki^
 ||unturned.fandom.com^
+||urealms-live.fandom.com/wiki^
 ||urge.fandom.com^
 ||usagishima.fandom.com/wiki^
 ||usi.fandom.com/wiki^
@@ -1249,6 +1281,7 @@
 ||white-knuckle.fandom.com/wiki^
 ||whoniverse.fandom.com/wiki^
 ||wiki-arcane.fandom.com/fr/wiki^
+||wikiaforge.fandom.com/wiki^
 ||wildfire.fandom.com^
 ||wildfrost.fandom.com/wiki^
 ||willyousnail.fandom.com^
@@ -1305,3 +1338,4 @@
 ||zeldacraft.fandom.com^
 ||zeldatearsofthekingdom.wiki.fextralife.com^
 ||zeroranger.fandom.com/wiki^
+||zootycoon.fandom.com/wiki^

@@ -14,6 +14,8 @@
 ::1 www.2xko.fandom.com
 ::1 7daystodie.fandom.com
 ::1 www.7daystodie.fandom.com
+::1 7thjojo.fandom.com
+::1 www.7thjojo.fandom.com
 ::1 9kings.fandom.com
 ::1 www.9kings.fandom.com
 ::1 a-chorus-of-dragons.fandom.com
@@ -64,6 +66,8 @@
 ::1 www.akudamadrive.fandom.com
 ::1 albionworld.fandom.com
 ::1 www.albionworld.fandom.com
+::1 ale-and-tale-tavern.fandom.com
+::1 www.ale-and-tale-tavern.fandom.com
 ::1 alekon.fandom.com
 ::1 www.alekon.fandom.com
 ::1 almost-a-hero.fandom.com
@@ -254,6 +258,8 @@
 ::1 www.block-n-load-2.fandom.com
 ::1 block-story.fandom.com
 ::1 www.block-story.fandom.com
+::1 blockate.fandom.com
+::1 www.blockate.fandom.com
 ::1 blockfrontmc.fandom.com
 ::1 www.blockfrontmc.fandom.com
 ::1 blockstarplanet.fandom.com
@@ -526,6 +532,8 @@
 ::1 www.densha-de-go.fandom.com
 ::1 derailvalley.fandom.com
 ::1 www.derailvalley.fandom.com
+::1 desert-bus.fandom.com
+::1 www.desert-bus.fandom.com
 ::1 destiny.fandom.com
 ::1 www.destiny.fandom.com
 ::1 destiny.neoseeker.com
@@ -546,6 +554,8 @@
 ::1 www.diceblock.fandom.com
 ::1 dicefolk.fandom.com
 ::1 www.dicefolk.fandom.com
+::1 digdug.fandom.com
+::1 www.digdug.fandom.com
 ::1 digimon.fandom.com
 ::1 www.digimon.fandom.com
 ::1 digimon.neoseeker.com
@@ -636,6 +646,8 @@
 ::1 www.dredgers.fandom.com
 ::1 drug-dealer-simulator-2.fandom.com
 ::1 www.drug-dealer-simulator-2.fandom.com
+::1 duneawakening.fandom.com
+::1 www.duneawakening.fandom.com
 ::1 dungeon-now-loading.fandom.com
 ::1 www.dungeon-now-loading.fandom.com
 ::1 dungeondefenders.fandom.com
@@ -696,6 +708,8 @@
 ::1 www.endlessdungeon.fandom.com
 ::1 endlesslegend.fandom.com
 ::1 www.endlesslegend.fandom.com
+::1 enfosi.fandom.com
+::1 www.enfosi.fandom.com
 ::1 enshrouded.fandom.com
 ::1 www.enshrouded.fandom.com
 ::1 enterthegungeon.fandom.com
@@ -832,6 +846,8 @@
 ::1 www.fzero.fandom.com
 ::1 fzero.neoseeker.com
 ::1 www.fzero.neoseeker.com
+::1 ga2dojo.fandom.com
+::1 www.ga2dojo.fandom.com
 ::1 gagharv.fandom.com
 ::1 www.gagharv.fandom.com
 ::1 galactica.fandom.com
@@ -1014,12 +1030,16 @@
 ::1 www.houkai2nd.fandom.com
 ::1 houseflipper.fandom.com
 ::1 www.houseflipper.fandom.com
+::1 hunter-the-parenting.fandom.com
+::1 www.hunter-the-parenting.fandom.com
 ::1 hyblock.fandom.com
 ::1 www.hyblock.fandom.com
 ::1 hyboriangates.fandom.com
 ::1 www.hyboriangates.fandom.com
 ::1 hybridanimals.fandom.com
 ::1 www.hybridanimals.fandom.com
+::1 hyperdimensionneptunia.fandom.com
+::1 www.hyperdimensionneptunia.fandom.com
 ::1 hyperlightbreaker.fandom.com
 ::1 www.hyperlightbreaker.fandom.com
 ::1 hyperrogue.fandom.com
@@ -1154,6 +1174,8 @@
 ::1 www.kitatcho-labs.fandom.com
 ::1 kletka-enoffical.fandom.com
 ::1 www.kletka-enoffical.fandom.com
+::1 klonoa.fandom.com
+::1 www.klonoa.fandom.com
 ::1 knighthood.fandom.com
 ::1 www.knighthood.fandom.com
 ::1 knucklecracker.fandom.com
@@ -1218,6 +1240,8 @@
 ::1 www.lightnofire.fandom.com
 ::1 lightskies.fandom.com
 ::1 www.lightskies.fandom.com
+::1 lightyear-frontier.fandom.com
+::1 www.lightyear-frontier.fandom.com
 ::1 lilium.fandom.com
 ::1 www.lilium.fandom.com
 ::1 limbuscompany.fandom.com
@@ -1380,6 +1404,8 @@
 ::1 www.minicraft.fandom.com
 ::1 minihealer.fandom.com
 ::1 www.minihealer.fandom.com
+::1 mio-memories-in-orbit.fandom.com
+::1 www.mio-memories-in-orbit.fandom.com
 ::1 miside.fandom.com
 ::1 www.miside.fandom.com
 ::1 mist-train-girls.fandom.com
@@ -1418,6 +1444,8 @@
 ::1 www.mother.neoseeker.com
 ::1 mr-love-queens-choice.fandom.com
 ::1 www.mr-love-queens-choice.fandom.com
+::1 mrdriller.fandom.com
+::1 www.mrdriller.fandom.com
 ::1 mtg.fandom.com
 ::1 www.mtg.fandom.com
 ::1 mtg.neoseeker.com
@@ -1444,6 +1472,8 @@
 ::1 www.needy-streamer-overload.fandom.com
 ::1 neocron-guide.fandom.com
 ::1 www.neocron-guide.fandom.com
+::1 neptunia.fandom.com
+::1 www.neptunia.fandom.com
 ::1 nethack.fandom.com
 ::1 www.nethack.fandom.com
 ::1 neutronized.fandom.com
@@ -1470,6 +1500,8 @@
 ::1 www.nitrome.fandom.com
 ::1 nivalisgame.fandom.com
 ::1 www.nivalisgame.fandom.com
+::1 noisz.fandom.com
+::1 www.noisz.fandom.com
 ::1 noita.fandom.com
 ::1 www.noita.fandom.com
 ::1 norland.fandom.com
@@ -1588,6 +1620,8 @@
 ::1 www.pikmin.neoseeker.com
 ::1 pikminfanon.fandom.com
 ::1 www.pikminfanon.fandom.com
+::1 pilgrammed-rblx.fandom.com
+::1 www.pilgrammed-rblx.fandom.com
 ::1 pixarcars.fandom.com
 ::1 www.pixarcars.fandom.com
 ::1 pixel-tribe.fandom.com
@@ -1656,6 +1690,8 @@
 ::1 www.project-gorgon.fandom.com
 ::1 project-mili.fandom.com
 ::1 www.project-mili.fandom.com
+::1 project-silverfish.fandom.com
+::1 www.project-silverfish.fandom.com
 ::1 projectarrhythmia.fandom.com
 ::1 www.projectarrhythmia.fandom.com
 ::1 projectmalice.fandom.com
@@ -1688,6 +1724,8 @@
 ::1 www.quasimorph.fandom.com
 ::1 rabbitandsteel.fandom.com
 ::1 www.rabbitandsteel.fandom.com
+::1 raccoin.fandom.com
+::1 www.raccoin.fandom.com
 ::1 racingvtuber-encyclopedia.fandom.com
 ::1 www.racingvtuber-encyclopedia.fandom.com
 ::1 radiance-projects.fandom.com
@@ -1756,6 +1794,8 @@
 ::1 www.roblox-critical-strike.fandom.com
 ::1 roblox-sc.fandom.com
 ::1 www.roblox-sc.fandom.com
+::1 roblox-shipping-lanes.fandom.com
+::1 www.roblox-shipping-lanes.fandom.com
 ::1 robloxarsenal.fandom.com
 ::1 www.robloxarsenal.fandom.com
 ::1 roboquest.fandom.com
@@ -1776,6 +1816,8 @@
 ::1 www.rootsofpacha.fandom.com
 ::1 rsmc.fandom.com
 ::1 www.rsmc.fandom.com
+::1 rt3.fandom.com
+::1 www.rt3.fandom.com
 ::1 rumble.fandom.com
 ::1 www.rumble.fandom.com
 ::1 runescape.fandom.com
@@ -1896,6 +1938,8 @@
 ::1 www.smile-for-me.fandom.com
 ::1 sol-invictus.fandom.com
 ::1 www.sol-invictus.fandom.com
+::1 somniumfiles.fandom.com
+::1 www.somniumfiles.fandom.com
 ::1 songs-of-syx.fandom.com
 ::1 www.songs-of-syx.fandom.com
 ::1 sonny.fandom.com
@@ -1944,6 +1988,8 @@
 ::1 www.starbound.fandom.com
 ::1 starcitizen.fandom.com
 ::1 www.starcitizen.fandom.com
+::1 stardew-valley-expanded.fandom.com
+::1 www.stardew-valley-expanded.fandom.com
 ::1 stardew-valley-fr.fandom.com
 ::1 www.stardew-valley-fr.fandom.com
 ::1 stardewvalley.fandom.com
@@ -1978,10 +2024,16 @@
 ::1 www.stormlightarchive.fandom.com
 ::1 strinova.fandom.com
 ::1 www.strinova.fandom.com
+::1 styleboutique.fandom.com
+::1 www.styleboutique.fandom.com
+::1 stylesavvy.fandom.com
+::1 www.stylesavvy.fandom.com
 ::1 subnautica-mods.fandom.com
 ::1 www.subnautica-mods.fandom.com
 ::1 subnautica.fandom.com
 ::1 www.subnautica.fandom.com
+::1 subnautica2.fandom.com
+::1 www.subnautica2.fandom.com
 ::1 sugary-spire.fandom.com
 ::1 www.sugary-spire.fandom.com
 ::1 suikoden.fandom.com
@@ -2090,6 +2142,8 @@
 ::1 www.the-finals.fandom.com
 ::1 the-fire-rises-unoffical-database.fandom.com
 ::1 www.the-fire-rises-unoffical-database.fandom.com
+::1 the-hundred-line.fandom.com
+::1 www.the-hundred-line.fandom.com
 ::1 the-infected.fandom.com
 ::1 www.the-infected.fandom.com
 ::1 the-inner-world.fandom.com
@@ -2108,6 +2162,8 @@
 ::1 www.the-precinct.fandom.com
 ::1 the-rewinder-game.fandom.com
 ::1 www.the-rewinder-game.fandom.com
+::1 the-squishable.fandom.com
+::1 www.the-squishable.fandom.com
 ::1 the-vales-end.fandom.com
 ::1 www.the-vales-end.fandom.com
 ::1 the-void-rains-upon-her-heart.fandom.com
@@ -2138,6 +2194,8 @@
 ::1 www.thevoid.fandom.com
 ::1 thewanderinginn.fandom.com
 ::1 www.thewanderinginn.fandom.com
+::1 theworldendswithyou.neoseeker.com
+::1 www.theworldendswithyou.neoseeker.com
 ::1 theymightbegiants.fandom.com
 ::1 www.theymightbegiants.fandom.com
 ::1 thoriummod.fandom.com
@@ -2254,12 +2312,18 @@
 ::1 www.undertale.fandom.com
 ::1 undertaleyellow.fandom.com
 ::1 www.undertaleyellow.fandom.com
+::1 unforgotten-realms-live.fandom.com
+::1 www.unforgotten-realms-live.fandom.com
 ::1 universalunion.fandom.com
 ::1 www.universalunion.fandom.com
+::1 unofficialrgd.fandom.com
+::1 www.unofficialrgd.fandom.com
 ::1 unrealworld.fandom.com
 ::1 www.unrealworld.fandom.com
 ::1 unturned.fandom.com
 ::1 www.unturned.fandom.com
+::1 urealms-live.fandom.com
+::1 www.urealms-live.fandom.com
 ::1 urge.fandom.com
 ::1 www.urge.fandom.com
 ::1 usagishima.fandom.com
@@ -2346,6 +2410,8 @@
 ::1 www.whoniverse.fandom.com
 ::1 wiki-arcane.fandom.com
 ::1 www.wiki-arcane.fandom.com
+::1 wikiaforge.fandom.com
+::1 www.wikiaforge.fandom.com
 ::1 wildfire.fandom.com
 ::1 www.wildfire.fandom.com
 ::1 wildfrost.fandom.com
@@ -2454,3 +2520,5 @@
 ::1 www.zeldatearsofthekingdom.wiki.fextralife.com
 ::1 zeroranger.fandom.com
 ::1 www.zeroranger.fandom.com
+::1 zootycoon.fandom.com
+::1 www.zootycoon.fandom.com
