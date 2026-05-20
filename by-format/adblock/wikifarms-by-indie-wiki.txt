@@ -731,6 +731,7 @@
 ||shroudoftheavatar.fandom.com/wiki^
 ||signalis.fandom.com/wiki^
 ||siivagunner.fandom.com/wiki^
+||simple-english-pou.fandom.com/wiki^
 ||simpsons.fandom.com/de/wiki^
 ||simpsons.fandom.com/sv/wiki^
 ||simpsons.fandom.com/wiki^
@@ -918,6 +919,7 @@
 ||utaite.fandom.com/wiki^
 ||utanoprincesama.fandom.com/wiki^
 ||utg.fandom.com/wiki^
+||valorant.fandom.com/wiki^
 ||vampire-survivors.fandom.com/wiki^
 ||vaporwave.fandom.com/wiki^
 ||vectorio.fandom.com/wiki^

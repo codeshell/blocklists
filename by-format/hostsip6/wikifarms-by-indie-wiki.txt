@@ -1312,6 +1312,8 @@
 ::1 www.signalis.fandom.com
 ::1 siivagunner.fandom.com
 ::1 www.siivagunner.fandom.com
+::1 simple-english-pou.fandom.com
+::1 www.simple-english-pou.fandom.com
 ::1 simpsons.fandom.com
 ::1 www.simpsons.fandom.com
 ::1 simpsons.neoseeker.com
@@ -1616,6 +1618,8 @@
 ::1 www.utanoprincesama.fandom.com
 ::1 utg.fandom.com
 ::1 www.utg.fandom.com
+::1 valorant.fandom.com
+::1 www.valorant.fandom.com
 ::1 vampire-survivors.fandom.com
 ::1 www.vampire-survivors.fandom.com
 ::1 vaporwave.fandom.com
