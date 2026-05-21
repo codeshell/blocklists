@@ -590,6 +590,7 @@
 "*://*.projectsekai.fandom.com/*",
 "*://*.projectwingman.fandom.com/*",
 "*://*.projectzomboid.fandom.com/*",
+"*://*.projoot-testing.fandom.com/*",
 "*://*.protochroma.fandom.com/*",
 "*://*.pubg.fandom.com/*",
 "*://*.pvz-fusion.fandom.com/*",

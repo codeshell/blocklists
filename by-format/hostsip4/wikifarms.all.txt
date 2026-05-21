@@ -1704,6 +1704,8 @@
 0.0.0.0 www.projectwingman.fandom.com
 0.0.0.0 projectzomboid.fandom.com
 0.0.0.0 www.projectzomboid.fandom.com
+0.0.0.0 projoot-testing.fandom.com
+0.0.0.0 www.projoot-testing.fandom.com
 0.0.0.0 protochroma.fandom.com
 0.0.0.0 www.protochroma.fandom.com
 0.0.0.0 pubg.fandom.com

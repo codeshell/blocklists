@@ -662,6 +662,7 @@
 ||projectsekai.fandom.com/wiki^
 ||projectwingman.fandom.com/wiki^
 ||projectzomboid.fandom.com/wiki^
+||projoot-testing.fandom.com/wiki^
 ||protochroma.fandom.com/wiki^
 ||pubg.fandom.com/wiki^
 ||pvz-fusion.fandom.com/wiki^

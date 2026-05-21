@@ -590,6 +590,7 @@ address=/project-silverfish.fandom.com/
 address=/projectsekai.fandom.com/
 address=/projectwingman.fandom.com/
 address=/projectzomboid.fandom.com/
+address=/projoot-testing.fandom.com/
 address=/protochroma.fandom.com/
 address=/pubg.fandom.com/
 address=/pvz-fusion.fandom.com/

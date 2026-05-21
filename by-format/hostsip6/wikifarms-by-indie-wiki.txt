@@ -1182,6 +1182,8 @@
 ::1 www.projectwingman.fandom.com
 ::1 projectzomboid.fandom.com
 ::1 www.projectzomboid.fandom.com
+::1 projoot-testing.fandom.com
+::1 www.projoot-testing.fandom.com
 ::1 protochroma.fandom.com
 ::1 www.protochroma.fandom.com
 ::1 pubg.fandom.com

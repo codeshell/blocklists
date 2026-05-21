@@ -908,6 +908,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.projectsekai.fandom.com/wiki/*
 *://*.projectwingman.fandom.com/*
 *://*.projectzomboid.fandom.com/wiki/*
+*://*.projoot-testing.fandom.com/wiki/*
 *://*.protochroma.fandom.com/wiki/*
 *://*.pubg.fandom.com/*
 *://*.punch-club.fandom.com/*
