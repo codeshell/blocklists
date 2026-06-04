@@ -181,3 +181,16 @@
     }
   ]
 },
+{
+  "date": "2026-06-04T14:10:33+00:00",
+  "changes": 1,
+  "removed": [],
+  "added": [],
+  "updated": [
+    {
+      "path": "sitesEN.json",
+      "sha": "6965d12161df5c000dd7d430124384cacfa7003c",
+      "size": 483814
+    }
+  ]
+},
