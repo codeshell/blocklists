@@ -102,6 +102,7 @@
 ||bandori.fandom.com/wiki^
 ||banjokazooie.fandom.com/wiki^
 ||banjokazooie.neoseeker.com/wiki^
+||baronygame.fandom.com/wiki^
 ||barotrauma.fandom.com/wiki^
 ||baslag.fandom.com^
 ||battle-cats.fandom.com/wiki^
@@ -1062,6 +1063,7 @@
 ||starfield.fandom.com/wiki^
 ||starfield.wiki.fextralife.com^
 ||starfighter-infinity.fandom.com^
+||starfox.fandom.com/fr/wiki^
 ||starfy.fandom.com/wiki^
 ||starparty.fandom.com^
 ||starripedia.fandom.com^

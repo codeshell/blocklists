@@ -96,6 +96,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.bandori.fandom.com/wiki/*
 *://*.banjokazooie.fandom.com/wiki/*
 *://*.banjokazooie.neoseeker.com/wiki/*
+*://*.baronygame.fandom.com/wiki/*
 *://*.barotrauma.fandom.com/wiki/*
 *://*.battle-cats.fandom.com/wiki/*
 *://*.battlebit.fandom.com/wiki/*
@@ -787,6 +788,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.stardewvalley.fandom.com/wiki/*
 *://*.starfield.fandom.com/wiki/*
 *://*.starfield.wiki.fextralife.com/*
+*://*.starfox.fandom.com/fr/wiki/*
 *://*.starfy.fandom.com/wiki/*
 *://*.starsector.fandom.com/wiki/*
 *://*.starwars.fandom.com/fi/wiki/*

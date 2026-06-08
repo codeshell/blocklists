@@ -202,6 +202,8 @@
 0.0.0.0 www.banjokazooie.fandom.com
 0.0.0.0 banjokazooie.neoseeker.com
 0.0.0.0 www.banjokazooie.neoseeker.com
+0.0.0.0 baronygame.fandom.com
+0.0.0.0 www.baronygame.fandom.com
 0.0.0.0 barotrauma.fandom.com
 0.0.0.0 www.barotrauma.fandom.com
 0.0.0.0 baslag.fandom.com
@@ -2004,6 +2006,8 @@
 0.0.0.0 www.starfield.wiki.fextralife.com
 0.0.0.0 starfighter-infinity.fandom.com
 0.0.0.0 www.starfighter-infinity.fandom.com
+0.0.0.0 starfox.fandom.com
+0.0.0.0 www.starfox.fandom.com
 0.0.0.0 starfy.fandom.com
 0.0.0.0 www.starfy.fandom.com
 0.0.0.0 starparty.fandom.com

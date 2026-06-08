@@ -202,6 +202,8 @@
 ::1 www.banjokazooie.fandom.com
 ::1 banjokazooie.neoseeker.com
 ::1 www.banjokazooie.neoseeker.com
+::1 baronygame.fandom.com
+::1 www.baronygame.fandom.com
 ::1 barotrauma.fandom.com
 ::1 www.barotrauma.fandom.com
 ::1 baslag.fandom.com
@@ -2004,6 +2006,8 @@
 ::1 www.starfield.wiki.fextralife.com
 ::1 starfighter-infinity.fandom.com
 ::1 www.starfighter-infinity.fandom.com
+::1 starfox.fandom.com
+::1 www.starfox.fandom.com
 ::1 starfy.fandom.com
 ::1 www.starfy.fandom.com
 ::1 starparty.fandom.com
