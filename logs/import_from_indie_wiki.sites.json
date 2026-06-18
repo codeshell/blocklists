@@ -1,6 +1,6 @@
 {
-  "sha": "21e837fed73403ac6b0603a54ce18a68fe63015d",
-  "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/trees/21e837fed73403ac6b0603a54ce18a68fe63015d",
+  "sha": "b4a0524f02638e77e1d9749258516b8dcbe2bfbb",
+  "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/trees/b4a0524f02638e77e1d9749258516b8dcbe2bfbb",
   "tree": [
     {
       "path": "sitesCA.json",
@@ -22,9 +22,9 @@
       "path": "sitesEN.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "fa3887da22400d2ba32f0fc9bfd3576d9cb39b28",
-      "size": 484474,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/fa3887da22400d2ba32f0fc9bfd3576d9cb39b28"
+      "sha": "40cd94f49e4187955009b519aab1a40f910db1e5",
+      "size": 485128,
+      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/40cd94f49e4187955009b519aab1a40f910db1e5"
     },
     {
       "path": "sitesES.json",

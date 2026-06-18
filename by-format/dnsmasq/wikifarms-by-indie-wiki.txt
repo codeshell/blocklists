@@ -60,6 +60,7 @@ address=/astrea-sso.fandom.com/
 address=/astroneer.fandom.com/
 address=/atelier.fandom.com/
 address=/atlyss.fandom.com/
+address=/attuproject.fandom.com/
 address=/azumanga.fandom.com/
 address=/azur-lane.fandom.com/
 address=/b3313.fandom.com/

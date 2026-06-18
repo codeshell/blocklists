@@ -80,6 +80,7 @@
 "*://*.astroneer.fandom.com/*",
 "*://*.atelier.fandom.com/*",
 "*://*.atlyss.fandom.com/*",
+"*://*.attuproject.fandom.com/*",
 "*://*.aurorawebcomic.fandom.com/*",
 "*://*.autoforge.fandom.com/*",
 "*://*.automobilista-2.fandom.com/*",

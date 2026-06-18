@@ -88,6 +88,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.astroneer.fandom.com/*
 *://*.atelier.fandom.com/*
 *://*.atlyss.fandom.com/wiki/*
+*://*.attuproject.fandom.com/wiki/*
 *://*.aurorawebcomic.fandom.com/*
 *://*.autoforge.fandom.com/*
 *://*.automobilista-2.fandom.com/*

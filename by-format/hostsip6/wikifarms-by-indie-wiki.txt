@@ -122,6 +122,8 @@
 ::1 www.atelier.fandom.com
 ::1 atlyss.fandom.com
 ::1 www.atlyss.fandom.com
+::1 attuproject.fandom.com
+::1 www.attuproject.fandom.com
 ::1 azumanga.fandom.com
 ::1 www.azumanga.fandom.com
 ::1 azur-lane.fandom.com

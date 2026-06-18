@@ -80,6 +80,7 @@ address=/astrea-sso.fandom.com/
 address=/astroneer.fandom.com/
 address=/atelier.fandom.com/
 address=/atlyss.fandom.com/
+address=/attuproject.fandom.com/
 address=/aurorawebcomic.fandom.com/
 address=/autoforge.fandom.com/
 address=/automobilista-2.fandom.com/

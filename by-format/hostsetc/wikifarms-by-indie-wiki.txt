@@ -60,6 +60,7 @@
 "*://*.astroneer.fandom.com/*",
 "*://*.atelier.fandom.com/*",
 "*://*.atlyss.fandom.com/*",
+"*://*.attuproject.fandom.com/*",
 "*://*.azumanga.fandom.com/*",
 "*://*.azur-lane.fandom.com/*",
 "*://*.b3313.fandom.com/*",

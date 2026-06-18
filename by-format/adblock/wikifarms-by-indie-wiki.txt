@@ -74,6 +74,7 @@
 ||astroneer.fandom.com/wiki^
 ||atelier.fandom.com/wiki^
 ||atlyss.fandom.com/wiki^
+||attuproject.fandom.com/wiki^
 ||azumanga.fandom.com/wiki^
 ||azur-lane.fandom.com/wiki^
 ||b3313.fandom.com/wiki^

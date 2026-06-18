@@ -162,6 +162,8 @@
 ::1 www.atelier.fandom.com
 ::1 atlyss.fandom.com
 ::1 www.atlyss.fandom.com
+::1 attuproject.fandom.com
+::1 www.attuproject.fandom.com
 ::1 aurorawebcomic.fandom.com
 ::1 www.aurorawebcomic.fandom.com
 ::1 autoforge.fandom.com
