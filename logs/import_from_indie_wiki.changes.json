@@ -225,3 +225,26 @@
     }
   ]
 },
+{
+  "date": "2026-08-11T11:56:34+00:00",
+  "changes": 3,
+  "removed": [],
+  "added": [],
+  "updated": [
+    {
+      "path": "sitesEN.json",
+      "sha": "0bf278422c6a839a8c99a3e1393e49107d7fb5a2",
+      "size": 487295
+    },
+    {
+      "path": "sitesPT.json",
+      "sha": "04722aa04b968581abd100c4b414560e606d6246",
+      "size": 6376
+    },
+    {
+      "path": "sitesZH.json",
+      "sha": "d12b30f88031db3481876ebfc7628fa78c020c4f",
+      "size": 9362
+    }
+  ]
+},

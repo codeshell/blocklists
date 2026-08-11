@@ -128,8 +128,6 @@
 0.0.0.0 www.azumanga.fandom.com
 0.0.0.0 azur-lane.fandom.com
 0.0.0.0 www.azur-lane.fandom.com
-0.0.0.0 b3313.fandom.com
-0.0.0.0 www.b3313.fandom.com
 0.0.0.0 backpack-battles.fandom.com
 0.0.0.0 www.backpack-battles.fandom.com
 0.0.0.0 backpack-hero.fandom.com
@@ -324,6 +322,8 @@
 0.0.0.0 www.dancedancerevolution.fandom.com
 0.0.0.0 danmachi.fandom.com
 0.0.0.0 www.danmachi.fandom.com
+0.0.0.0 dantdm.fandom.com
+0.0.0.0 www.dantdm.fandom.com
 0.0.0.0 daria.fandom.com
 0.0.0.0 www.daria.fandom.com
 0.0.0.0 dark-and-darker.fandom.com
@@ -1080,6 +1080,8 @@
 0.0.0.0 www.outotsuyume.fandom.com
 0.0.0.0 outward.fandom.com
 0.0.0.0 www.outward.fandom.com
+0.0.0.0 overwatch.fandom.com
+0.0.0.0 www.overwatch.fandom.com
 0.0.0.0 oxygennotincluded.fandom.com
 0.0.0.0 www.oxygennotincluded.fandom.com
 0.0.0.0 p-infinity.fandom.com
@@ -1094,6 +1096,8 @@
 0.0.0.0 www.palworld.fandom.com
 0.0.0.0 papermario.fandom.com
 0.0.0.0 www.papermario.fandom.com
+0.0.0.0 papers-pls.fandom.com
+0.0.0.0 www.papers-pls.fandom.com
 0.0.0.0 parkour-reborn.fandom.com
 0.0.0.0 www.parkour-reborn.fandom.com
 0.0.0.0 partizan.fandom.com
@@ -1626,6 +1630,8 @@
 0.0.0.0 www.utanoprincesama.fandom.com
 0.0.0.0 utg.fandom.com
 0.0.0.0 www.utg.fandom.com
+0.0.0.0 valorant-lore.fandom.com
+0.0.0.0 www.valorant-lore.fandom.com
 0.0.0.0 valorant.fandom.com
 0.0.0.0 www.valorant.fandom.com
 0.0.0.0 vampire-survivors.fandom.com
@@ -1730,6 +1736,8 @@
 0.0.0.0 www.yiikapostmodernrpg.fandom.com
 0.0.0.0 yohaji.fandom.com
 0.0.0.0 www.yohaji.fandom.com
+0.0.0.0 you-shou-yan.fandom.com
+0.0.0.0 www.you-shou-yan.fandom.com
 0.0.0.0 yugioh-5ds.fandom.com
 0.0.0.0 www.yugioh-5ds.fandom.com
 0.0.0.0 yugioh-arcv.fandom.com

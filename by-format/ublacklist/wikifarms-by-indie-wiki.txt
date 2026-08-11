@@ -83,7 +83,6 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.attuproject.fandom.com/wiki/*
 *://*.azumanga.fandom.com/wiki/*
 *://*.azur-lane.fandom.com/wiki/*
-*://*.b3313.fandom.com/wiki/*
 *://*.backpack-battles.fandom.com/wiki/*
 *://*.backpack-hero.fandom.com/wiki/*
 *://*.bakugan.fandom.com/wiki/*
@@ -186,6 +185,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.dancedancerevolution.fandom.com/wiki/*
 *://*.danmachi.fandom.com/es/wiki/*
 *://*.danmachi.fandom.com/wiki/*
+*://*.dantdm.fandom.com/wiki/*
 *://*.daria.fandom.com/wiki/*
 *://*.dark-and-darker.fandom.com/wiki/*
 *://*.darkage-bizarre.fandom.com/wiki/*
@@ -607,6 +607,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.otherkin.fandom.com/wiki/*
 *://*.outotsuyume.fandom.com/wiki/*
 *://*.outward.fandom.com/wiki/*
+*://*.overwatch.fandom.com/wiki/*
 *://*.oxygennotincluded.fandom.com/wiki/*
 *://*.p-infinity.fandom.com/wiki/*
 *://*.pacific-drive.fandom.com/wiki/*
@@ -614,6 +615,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.palia.fandom.com/wiki/*
 *://*.palworld.fandom.com/wiki/*
 *://*.papermario.fandom.com/wiki/*
+*://*.papers-pls.fandom.com/wiki/*
 *://*.parkour-reborn.fandom.com/wiki/*
 *://*.partizan.fandom.com/wiki/*
 *://*.path-of-achra.fandom.com/wiki/*
@@ -929,6 +931,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.utaite.fandom.com/wiki/*
 *://*.utanoprincesama.fandom.com/wiki/*
 *://*.utg.fandom.com/wiki/*
+*://*.valorant-lore.fandom.com/wiki/*
 *://*.valorant.fandom.com/wiki/*
 *://*.vampire-survivors.fandom.com/wiki/*
 *://*.vaporwave.fandom.com/wiki/*
@@ -982,6 +985,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.xyy.fandom.com/wiki/*
 *://*.yiikapostmodernrpg.fandom.com/wiki/*
 *://*.yohaji.fandom.com/wiki/*
+*://*.you-shou-yan.fandom.com/wiki/*
 *://*.yugioh-5ds.fandom.com/wiki/*
 *://*.yugioh-arcv.fandom.com/wiki/*
 *://*.yugioh-duel-monsters.fandom.com/wiki/*

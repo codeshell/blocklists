@@ -128,8 +128,6 @@
 ::1 www.azumanga.fandom.com
 ::1 azur-lane.fandom.com
 ::1 www.azur-lane.fandom.com
-::1 b3313.fandom.com
-::1 www.b3313.fandom.com
 ::1 backpack-battles.fandom.com
 ::1 www.backpack-battles.fandom.com
 ::1 backpack-hero.fandom.com
@@ -324,6 +322,8 @@
 ::1 www.dancedancerevolution.fandom.com
 ::1 danmachi.fandom.com
 ::1 www.danmachi.fandom.com
+::1 dantdm.fandom.com
+::1 www.dantdm.fandom.com
 ::1 daria.fandom.com
 ::1 www.daria.fandom.com
 ::1 dark-and-darker.fandom.com
@@ -1080,6 +1080,8 @@
 ::1 www.outotsuyume.fandom.com
 ::1 outward.fandom.com
 ::1 www.outward.fandom.com
+::1 overwatch.fandom.com
+::1 www.overwatch.fandom.com
 ::1 oxygennotincluded.fandom.com
 ::1 www.oxygennotincluded.fandom.com
 ::1 p-infinity.fandom.com
@@ -1094,6 +1096,8 @@
 ::1 www.palworld.fandom.com
 ::1 papermario.fandom.com
 ::1 www.papermario.fandom.com
+::1 papers-pls.fandom.com
+::1 www.papers-pls.fandom.com
 ::1 parkour-reborn.fandom.com
 ::1 www.parkour-reborn.fandom.com
 ::1 partizan.fandom.com
@@ -1626,6 +1630,8 @@
 ::1 www.utanoprincesama.fandom.com
 ::1 utg.fandom.com
 ::1 www.utg.fandom.com
+::1 valorant-lore.fandom.com
+::1 www.valorant-lore.fandom.com
 ::1 valorant.fandom.com
 ::1 www.valorant.fandom.com
 ::1 vampire-survivors.fandom.com
@@ -1730,6 +1736,8 @@
 ::1 www.yiikapostmodernrpg.fandom.com
 ::1 yohaji.fandom.com
 ::1 www.yohaji.fandom.com
+::1 you-shou-yan.fandom.com
+::1 www.you-shou-yan.fandom.com
 ::1 yugioh-5ds.fandom.com
 ::1 www.yugioh-5ds.fandom.com
 ::1 yugioh-arcv.fandom.com

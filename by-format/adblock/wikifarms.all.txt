@@ -88,7 +88,6 @@
 ||automobilista-2.fandom.com^
 ||azumanga.fandom.com/wiki^
 ||azur-lane.fandom.com/wiki^
-||b3313.fandom.com/wiki^
 ||backpack-battles.fandom.com^
 ||backpack-hero.fandom.com^
 ||bakegg.fandom.com^
@@ -240,6 +239,7 @@
 ||dancedancerevolution.fandom.com/wiki^
 ||danmachi.fandom.com/es/wiki^
 ||danmachi.fandom.com/wiki^
+||dantdm.fandom.com/wiki^
 ||daria.fandom.com/wiki^
 ||dark-and-darker.fandom.com/wiki^
 ||darkage-bizarre.fandom.com^
@@ -821,6 +821,7 @@
 ||outerverse.fandom.com^
 ||outotsuyume.fandom.com/wiki^
 ||outward.fandom.com^
+||overwatch.fandom.com/wiki^
 ||oxygennotincluded.fandom.com^
 ||p-infinity.fandom.com/wiki^
 ||pacific-drive.fandom.com/wiki^
@@ -829,6 +830,7 @@
 ||palworld.fandom.com^
 ||paper-planet.fandom.com^
 ||papermario.fandom.com/wiki^
+||papers-pls.fandom.com/wiki^
 ||paralives.fandom.com^
 ||parkour-reborn.fandom.com/wiki^
 ||partizan.fandom.com/wiki^
@@ -1248,6 +1250,7 @@
 ||utaite.fandom.com/wiki^
 ||utanoprincesama.fandom.com/wiki^
 ||utg.fandom.com/wiki^
+||valorant-lore.fandom.com/wiki^
 ||valorant.fandom.com/wiki^
 ||vampire-survivors.fandom.com/wiki^
 ||vangers.fandom.com^
@@ -1324,6 +1327,7 @@
 ||yohane-deepblue.fandom.com^
 ||yokaiwatch.fandom.com^
 ||yosakoi.fandom.com^
+||you-shou-yan.fandom.com/wiki^
 ||your-chronicle.fandom.com^
 ||yugioh-5ds.fandom.com/wiki^
 ||yugioh-arcv.fandom.com/wiki^

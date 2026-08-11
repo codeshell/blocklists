@@ -1,6 +1,6 @@
 {
-  "sha": "b4a0524f02638e77e1d9749258516b8dcbe2bfbb",
-  "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/trees/b4a0524f02638e77e1d9749258516b8dcbe2bfbb",
+  "sha": "75a1e2e4acc493364488407ea25ba038e6c10eab",
+  "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/trees/75a1e2e4acc493364488407ea25ba038e6c10eab",
   "tree": [
     {
       "path": "sitesCA.json",
@@ -22,9 +22,9 @@
       "path": "sitesEN.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "40cd94f49e4187955009b519aab1a40f910db1e5",
-      "size": 485128,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/40cd94f49e4187955009b519aab1a40f910db1e5"
+      "sha": "0bf278422c6a839a8c99a3e1393e49107d7fb5a2",
+      "size": 487295,
+      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/0bf278422c6a839a8c99a3e1393e49107d7fb5a2"
     },
     {
       "path": "sitesES.json",
@@ -118,9 +118,9 @@
       "path": "sitesPT.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "874e3bc574bee5d0c6f62dbda1097473c67f5fdd",
+      "sha": "04722aa04b968581abd100c4b414560e606d6246",
       "size": 6376,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/874e3bc574bee5d0c6f62dbda1097473c67f5fdd"
+      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/04722aa04b968581abd100c4b414560e606d6246"
     },
     {
       "path": "sitesRU.json",
@@ -174,9 +174,9 @@
       "path": "sitesZH.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "02051b46f577241dc24ea6985ee2e8cff08486ee",
-      "size": 9364,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/02051b46f577241dc24ea6985ee2e8cff08486ee"
+      "sha": "d12b30f88031db3481876ebfc7628fa78c020c4f",
+      "size": 9362,
+      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/d12b30f88031db3481876ebfc7628fa78c020c4f"
     }
   ],
   "truncated": false
