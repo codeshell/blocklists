@@ -111,7 +111,7 @@ def compare_url_subsets(main_str: str, search_str: str) -> bool:
 
 
 def write_list_from_lines(
-    filename: str, lines: list[str], args, header: list[str] = None, footer: list[str] = None
+    filename: str, lines: list[str], args, header: list[str] | None = None, footer: list[str] | None = None
 ) -> list[str]:
     """
     all lines need to pass here before being written so this is the best place

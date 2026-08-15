@@ -2,9 +2,10 @@
 
 import argparse
 import difflib
+import functools
+import operator
 import re
 from enum import Enum
-from os import error
 from pathlib import Path
 
 from helper import compare_url_subsets, write_list_from_lines
@@ -36,7 +37,7 @@ def get_source_file_lines(filename) -> list[str] | None:
     except FileNotFoundError:
         print(f"Please check existence of file {filename}.")
         return None
-    except error as e:
+    except OSError as e:
         print(f"File {filename} not loaded: {e}.")
         return None
 
@@ -47,7 +48,7 @@ def sanitize_lines(lines: list[str]) -> list[str]:
     They must be removed first because they will likely break the following string operations.
     Additionally (not! overwriting the default), this strips any leading and trailing slashes.
     """
-    return list(map(lambda x: x.strip().strip(r"\/ "), lines))
+    return [x.strip().strip(r"\/ ") for x in lines]
 
 
 def optimize_lines(lines: list[str]) -> list[str]:
@@ -149,12 +150,12 @@ class UnwantedSites:
         lines = self._lines
 
         path_pattern = re.compile(r"(?:.*://)?((?:[^/:?&]+/?)+)[?&]?.*")
-        lines = list(map(lambda x: re.match(path_pattern, x).group(1), lines))
+        lines = [re.match(path_pattern, x).group(1) for x in lines]
         self._notice_if_lines_adjusted(self.lines, lines)
         lines = optimize_lines(lines)
         self._lines_up_to_path = lines
 
-        lines = list(map(lambda x: re.match(r"[^\/:?]*", x).group(0), lines))
+        lines = [re.match(r"[^\/:?]*", x).group(0) for x in lines]
         lines = optimize_lines(lines)
         self._lines_up_to_domain = lines
 
@@ -172,7 +173,7 @@ def process_wiki_farm(lines: list[str], suffix: str, args: argparse.Namespace):
         case "-by-wiki-gg":
             description = "Wikifarms as identified by wiki.gg Redirect (https://www.wiki.gg/redirect)"
             lines = sanitize_lines(lines)
-            lines = list(map(lambda x: x + ".fandom.com", lines))
+            lines = [x + ".fandom.com" for x in lines]
         case "-by-indie-wiki":
             description = "Wikifarms as identified by Indie Wiki Buddy (https://getindie.wiki/)"
             lines = sanitize_lines(lines)
@@ -208,7 +209,7 @@ def generate_format(unwanted: UnwantedSites, custom_format: ListFormat, args: ar
     match custom_format:
         case ListFormat.UBLACKLIST:
             target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
-            target_lines = list(map(lambda x: "*://*." + x.strip() + "/*", unwanted.lines_up_to_path))
+            target_lines = ["*://*." + x.strip() + "/*" for x in unwanted.lines_up_to_path]
             header = []
             header.append("---")
             header.append(f"name: {unwanted.list_name}")
@@ -219,39 +220,29 @@ def generate_format(unwanted: UnwantedSites, custom_format: ListFormat, args: ar
             written_lines = write_list_from_lines(target_file, target_lines, args, header=header)
         case ListFormat.ADBLOCK:
             target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
-            target_lines = list(map(lambda x: "||" + x.strip() + "^", unwanted.lines_up_to_path))
+            target_lines = ["||" + x.strip() + "^" for x in unwanted.lines_up_to_path]
             written_lines = write_list_from_lines(target_file, target_lines, args)
         case ListFormat.DNSMASQ:
             target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
-            target_lines = list(map(lambda x: "address=/" + x.strip() + "/", unwanted.lines_up_to_subdomain))
+            target_lines = ["address=/" + x.strip() + "/" for x in unwanted.lines_up_to_subdomain]
             written_lines = write_list_from_lines(target_file, target_lines, args)
         case ListFormat.HOSTSETC:
             target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
-            target_lines = list(map(lambda x: '"*://*.' + x.strip() + '/*",', unwanted.lines_up_to_subdomain))
+            target_lines = ['"*://*.' + x.strip() + '/*",' for x in unwanted.lines_up_to_subdomain]
             written_lines = write_list_from_lines(target_file, target_lines, args)
         case ListFormat.HOSTSIP4:
             target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
-            target_lines = list(
-                map(
-                    lambda x: (
+            target_lines = [(
                         ("0.0.0.0 " + x.strip()).replace("0 www.", "0 ")
                         + ("\n0.0.0.0 www." + x.strip()).replace("0 www.www.", "0 www.")
-                    ),
-                    unwanted.lines_up_to_subdomain,
-                )
-            )
+                    ) for x in unwanted.lines_up_to_subdomain]
             written_lines = write_list_from_lines(target_file, target_lines, args)
         case ListFormat.HOSTSIP6:
             target_file = Path(FORMAT_PATH, custom_format.value, label + ".txt")
-            target_lines = list(
-                map(
-                    lambda x: (
+            target_lines = [(
                         ("::1 " + x.strip()).replace("1 www.", "1 ")
                         + ("\n::1 www." + x.strip()).replace("1 www.www.", "1 www.")
-                    ),
-                    unwanted.lines_up_to_subdomain,
-                )
-            )
+                    ) for x in unwanted.lines_up_to_subdomain]
             written_lines = write_list_from_lines(target_file, target_lines, args)
         case _:
             print(f"Format {custom_format} not implemented.")
@@ -307,7 +298,7 @@ def main():
 
         # process_wiki_farm(sorted(set(sum(bundle.values(), []))), ".all")
         # sorting will happen just before writing to file
-        process_wiki_farm(sum(bundle.values(), []), ".all", args=args)
+        process_wiki_farm(functools.reduce(operator.iadd, bundle.values(), []), ".all", args=args)
 
 
 if __name__ == "__main__":

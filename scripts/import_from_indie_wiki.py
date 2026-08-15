@@ -5,9 +5,8 @@ Datasource: https://github.com/KevinPayravi/indie-wiki-buddy
 
 import argparse
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from enum import Enum
-from os import error
 from pathlib import Path
 
 from helper import hash_file, hash_string, read_json_from_file, read_json_from_url
@@ -129,7 +128,7 @@ def remove_site_file(filename: Path):
         except FileNotFoundError:
             print(f"SKIP: {filename} does not exist.")
             return True
-        except error as e:
+        except OSError as e:
             print(f"ERROR: Failed to remove file {e}")
 
     return False
@@ -141,7 +140,7 @@ def get_sites_with_new_data(remote_sites_cleaned, local_sites_cleaned):
     and only return sites where the SHA hash does not match
     """
     sites_with_changes = {}
-    sites_with_changes[ChangeLog.DATE.value] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    sites_with_changes[ChangeLog.DATE.value] = datetime.now(UTC).isoformat(timespec="seconds")
     sites_with_changes[ChangeLog.CHANGES.value] = 0
     sites_with_changes[ChangeLog.REMOVED.value] = list(
         filter(
@@ -257,7 +256,7 @@ def clean_github_tree_list(tree):
     whitelist = ["path", "sha", "size"]
     # NOTE: WORKS as intended! Returns a list of reduced dictionaries
     # EXAMPLE: return list(map(lambda site: {k: site[k] for k in whitelist if k in site}, sites))
-    return list(map(lambda site: {k: site[k] for k in whitelist if k in site}, sites))
+    return [{k: site[k] for k in whitelist if k in site} for site in sites]
 
 
 def process_sites_with_changes(sites_with_changes: dict, args: argparse.Namespace) -> bool:
@@ -274,7 +273,7 @@ def process_sites_with_changes(sites_with_changes: dict, args: argparse.Namespac
     try:
         with open(IMPORT_HIST_FILE, "at", encoding="utf-8") as fp:
             fp.write(json.dumps(sites_with_changes, indent=2) + ",\n")
-    except error as e:
+    except OSError as e:
         print(f"Ignored: Something went wrong when writing the changelog. {e}")
 
     # NOTE: Everything, that does not allow to update the
