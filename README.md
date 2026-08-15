@@ -2,6 +2,7 @@
 
 [![Fetch updates](https://github.com/codeshell/blocklists/actions/workflows/fetch-and-regenerate-lists.yml/badge.svg)](https://github.com/codeshell/blocklists/actions/workflows/fetch-and-regenerate-lists.yml)
 [![Pylint](https://github.com/codeshell/blocklists/actions/workflows/pylint.yml/badge.svg)](https://github.com/codeshell/blocklists/actions/workflows/pylint.yml)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/gh/codeshell/blocklists/badge?style=rounded)](https://www.jsdelivr.com/package/gh/codeshell/blocklists)
 
 Generate subscribable text files in various formats containing domains/subdomains/paths to block unwanted sites from web searches or dns queries.
 
@@ -21,11 +22,11 @@ Everything else is considered "technical" stuff used to generate the lists and m
 
 ## Formats
 
-- adblock ⚠️ UNTESTED
-- dnsmasq ⚠️ UNTESTED
-- hostsetc ⚠️ UNTESTED
-- hostsip4 ⚠️ UNTESTED
-- hostsip6 ⚠️ UNTESTED
+- adblock ℹ️ generic format
+- dnsmasq ℹ️ generic format
+- hostsetc ℹ️ generic format
+- hostsip4 ℹ️ generic format
+- hostsip6 ℹ️ generic format
 - uBlacklist ➡️ [README](./by-format/ublacklist/README.md)
 
 ## Topics
