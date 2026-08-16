@@ -39,6 +39,13 @@ jobs:
     - name: Generate blocklists from sources
       run: |
         python "./scripts/generate_blocklists.py"
+    - name: Debug - List generated files
+      run: |
+        echo "Checking by-format directory:"
+        find by-format -type f -newer /tmp 2>/dev/null | head -20
+        echo ""
+        echo "Git status output:"
+        git status --porcelain
     - name: Check for Changes
       id: check_changes
       run: |
