@@ -42,7 +42,7 @@ jobs:
     - name: Check for Changes
       id: check_changes
       run: |
-        if [[ -n "$(git diff --exit-code)" ]]; then
+        if [[ -z "$(git status --porcelain)" ]]; then
           echo "Changes detected."
           echo "has_changes=true" >> "$GITHUB_OUTPUT"
         else
