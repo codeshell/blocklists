@@ -1,150 +1,150 @@
 {
-  "sha": "75a1e2e4acc493364488407ea25ba038e6c10eab",
-  "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/trees/75a1e2e4acc493364488407ea25ba038e6c10eab",
+  "sha": "8b29f32ec439b15fe6b212ab879a54d0f1cc37a3",
+  "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/trees/8b29f32ec439b15fe6b212ab879a54d0f1cc37a3",
   "tree": [
     {
       "path": "sitesCA.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "d6aa2eb18ad4d66137eab06133ef803e785b9417",
-      "size": 631,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/d6aa2eb18ad4d66137eab06133ef803e785b9417"
+      "sha": "c8cb1207abe75a4dfec4837fa5013b6de35a5bd4",
+      "size": 632,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/c8cb1207abe75a4dfec4837fa5013b6de35a5bd4"
     },
     {
       "path": "sitesDE.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "1c7b0c144a95efa7afd95b66ebe8cd36cc3e3c2a",
+      "sha": "cbd98071f31ee7ea1c5b900206431180f033f664",
       "size": 9947,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/1c7b0c144a95efa7afd95b66ebe8cd36cc3e3c2a"
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/cbd98071f31ee7ea1c5b900206431180f033f664"
     },
     {
       "path": "sitesEN.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "0bf278422c6a839a8c99a3e1393e49107d7fb5a2",
+      "sha": "0efde946e5009bd2d121af1feb9f052877a82d6e",
       "size": 487295,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/0bf278422c6a839a8c99a3e1393e49107d7fb5a2"
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/0efde946e5009bd2d121af1feb9f052877a82d6e"
     },
     {
       "path": "sitesES.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "89c45ec143e1f75734d6f3aeac008e60be642b56",
-      "size": 12263,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/89c45ec143e1f75734d6f3aeac008e60be642b56"
+      "sha": "69c1b78a8deb79a5cb18ca7e8d0b241076dffa29",
+      "size": 12264,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/69c1b78a8deb79a5cb18ca7e8d0b241076dffa29"
     },
     {
       "path": "sitesFI.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "5b6efa636629edf4f8625026b38e477b2dd9e825",
-      "size": 1865,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/5b6efa636629edf4f8625026b38e477b2dd9e825"
+      "sha": "dcd8828a5e1522ff5a0cb89ce3313e27295f3d5d",
+      "size": 1866,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/dcd8828a5e1522ff5a0cb89ce3313e27295f3d5d"
     },
     {
       "path": "sitesFR.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "4ef0bd8736f16cb214b28f7d7dfb127d1a0a9b4b",
+      "sha": "67cfbd0aa4bc431c13bcd77a7a6d873c2a726115",
       "size": 22539,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/4ef0bd8736f16cb214b28f7d7dfb127d1a0a9b4b"
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/67cfbd0aa4bc431c13bcd77a7a6d873c2a726115"
     },
     {
       "path": "sitesHR.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "613b048f62ea52b70dcccfb30599c61055c7bf90",
+      "sha": "37cd73c3c75759ccb6813414ec52f0cf30b80a45",
       "size": 636,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/613b048f62ea52b70dcccfb30599c61055c7bf90"
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/37cd73c3c75759ccb6813414ec52f0cf30b80a45"
     },
     {
       "path": "sitesHU.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "8cc9a9baffd985aa47902eea6439b072b222a10f",
-      "size": 678,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/8cc9a9baffd985aa47902eea6439b072b222a10f"
+      "sha": "810f4457cd3b9aabd811e598ecd6ec09cb350a2b",
+      "size": 679,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/810f4457cd3b9aabd811e598ecd6ec09cb350a2b"
     },
     {
       "path": "sitesIT.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "086b88668c9ade512f75694d1134b115767f2b1b",
-      "size": 3680,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/086b88668c9ade512f75694d1134b115767f2b1b"
+      "sha": "1234816ed89af436a1f5a28ad5954b798e847583",
+      "size": 3681,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/1234816ed89af436a1f5a28ad5954b798e847583"
     },
     {
       "path": "sitesJA.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "357a50a08e203a6f21a0314beb058ab554a41346",
-      "size": 3839,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/357a50a08e203a6f21a0314beb058ab554a41346"
+      "sha": "6e0e7b028c380bdad083e8bf4a36946407b4008e",
+      "size": 3840,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/6e0e7b028c380bdad083e8bf4a36946407b4008e"
     },
     {
       "path": "sitesKO.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "7e0e6ca47a0ac362a33969d19570fb49305b6726",
-      "size": 1275,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/7e0e6ca47a0ac362a33969d19570fb49305b6726"
+      "sha": "d0fb8f8333dc3281d72cc9a5f6943c26744c409a",
+      "size": 1276,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/d0fb8f8333dc3281d72cc9a5f6943c26744c409a"
     },
     {
       "path": "sitesLZH.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "c299bce2938f92db2440f4e89999ffecfd3439a6",
-      "size": 580,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/c299bce2938f92db2440f4e89999ffecfd3439a6"
+      "sha": "a9e45e7e326ad04d7ec4daf4ab32674577ee0a73",
+      "size": 581,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/a9e45e7e326ad04d7ec4daf4ab32674577ee0a73"
     },
     {
       "path": "sitesNL.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "eb0f83029cf1805bdc3237bd7299a566d2209e64",
-      "size": 599,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/eb0f83029cf1805bdc3237bd7299a566d2209e64"
+      "sha": "2e2df709c54dedcd6d2d8994761fd84cc5a875a6",
+      "size": 600,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/2e2df709c54dedcd6d2d8994761fd84cc5a875a6"
     },
     {
       "path": "sitesPL.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "7a9180a591308ebbbbf61c392d50ab66c887e1f7",
-      "size": 4460,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/7a9180a591308ebbbbf61c392d50ab66c887e1f7"
+      "sha": "5d77dfcbc02f55a9197984999da27471b26ddec4",
+      "size": 4461,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/5d77dfcbc02f55a9197984999da27471b26ddec4"
     },
     {
       "path": "sitesPT.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "04722aa04b968581abd100c4b414560e606d6246",
+      "sha": "5bfc445c3507ff3360776447f6cb4908a9024593",
       "size": 6376,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/04722aa04b968581abd100c4b414560e606d6246"
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/5bfc445c3507ff3360776447f6cb4908a9024593"
     },
     {
       "path": "sitesRU.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "027316106506a2043287dc2ae2c788b10761025c",
+      "sha": "77f1c54d27467b9c5254c7395af33068fc1d0283",
       "size": 7445,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/027316106506a2043287dc2ae2c788b10761025c"
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/77f1c54d27467b9c5254c7395af33068fc1d0283"
     },
     {
       "path": "sitesSV.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "93765bb3a40252b6fb016a0821ab503eb8ffd06d",
-      "size": 609,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/93765bb3a40252b6fb016a0821ab503eb8ffd06d"
+      "sha": "07121bc31545c30575d2a4f53288af6b20a6dfa0",
+      "size": 610,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/07121bc31545c30575d2a4f53288af6b20a6dfa0"
     },
     {
       "path": "sitesTH.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "71fa48f515292ae96a7904456ed28a74660aab8a",
-      "size": 1281,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/71fa48f515292ae96a7904456ed28a74660aab8a"
+      "sha": "a6aa897f1d84b4d16a2fd38311e0b693b0850cee",
+      "size": 1282,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/a6aa897f1d84b4d16a2fd38311e0b693b0850cee"
     },
     {
       "path": "sitesTOK.json",
@@ -152,31 +152,31 @@
       "type": "blob",
       "sha": "7916c5c0fc6f9f4be9aeb6d577a3e7ff5d430317",
       "size": 595,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/7916c5c0fc6f9f4be9aeb6d577a3e7ff5d430317"
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/7916c5c0fc6f9f4be9aeb6d577a3e7ff5d430317"
     },
     {
       "path": "sitesTR.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "f1d60d9c4442eb3d1247a55414c80075c1d9b2b6",
-      "size": 594,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/f1d60d9c4442eb3d1247a55414c80075c1d9b2b6"
+      "sha": "a906a20b83f30b6ab1eb47ca27534b8a48dafb33",
+      "size": 595,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/a906a20b83f30b6ab1eb47ca27534b8a48dafb33"
     },
     {
       "path": "sitesUK.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "7a28f3a837b189a26ccd86a9090d26200605d75c",
-      "size": 1309,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/7a28f3a837b189a26ccd86a9090d26200605d75c"
+      "sha": "042477c80119ce3a142a06fdeb6aa259847682ac",
+      "size": 1310,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/042477c80119ce3a142a06fdeb6aa259847682ac"
     },
     {
       "path": "sitesZH.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "d12b30f88031db3481876ebfc7628fa78c020c4f",
+      "sha": "ec6ddb439f81c2e8bf290d83667dd44a0d0917f0",
       "size": 9362,
-      "url": "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/blobs/d12b30f88031db3481876ebfc7628fa78c020c4f"
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/ec6ddb439f81c2e8bf290d83667dd44a0d0917f0"
     }
   ],
   "truncated": false

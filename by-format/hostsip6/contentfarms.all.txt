@@ -1,0 +1,8 @@
+::1 gachago.com
+::1 www.gachago.com
+::1 ldplayer.net
+::1 www.ldplayer.net
+::1 mumuplayer.com
+::1 www.mumuplayer.com
+::1 pocketgamer.com
+::1 www.pocketgamer.com

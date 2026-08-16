@@ -1,0 +1,4 @@
+"*://*.gachago.com/*",
+"*://*.ldplayer.net/*",
+"*://*.mumuplayer.com/*",
+"*://*.pocketgamer.com/*",

@@ -1,0 +1,10 @@
+---
+name: TMW BL contentfarms-gaming
+description: Low quality content farms related to gaming.
+homepage: https://github.com/codeshell/blocklists/tree/main/by-format/ublacklist
+variants: contentfarms-gaming, contentfarms.all
+---
+*://*.gachago.com/*
+*://*.ldplayer.net/blog/*
+*://*.mumuplayer.com/blog/*
+*://*.pocketgamer.com/*

@@ -1,0 +1,10 @@
+---
+name: TMW BL contentfarms.all
+description: Aggregates all contentfarms lists. See variants.
+homepage: https://github.com/codeshell/blocklists/tree/main/by-format/ublacklist
+variants: contentfarms-gaming, contentfarms.all
+---
+*://*.gachago.com/*
+*://*.ldplayer.net/blog/*
+*://*.mumuplayer.com/blog/*
+*://*.pocketgamer.com/*
