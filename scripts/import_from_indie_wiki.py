@@ -1,6 +1,7 @@
 """
 Fetches redirect definitions from indie-wiki-buddy and safes them as plain text list of subdomain names.
-Datasource: https://github.com/KevinPayravi/indie-wiki-buddy
+Tool:       https://github.com/KevinPayravi/indie-wiki-buddy
+Datasource: https://github.com/KevinPayravi/indie-wiki-buddy-data
 """
 
 import argparse
@@ -26,8 +27,8 @@ MY_VERSION = "1.0.1"
 MY_DESCRIPTION = (
     "Fetches redirect definitions from indie-wiki-buddy and safes them as plain text list of subdomain names."
 )
-SOURCE_URL_FOLDER = "https://raw.githubusercontent.com/KevinPayravi/indie-wiki-buddy/refs/heads/main/data/"
-SOURCE_TREE = "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy/git/trees/main"
+SOURCE_URL_FOLDER = "https://raw.githubusercontent.com/KevinPayravi/indie-wiki-buddy-data/refs/heads/main/data/"
+SOURCE_TREE = "https://api.github.com/repos/KevinPayravi/indie-wiki-buddy-data/git/trees/main"
 ROOT_PATH = Path(__file__).parent.parent
 IMPORT_PREFIX = "import_from_indie_wiki"
 IMPORT_FOLDER = Path(ROOT_PATH, "sources")
@@ -61,14 +62,14 @@ def create_list_from_json(json_object, site_import_file, args: argparse.Namespac
     text = []
     for wiki in json_object:
         if isinstance(wiki, list):
-            print(type(wiki))
-            print(f"Not implemented for {wiki}")
+            print(f"Found: {type(wiki)}")
+            print(f"       Not implemented for {wiki}")
         elif isinstance(wiki, dict):
             for origin in wiki.get("origins", []):
                 text.append(get_unwanted_from_origin(origin))
         else:
-            print(type(wiki))
-            print(f"Strange things happened with {wiki}")
+            print(f"Found: {type(wiki)}")
+            print(f"       Strange things happened with {wiki}")
 
     # optimized_list = sorted(set(text.split("\n")))
     optimized_list = sorted(set(filter(None, text)))
@@ -306,7 +307,7 @@ def process_sites_with_changes(sites_with_changes: dict, args: argparse.Namespac
         else:
             critical_errors.append(f"UPD: {filename}")
 
-    if len(critical_errors) == 0:
+    if len(critical_errors) != 0:
         print(critical_errors)
 
     return len(critical_errors) == 0
