@@ -70,7 +70,7 @@ def hash_file(filename) -> None | str:
             while chunk := fp.read(8192):
                 hash_object.update(chunk.encode("utf-8"))
     except FileNotFoundError:
-        print(f"{filename} does not exists (yet).")
+        print(f"{filename} does not exist (yet).")
         return None
 
     return hash_object.hexdigest()

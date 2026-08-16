@@ -22,6 +22,15 @@ class ListFormat(Enum):
     HOSTSIP6 = "hostsip6"
 
 
+class ListSuffix(Enum):
+    """Class enumerating source list suffixes"""
+
+    ALL = ".all"
+    INDIEWIKI = "-by-indie-wiki"
+    WIKIGG = "-by-wiki-gg"
+    GAMING = "-gaming"
+
+
 ROOT_PATH = Path(__file__).parent.parent
 FORMAT_PATH = Path(ROOT_PATH, "by-format")
 SOURCE_PATH = Path(ROOT_PATH, "sources")
@@ -159,41 +168,59 @@ class UnwantedSites:
         lines = optimize_lines(lines)
         self._lines_up_to_domain = lines
 
+    def generate_all_formats(self, args: argparse.Namespace):
+        """Generate rule files for all available formats"""        
+        generate_format(self, ListFormat.UBLACKLIST, args)
+        generate_format(self, ListFormat.ADBLOCK, args)
+        generate_format(self, ListFormat.DNSMASQ, args)
+        generate_format(self, ListFormat.HOSTSETC, args)
+        generate_format(self, ListFormat.HOSTSIP4, args)
+        generate_format(self, ListFormat.HOSTSIP6, args)
 
-def process_wiki_farm(lines: list[str], suffix: str, args: argparse.Namespace):
+
+def process_full_bundle(bundle: dict, topic: str, suffix: ListSuffix, suffixes: dict[int, ListSuffix],
+                        args: argparse.Namespace):
+    """Take a collection of processed rulesets and bundle them together as per topic"""
+    # sorting will happen just before writing to file
+    try:
+        process_ruleset(functools.reduce(operator.iadd, bundle.values(), []), topic, suffix, suffixes, args)
+    except TypeError:
+        print(f"SKIPPED: The bundle for {topic} could not be merged, because one of the parts did not contain data.")
+        print(f"         Related parts: {', '.join([x.value for x in suffixes.values()])}.")
+
+
+def process_ruleset(lines: list[str], topic: str, suffix: ListSuffix, suffixes: dict[int, ListSuffix],
+                      args: argparse.Namespace):
     """
-    Special treatment for wiki farm domains
-    domain name needs to be added
+    Apply special treatment where necessary
+    E.g. domain name needs to be added for WIKIGG rules
     """
 
-    label = "wikifarms"
     description = ""
 
     match suffix:
-        case "-by-wiki-gg":
+        case ListSuffix.WIKIGG:
             description = "Wikifarms as identified by wiki.gg Redirect (https://www.wiki.gg/redirect)"
             lines = sanitize_lines(lines)
             lines = [x + ".fandom.com" for x in lines]
-        case "-by-indie-wiki":
+        case ListSuffix.INDIEWIKI:
             description = "Wikifarms as identified by Indie Wiki Buddy (https://getindie.wiki/)"
             lines = sanitize_lines(lines)
-        case ".all":
+        case ListSuffix.GAMING:
+            description = "Low quality content farms related to gaming."
+            lines = sanitize_lines(lines)
+        case ListSuffix.ALL:
             # input for aggregated lists is already sanitized
             # optimization happens in UnwantedSites
-            description = "Aggregates all wikifarms lists. See variants."
+            description = f"Aggregates all {topic} lists. See variants."
         case _:
-            print(f"Suffix {suffix} not defined for processing.")
+            print(f"ERROR: Suffix {suffix.value} not defined for processing.")
             return None
 
-    unwanted = UnwantedSites(lines=lines, label=label + suffix)
-    unwanted.list_variants = sorted([label + "-by-wiki-gg", label + "-by-indie-wiki", label + ".all"])
+    unwanted = UnwantedSites(lines=lines, label=f"{topic}{suffix.value}")
+    unwanted.list_variants = sorted([f"{topic}{x.value}" for x in suffixes.values()])
     unwanted.list_description = description
-    generate_format(unwanted, ListFormat.UBLACKLIST, args)
-    generate_format(unwanted, ListFormat.ADBLOCK, args)
-    generate_format(unwanted, ListFormat.DNSMASQ, args)
-    generate_format(unwanted, ListFormat.HOSTSETC, args)
-    generate_format(unwanted, ListFormat.HOSTSIP4, args)
-    generate_format(unwanted, ListFormat.HOSTSIP6, args)
+    unwanted.generate_all_formats(args)
     # unwanted.lines would be mostly unfiltered so it is better to return, the longest variation instead
     return unwanted.lines_up_to_path
 
@@ -284,21 +311,36 @@ def main():
     args = parser.parse_args()
 
     if init_folders(args=args):
+        topic = "wikifarms"
         bundle = {}
+        suffixes = {}
+        suffixes[0] = ListSuffix.ALL
+        suffixes[1] = ListSuffix.WIKIGG
+        suffixes[2] = ListSuffix.INDIEWIKI
 
         bundle[1] = []
         bundle[1] += get_source_file_lines(Path(SOURCE_PATH, "import_from_wiki_gg.txt"))
-        bundle[1] = process_wiki_farm(bundle[1], "-by-wiki-gg", args=args)
+        bundle[1] = process_ruleset(bundle[1], topic=topic, suffix=suffixes[1], suffixes=suffixes, args=args)
 
         bundle[2] = []
-        # for source_filename in glob(SOURCE_PATH.rglob("import_from_indie_wiki*")):
         for source_file in SOURCE_PATH.rglob("import_from_indie_wiki*"):
             bundle[2] += get_source_file_lines(source_file)
-        bundle[2] = process_wiki_farm(bundle[2], "-by-indie-wiki", args=args)
+        bundle[2] = process_ruleset(bundle[2], topic=topic, suffix=suffixes[2], suffixes=suffixes, args=args)
 
-        # process_wiki_farm(sorted(set(sum(bundle.values(), []))), ".all")
-        # sorting will happen just before writing to file
-        process_wiki_farm(functools.reduce(operator.iadd, bundle.values(), []), ".all", args=args)
+        process_full_bundle(bundle, topic=topic, suffix=suffixes[0], suffixes=suffixes, args=args)
+
+        topic = "contentfarms"
+        bundle = {}
+        suffixes = {}
+        suffixes[0] = ListSuffix.ALL
+        suffixes[1] = ListSuffix.GAMING
+
+        bundle[1] = []
+        bundle[1] += get_source_file_lines(Path(SOURCE_PATH, "local_lq_content_farms.gaming.txt"))
+        bundle[1] = process_ruleset(bundle[1], topic=topic, suffix=suffixes[1], suffixes=suffixes, args=args)
+
+
+        process_full_bundle(bundle, topic=topic, suffix=suffixes[0], suffixes=suffixes, args=args)
 
 
 if __name__ == "__main__":
