@@ -29,6 +29,8 @@ class ListSuffix(Enum):
     INDIEWIKI = "-by-indie-wiki"
     WIKIGG = "-by-wiki-gg"
     GAMING = "-gaming"
+    TECH = "-tech"
+    NONE = ""
 
 
 ROOT_PATH = Path(__file__).parent.parent
@@ -209,6 +211,13 @@ def process_ruleset(lines: list[str], topic: str, suffix: ListSuffix, suffixes: 
         case ListSuffix.GAMING:
             description = "Low quality content farms related to gaming."
             lines = sanitize_lines(lines)
+        case ListSuffix.TECH:
+            description = "Low quality content farms related to technology"
+            description += ", cyber security, cloud computing, coding, AI."
+            lines = sanitize_lines(lines)
+        case ListSuffix.NONE:
+            description = "Random stuff."
+            lines = sanitize_lines(lines)
         case ListSuffix.ALL:
             # input for aggregated lists is already sanitized
             # optimization happens in UnwantedSites
@@ -334,14 +343,26 @@ def main():
         suffixes = {}
         suffixes[0] = ListSuffix.ALL
         suffixes[1] = ListSuffix.GAMING
+        suffixes[2] = ListSuffix.TECH
 
         bundle[1] = []
         bundle[1] += get_source_file_lines(Path(SOURCE_PATH, "local_lq_content_farms.gaming.txt"))
         bundle[1] = process_ruleset(bundle[1], topic=topic, suffix=suffixes[1], suffixes=suffixes, args=args)
 
+        bundle[2] = []
+        bundle[2] += get_source_file_lines(Path(SOURCE_PATH, "local_lq_content_farms.tech.txt"))
+        bundle[2] = process_ruleset(bundle[2], topic=topic, suffix=suffixes[2], suffixes=suffixes, args=args)
 
         process_full_bundle(bundle, topic=topic, suffix=suffixes[0], suffixes=suffixes, args=args)
 
+        topic = "unsorted"
+        bundle = {}
+        suffixes = {}
+        suffixes[1] = ListSuffix.NONE
+
+        bundle[1] = []
+        bundle[1] += get_source_file_lines(Path(SOURCE_PATH, "local_unsorted.txt"))
+        bundle[1] = process_ruleset(bundle[1], topic=topic, suffix=suffixes[1], suffixes=suffixes, args=args)
 
 if __name__ == "__main__":
     main()
