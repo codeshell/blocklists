@@ -1,3 +1,5 @@
+::1 dannyda.com
+::1 www.dannyda.com
 ::1 gachago.com
 ::1 www.gachago.com
 ::1 ldplayer.net

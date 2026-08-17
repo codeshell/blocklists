@@ -1,0 +1,6 @@
+---
+name: TMW BL unsorted
+description: Random stuff.
+homepage: https://github.com/codeshell/blocklists/tree/main/by-format/ublacklist
+variants: unsorted
+---

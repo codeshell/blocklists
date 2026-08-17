@@ -1,3 +1,5 @@
+0.0.0.0 dannyda.com
+0.0.0.0 www.dannyda.com
 0.0.0.0 gachago.com
 0.0.0.0 www.gachago.com
 0.0.0.0 ldplayer.net

@@ -1,0 +1,7 @@
+---
+name: TMW BL contentfarms-tech
+description: Low quality content farms related to technology, cyber security, cloud computing, coding, AI.
+homepage: https://github.com/codeshell/blocklists/tree/main/by-format/ublacklist
+variants: contentfarms-gaming, contentfarms-tech, contentfarms.all
+---
+*://*.dannyda.com/*

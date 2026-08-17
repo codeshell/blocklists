@@ -1,3 +1,4 @@
+address=/dannyda.com/
 address=/gachago.com/
 address=/ldplayer.net/
 address=/mumuplayer.com/
