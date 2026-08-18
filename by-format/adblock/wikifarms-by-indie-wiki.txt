@@ -250,6 +250,7 @@
 ||dungeonrampage.fandom.com/wiki^
 ||dungeons-and-degenerate-gamblers.fandom.com/wiki^
 ||dungeons.fandom.com/wiki^
+||dustbunny.fandom.com/wiki^
 ||dwarffortress.fandom.com/wiki^
 ||dyinglight.fandom.com/wiki^
 ||dyson-sphere-program.fandom.com/wiki^
@@ -310,6 +311,7 @@
 ||fisch.fandom.com/wiki^
 ||forgeofempires.fandom.com/fr/wiki^
 ||forsaken2024.fandom.com/wiki^
+||fortnite.fandom.com/wiki^
 ||foxhole.fandom.com/wiki^
 ||frackinuniverse.fandom.com/wiki^
 ||freespace.fandom.com/wiki^

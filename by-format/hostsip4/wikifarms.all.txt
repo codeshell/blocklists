@@ -664,6 +664,8 @@
 0.0.0.0 www.dungeons-and-degenerate-gamblers.fandom.com
 0.0.0.0 dungeons.fandom.com
 0.0.0.0 www.dungeons.fandom.com
+0.0.0.0 dustbunny.fandom.com
+0.0.0.0 www.dustbunny.fandom.com
 0.0.0.0 dwarffortress.fandom.com
 0.0.0.0 www.dwarffortress.fandom.com
 0.0.0.0 dyinglight.fandom.com
@@ -824,6 +826,8 @@
 0.0.0.0 www.forsaken2024.fandom.com
 0.0.0.0 fortheking.fandom.com
 0.0.0.0 www.fortheking.fandom.com
+0.0.0.0 fortnite.fandom.com
+0.0.0.0 www.fortnite.fandom.com
 0.0.0.0 fossils-archeology.fandom.com
 0.0.0.0 www.fossils-archeology.fandom.com
 0.0.0.0 foxhole.fandom.com

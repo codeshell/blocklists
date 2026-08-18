@@ -361,3 +361,16 @@
     }
   ]
 },
+{
+  "date": "2026-08-18T11:40:58+00:00",
+  "changes": 1,
+  "removed": [],
+  "added": [],
+  "updated": [
+    {
+      "path": "sitesEN.json",
+      "sha": "a8f08083a0e18e63777396a2fcf9a6a5d68faf0a",
+      "size": 488532
+    }
+  ]
+},

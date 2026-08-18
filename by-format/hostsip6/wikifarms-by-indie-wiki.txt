@@ -456,6 +456,8 @@
 ::1 www.dungeons-and-degenerate-gamblers.fandom.com
 ::1 dungeons.fandom.com
 ::1 www.dungeons.fandom.com
+::1 dustbunny.fandom.com
+::1 www.dustbunny.fandom.com
 ::1 dwarffortress.fandom.com
 ::1 www.dwarffortress.fandom.com
 ::1 dyinglight.fandom.com
@@ -568,6 +570,8 @@
 ::1 www.forgeofempires.fandom.com
 ::1 forsaken2024.fandom.com
 ::1 www.forsaken2024.fandom.com
+::1 fortnite.fandom.com
+::1 www.fortnite.fandom.com
 ::1 foxhole.fandom.com
 ::1 www.foxhole.fandom.com
 ::1 frackinuniverse.fandom.com
