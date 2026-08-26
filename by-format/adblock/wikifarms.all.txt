@@ -126,6 +126,7 @@
 ||blackreliquary.fandom.com^
 ||blade-and-sorcery.fandom.com^
 ||blazblue.fandom.com/wiki^
+||bleakfaithforsaken.fandom.com/wiki^
 ||bleed-game.fandom.com^
 ||blhx.fandom.com/wiki^
 ||blight.fandom.com^
@@ -803,6 +804,7 @@
 ||nuvguard-heroes.fandom.com^
 ||oaklands.fandom.com/wiki^
 ||oathbreakersvr.fandom.com/wiki^
+||obby.fandom.com/wiki^
 ||obey-me.fandom.com/wiki^
 ||oblivionremastered.wiki.fextralife.com^
 ||octohill.fandom.com^

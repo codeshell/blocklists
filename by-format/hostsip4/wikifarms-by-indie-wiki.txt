@@ -178,6 +178,8 @@
 0.0.0.0 www.blade-and-sorcery.fandom.com
 0.0.0.0 blazblue.fandom.com
 0.0.0.0 www.blazblue.fandom.com
+0.0.0.0 bleakfaithforsaken.fandom.com
+0.0.0.0 www.bleakfaithforsaken.fandom.com
 0.0.0.0 bleed-game.fandom.com
 0.0.0.0 www.bleed-game.fandom.com
 0.0.0.0 blhx.fandom.com
@@ -1060,6 +1062,8 @@
 0.0.0.0 www.oaklands.fandom.com
 0.0.0.0 oathbreakersvr.fandom.com
 0.0.0.0 www.oathbreakersvr.fandom.com
+0.0.0.0 obby.fandom.com
+0.0.0.0 www.obby.fandom.com
 0.0.0.0 obey-me.fandom.com
 0.0.0.0 www.obey-me.fandom.com
 0.0.0.0 oblivionremastered.wiki.fextralife.com
