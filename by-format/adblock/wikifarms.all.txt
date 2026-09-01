@@ -268,6 +268,7 @@
 ||deeprockgalactic.fandom.com^
 ||deltarune-archive.fandom.com/wiki^
 ||deltarune.fandom.com/es/wiki^
+||deltarune.fandom.com/ja/wiki^
 ||deltarune.fandom.com/wiki^
 ||deltarune.fandom.com/zh/wiki^
 ||deltatraveler.fandom.com^
@@ -1238,7 +1239,10 @@
 ||under-the-sand.fandom.com^
 ||undermine.fandom.com^
 ||undertale-archive.fandom.com/wiki^
+||undertale.fandom.com/fr/wiki^
+||undertale.fandom.com/ja/wiki^
 ||undertale.fandom.com/pt-br/wiki^
+||undertale.fandom.com/ru/wiki^
 ||undertale.fandom.com/wiki^
 ||undertale.fandom.com/zh/wiki^
 ||undertaleyellow.fandom.com^

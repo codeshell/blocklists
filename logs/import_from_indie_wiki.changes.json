@@ -387,3 +387,26 @@
     }
   ]
 },
+{
+  "date": "2026-09-01T15:27:51+00:00",
+  "changes": 3,
+  "removed": [],
+  "added": [],
+  "updated": [
+    {
+      "path": "sitesFR.json",
+      "sha": "d415bd4f706f4958cc0d9bc5276e7dba6b8086b7",
+      "size": 23137
+    },
+    {
+      "path": "sitesJA.json",
+      "sha": "cff9ae1027ff1df59e0bac2560c019aa48fae619",
+      "size": 5064
+    },
+    {
+      "path": "sitesRU.json",
+      "sha": "593622b0069cd8b6448fc30e1b260264a5d5946a",
+      "size": 8059
+    }
+  ]
+},

@@ -1,6 +1,6 @@
 {
-  "sha": "805b82bdf184a9aa6f0109fcdf5fea17f53d1ee1",
-  "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/trees/805b82bdf184a9aa6f0109fcdf5fea17f53d1ee1",
+  "sha": "a3248c82f4df7450690f9cb57c781599a42140f4",
+  "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/trees/a3248c82f4df7450690f9cb57c781599a42140f4",
   "tree": [
     {
       "path": "sitesCA.json",
@@ -46,9 +46,9 @@
       "path": "sitesFR.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "67cfbd0aa4bc431c13bcd77a7a6d873c2a726115",
-      "size": 22539,
-      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/67cfbd0aa4bc431c13bcd77a7a6d873c2a726115"
+      "sha": "d415bd4f706f4958cc0d9bc5276e7dba6b8086b7",
+      "size": 23137,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/d415bd4f706f4958cc0d9bc5276e7dba6b8086b7"
     },
     {
       "path": "sitesHR.json",
@@ -78,9 +78,9 @@
       "path": "sitesJA.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "6e0e7b028c380bdad083e8bf4a36946407b4008e",
-      "size": 3840,
-      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/6e0e7b028c380bdad083e8bf4a36946407b4008e"
+      "sha": "cff9ae1027ff1df59e0bac2560c019aa48fae619",
+      "size": 5064,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/cff9ae1027ff1df59e0bac2560c019aa48fae619"
     },
     {
       "path": "sitesKO.json",
@@ -126,9 +126,9 @@
       "path": "sitesRU.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "77f1c54d27467b9c5254c7395af33068fc1d0283",
-      "size": 7445,
-      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/77f1c54d27467b9c5254c7395af33068fc1d0283"
+      "sha": "593622b0069cd8b6448fc30e1b260264a5d5946a",
+      "size": 8059,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/593622b0069cd8b6448fc30e1b260264a5d5946a"
     },
     {
       "path": "sitesSV.json",
