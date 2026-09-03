@@ -243,6 +243,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.dontstarve.fandom.com/wiki/*
 *://*.doom.fandom.com/wiki/*
 *://*.doom.neoseeker.com/wiki/*
+*://*.doors-game.fandom.com/wiki/*
 *://*.dota2.fandom.com/wiki/*
 *://*.dotage-game.fandom.com/wiki/*
 *://*.dotflow.fandom.com/wiki/*

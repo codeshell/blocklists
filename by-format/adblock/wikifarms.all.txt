@@ -313,6 +313,7 @@
 ||dontstarve.fandom.com^
 ||doom.fandom.com/wiki^
 ||doom.neoseeker.com/wiki^
+||doors-game.fandom.com/wiki^
 ||dota2.fandom.com/wiki^
 ||dotage-game.fandom.com^
 ||dotflow.fandom.com/wiki^

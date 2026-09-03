@@ -213,6 +213,7 @@ address=/dont-starve.fandom.com/
 address=/dontstarve.fandom.com/
 address=/doom.fandom.com/
 address=/doom.neoseeker.com/
+address=/doors-game.fandom.com/
 address=/dota2.fandom.com/
 address=/dotage-game.fandom.com/
 address=/dotflow.fandom.com/

@@ -428,6 +428,8 @@
 0.0.0.0 www.doom.fandom.com
 0.0.0.0 doom.neoseeker.com
 0.0.0.0 www.doom.neoseeker.com
+0.0.0.0 doors-game.fandom.com
+0.0.0.0 www.doors-game.fandom.com
 0.0.0.0 dota2.fandom.com
 0.0.0.0 www.dota2.fandom.com
 0.0.0.0 dotage-game.fandom.com

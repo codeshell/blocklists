@@ -306,6 +306,7 @@
 "*://*.dontstarve.fandom.com/*",
 "*://*.doom.fandom.com/*",
 "*://*.doom.neoseeker.com/*",
+"*://*.doors-game.fandom.com/*",
 "*://*.dota2.fandom.com/*",
 "*://*.dotage-game.fandom.com/*",
 "*://*.dotflow.fandom.com/*",

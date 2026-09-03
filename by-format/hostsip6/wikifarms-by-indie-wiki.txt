@@ -428,6 +428,8 @@
 ::1 www.doom.fandom.com
 ::1 doom.neoseeker.com
 ::1 www.doom.neoseeker.com
+::1 doors-game.fandom.com
+::1 www.doors-game.fandom.com
 ::1 dota2.fandom.com
 ::1 www.dota2.fandom.com
 ::1 dotage-game.fandom.com
