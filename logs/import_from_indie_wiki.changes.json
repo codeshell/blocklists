@@ -423,3 +423,16 @@
     }
   ]
 },
+{
+  "date": "2026-09-04T14:57:13+00:00",
+  "changes": 1,
+  "removed": [],
+  "added": [],
+  "updated": [
+    {
+      "path": "sitesEN.json",
+      "sha": "54ceb397b31ed341628472ec13f60666e20243b6",
+      "size": 490880
+    }
+  ]
+},

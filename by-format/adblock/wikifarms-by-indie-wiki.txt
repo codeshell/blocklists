@@ -237,6 +237,7 @@
 ||dontstarve.fandom.com/wiki^
 ||doom.fandom.com/wiki^
 ||doom.neoseeker.com/wiki^
+||doors-fanmake.fandom.com/wiki^
 ||doors-game.fandom.com/wiki^
 ||dota2.fandom.com/wiki^
 ||dotage-game.fandom.com/wiki^
@@ -704,6 +705,7 @@
 ||riskofrain2.fandom.com/wiki^
 ||rlcraft.fandom.com/wiki^
 ||roblox-critical-strike.fandom.com/wiki^
+||roblox-doors.fandom.com/wiki^
 ||roblox-sc.fandom.com/wiki^
 ||roblox-shipping-lanes.fandom.com/wiki^
 ||robloxarsenal.fandom.com/wiki^

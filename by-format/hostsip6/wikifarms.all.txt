@@ -614,6 +614,8 @@
 ::1 www.doom.fandom.com
 ::1 doom.neoseeker.com
 ::1 www.doom.neoseeker.com
+::1 doors-fanmake.fandom.com
+::1 www.doors-fanmake.fandom.com
 ::1 doors-game.fandom.com
 ::1 www.doors-game.fandom.com
 ::1 dota2.fandom.com
@@ -1812,6 +1814,8 @@
 ::1 www.rlcraft.fandom.com
 ::1 roblox-critical-strike.fandom.com
 ::1 www.roblox-critical-strike.fandom.com
+::1 roblox-doors.fandom.com
+::1 www.roblox-doors.fandom.com
 ::1 roblox-sc.fandom.com
 ::1 www.roblox-sc.fandom.com
 ::1 roblox-shipping-lanes.fandom.com

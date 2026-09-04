@@ -1,6 +1,6 @@
 {
-  "sha": "6719ff3b3ac3b133b48b3dd5b6efea35e7290d0d",
-  "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/trees/6719ff3b3ac3b133b48b3dd5b6efea35e7290d0d",
+  "sha": "4dd0ede84e20be4ef291116a3f886675bef87031",
+  "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/trees/4dd0ede84e20be4ef291116a3f886675bef87031",
   "tree": [
     {
       "path": "sitesCA.json",
@@ -22,9 +22,9 @@
       "path": "sitesEN.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "25a92326abc0b284a8c0ac1e50add0255d840fea",
-      "size": 490479,
-      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/25a92326abc0b284a8c0ac1e50add0255d840fea"
+      "sha": "54ceb397b31ed341628472ec13f60666e20243b6",
+      "size": 490880,
+      "url": "https://api.github.com/repos/IndieWikiBuddy/indie-wiki-buddy-data/git/blobs/54ceb397b31ed341628472ec13f60666e20243b6"
     },
     {
       "path": "sitesES.json",
