@@ -821,6 +821,7 @@
 "*://*.utaite.fandom.com/*",
 "*://*.utanoprincesama.fandom.com/*",
 "*://*.utg.fandom.com/*",
+"*://*.valheim.fandom.com/*",
 "*://*.valorant-lore.fandom.com/*",
 "*://*.valorant.fandom.com/*",
 "*://*.vampire-survivors.fandom.com/*",

@@ -1644,6 +1644,8 @@
 0.0.0.0 www.utanoprincesama.fandom.com
 0.0.0.0 utg.fandom.com
 0.0.0.0 www.utg.fandom.com
+0.0.0.0 valheim.fandom.com
+0.0.0.0 www.valheim.fandom.com
 0.0.0.0 valorant-lore.fandom.com
 0.0.0.0 www.valorant-lore.fandom.com
 0.0.0.0 valorant.fandom.com

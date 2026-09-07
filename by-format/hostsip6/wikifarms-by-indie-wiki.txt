@@ -1644,6 +1644,8 @@
 ::1 www.utanoprincesama.fandom.com
 ::1 utg.fandom.com
 ::1 www.utg.fandom.com
+::1 valheim.fandom.com
+::1 www.valheim.fandom.com
 ::1 valorant-lore.fandom.com
 ::1 www.valorant-lore.fandom.com
 ::1 valorant.fandom.com

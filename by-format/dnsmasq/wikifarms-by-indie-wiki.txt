@@ -821,6 +821,7 @@ address=/usi.fandom.com/
 address=/utaite.fandom.com/
 address=/utanoprincesama.fandom.com/
 address=/utg.fandom.com/
+address=/valheim.fandom.com/
 address=/valorant-lore.fandom.com/
 address=/valorant.fandom.com/
 address=/vampire-survivors.fandom.com/
