@@ -825,6 +825,7 @@
 ||tardis.fandom.com/zh/wiki^
 ||tbcte.fandom.com/wiki^
 ||tboirevelations.fandom.com/wiki^
+||tds.fandom.com/wiki^
 ||team-fortress.fandom.com/es/wiki^
 ||team-fortress.fandom.com/pt-br/wiki^
 ||teamfortress.fandom.com/pl/wiki^

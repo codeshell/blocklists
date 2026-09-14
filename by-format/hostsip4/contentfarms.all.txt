@@ -8,3 +8,5 @@
 0.0.0.0 www.mumuplayer.com
 0.0.0.0 pocketgamer.com
 0.0.0.0 www.pocketgamer.com
+0.0.0.0 securityonline.info
+0.0.0.0 www.securityonline.info

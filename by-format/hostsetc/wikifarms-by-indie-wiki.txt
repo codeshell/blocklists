@@ -736,6 +736,7 @@
 "*://*.tardis.fandom.com/*",
 "*://*.tbcte.fandom.com/*",
 "*://*.tboirevelations.fandom.com/*",
+"*://*.tds.fandom.com/*",
 "*://*.team-fortress.fandom.com/*",
 "*://*.teamfortress.fandom.com/*",
 "*://*.tearsofthemis.fandom.com/*",

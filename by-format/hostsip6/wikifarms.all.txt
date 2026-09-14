@@ -2116,6 +2116,8 @@
 ::1 www.tboi-epiphany.fandom.com
 ::1 tboirevelations.fandom.com
 ::1 www.tboirevelations.fandom.com
+::1 tds.fandom.com
+::1 www.tds.fandom.com
 ::1 team-fortress.fandom.com
 ::1 www.team-fortress.fandom.com
 ::1 team-run.fandom.com

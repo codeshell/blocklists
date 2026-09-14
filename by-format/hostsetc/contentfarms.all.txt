@@ -3,3 +3,4 @@
 "*://*.ldplayer.net/*",
 "*://*.mumuplayer.com/*",
 "*://*.pocketgamer.com/*",
+"*://*.securityonline.info/*",

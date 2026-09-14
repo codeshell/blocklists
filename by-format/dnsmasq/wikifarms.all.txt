@@ -1057,6 +1057,7 @@ address=/tardis.fandom.com/
 address=/tbcte.fandom.com/
 address=/tboi-epiphany.fandom.com/
 address=/tboirevelations.fandom.com/
+address=/tds.fandom.com/
 address=/team-fortress.fandom.com/
 address=/team-run.fandom.com/
 address=/teambytebackrooms.fandom.com/

@@ -1122,6 +1122,7 @@
 ||tbcte.fandom.com^
 ||tboi-epiphany.fandom.com^
 ||tboirevelations.fandom.com^
+||tds.fandom.com/wiki^
 ||team-fortress.fandom.com/es/wiki^
 ||team-fortress.fandom.com/pt-br/wiki^
 ||team-run.fandom.com^

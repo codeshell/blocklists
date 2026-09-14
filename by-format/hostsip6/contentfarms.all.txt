@@ -8,3 +8,5 @@
 ::1 www.mumuplayer.com
 ::1 pocketgamer.com
 ::1 www.pocketgamer.com
+::1 securityonline.info
+::1 www.securityonline.info

@@ -3,3 +3,4 @@ address=/gachago.com/
 address=/ldplayer.net/
 address=/mumuplayer.com/
 address=/pocketgamer.com/
+address=/securityonline.info/

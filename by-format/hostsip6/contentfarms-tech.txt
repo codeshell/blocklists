@@ -1,2 +1,4 @@
 ::1 dannyda.com
 ::1 www.dannyda.com
+::1 securityonline.info
+::1 www.securityonline.info

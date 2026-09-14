@@ -1057,6 +1057,7 @@
 "*://*.tbcte.fandom.com/*",
 "*://*.tboi-epiphany.fandom.com/*",
 "*://*.tboirevelations.fandom.com/*",
+"*://*.tds.fandom.com/*",
 "*://*.team-fortress.fandom.com/*",
 "*://*.team-run.fandom.com/*",
 "*://*.teambytebackrooms.fandom.com/*",

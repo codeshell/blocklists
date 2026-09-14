@@ -736,6 +736,7 @@ address=/tallyhall.fandom.com/
 address=/tardis.fandom.com/
 address=/tbcte.fandom.com/
 address=/tboirevelations.fandom.com/
+address=/tds.fandom.com/
 address=/team-fortress.fandom.com/
 address=/teamfortress.fandom.com/
 address=/tearsofthemis.fandom.com/

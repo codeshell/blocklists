@@ -9,3 +9,4 @@ variants: contentfarms-gaming, contentfarms-tech, contentfarms.all
 *://*.ldplayer.net/blog/*
 *://*.mumuplayer.com/blog/*
 *://*.pocketgamer.com/*
+*://*.securityonline.info/*
