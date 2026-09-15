@@ -567,6 +567,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.illusion-carnival.fandom.com/*
 *://*.immortal-life.fandom.com/*
 *://*.in-birth.fandom.com/*
+*://*.in-falsus.fandom.com/wiki/*
 *://*.in-stars-and-time.fandom.com/*
 *://*.inconvenient-modpack.fandom.com/*
 *://*.incremental-factory.fandom.com/*
@@ -1296,6 +1297,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.war-commander-rogue-assault.fandom.com/*
 *://*.warcommander.fandom.com/*
 *://*.warcraft.neoseeker.com/wiki/*
+*://*.wardogs.fandom.com/wiki/*
 *://*.warframe.fandom.com/wiki/*
 *://*.wargroove.fandom.com/wiki/*
 *://*.warhammer.neoseeker.com/wiki/*

@@ -766,6 +766,8 @@
 0.0.0.0 www.immortal-life.fandom.com
 0.0.0.0 in-birth.fandom.com
 0.0.0.0 www.in-birth.fandom.com
+0.0.0.0 in-falsus.fandom.com
+0.0.0.0 www.in-falsus.fandom.com
 0.0.0.0 in-stars-and-time.fandom.com
 0.0.0.0 www.in-stars-and-time.fandom.com
 0.0.0.0 industrialist.fandom.com
@@ -1684,6 +1686,8 @@
 0.0.0.0 www.wakfu.neoseeker.com
 0.0.0.0 warcraft.neoseeker.com
 0.0.0.0 www.warcraft.neoseeker.com
+0.0.0.0 wardogs.fandom.com
+0.0.0.0 www.wardogs.fandom.com
 0.0.0.0 warframe.fandom.com
 0.0.0.0 www.warframe.fandom.com
 0.0.0.0 wargroove.fandom.com

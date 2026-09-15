@@ -426,6 +426,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.illusion-carnival.fandom.com/wiki/*
 *://*.immortal-life.fandom.com/wiki/*
 *://*.in-birth.fandom.com/wiki/*
+*://*.in-falsus.fandom.com/wiki/*
 *://*.in-stars-and-time.fandom.com/wiki/*
 *://*.industrialist.fandom.com/wiki/*
 *://*.inmost.fandom.com/wiki/*
@@ -962,6 +963,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.wakfu.fandom.com/wiki/*
 *://*.wakfu.neoseeker.com/wiki/*
 *://*.warcraft.neoseeker.com/wiki/*
+*://*.wardogs.fandom.com/wiki/*
 *://*.warframe.fandom.com/wiki/*
 *://*.wargroove.fandom.com/wiki/*
 *://*.warhammer.neoseeker.com/wiki/*

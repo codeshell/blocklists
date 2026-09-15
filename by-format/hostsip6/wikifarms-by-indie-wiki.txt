@@ -766,6 +766,8 @@
 ::1 www.immortal-life.fandom.com
 ::1 in-birth.fandom.com
 ::1 www.in-birth.fandom.com
+::1 in-falsus.fandom.com
+::1 www.in-falsus.fandom.com
 ::1 in-stars-and-time.fandom.com
 ::1 www.in-stars-and-time.fandom.com
 ::1 industrialist.fandom.com
@@ -1684,6 +1686,8 @@
 ::1 www.wakfu.neoseeker.com
 ::1 warcraft.neoseeker.com
 ::1 www.warcraft.neoseeker.com
+::1 wardogs.fandom.com
+::1 www.wardogs.fandom.com
 ::1 warframe.fandom.com
 ::1 www.warframe.fandom.com
 ::1 wargroove.fandom.com
