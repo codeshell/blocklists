@@ -3,4 +3,8 @@
 "*://*.ldplayer.net/*",
 "*://*.mumuplayer.com/*",
 "*://*.pocketgamer.com/*",
+"*://*.recoverytools.com/*",
+"*://*.regainsoftware.com/*",
 "*://*.securityonline.info/*",
+"*://*.sysinfotools.com/*",
+"*://*.systoolsgroup.com/*",

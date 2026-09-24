@@ -8,5 +8,13 @@
 ::1 www.mumuplayer.com
 ::1 pocketgamer.com
 ::1 www.pocketgamer.com
+::1 recoverytools.com
+::1 www.recoverytools.com
+::1 regainsoftware.com
+::1 www.regainsoftware.com
 ::1 securityonline.info
 ::1 www.securityonline.info
+::1 sysinfotools.com
+::1 www.sysinfotools.com
+::1 systoolsgroup.com
+::1 www.systoolsgroup.com

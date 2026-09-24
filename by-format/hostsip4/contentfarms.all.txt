@@ -8,5 +8,13 @@
 0.0.0.0 www.mumuplayer.com
 0.0.0.0 pocketgamer.com
 0.0.0.0 www.pocketgamer.com
+0.0.0.0 recoverytools.com
+0.0.0.0 www.recoverytools.com
+0.0.0.0 regainsoftware.com
+0.0.0.0 www.regainsoftware.com
 0.0.0.0 securityonline.info
 0.0.0.0 www.securityonline.info
+0.0.0.0 sysinfotools.com
+0.0.0.0 www.sysinfotools.com
+0.0.0.0 systoolsgroup.com
+0.0.0.0 www.systoolsgroup.com

@@ -5,4 +5,8 @@ homepage: https://github.com/codeshell/blocklists/tree/main/by-format/ublacklist
 variants: contentfarms-gaming, contentfarms-tech, contentfarms.all
 ---
 *://*.dannyda.com/*
+*://*.recoverytools.com/blog/*
+*://*.regainsoftware.com/blog/*
 *://*.securityonline.info/*
+*://*.sysinfotools.com/blog/*
+*://*.systoolsgroup.com/*

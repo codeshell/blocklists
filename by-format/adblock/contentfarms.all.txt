@@ -3,4 +3,8 @@
 ||ldplayer.net/blog^
 ||mumuplayer.com/blog^
 ||pocketgamer.com^
+||recoverytools.com/blog^
+||regainsoftware.com/blog^
 ||securityonline.info^
+||sysinfotools.com/blog^
+||systoolsgroup.com^

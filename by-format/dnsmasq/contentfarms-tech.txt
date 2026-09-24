@@ -1,2 +1,6 @@
 address=/dannyda.com/
+address=/recoverytools.com/
+address=/regainsoftware.com/
 address=/securityonline.info/
+address=/sysinfotools.com/
+address=/systoolsgroup.com/
