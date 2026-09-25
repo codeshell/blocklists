@@ -314,6 +314,8 @@
 0.0.0.0 www.criticalrole.fandom.com
 0.0.0.0 crypt-of-the-necrodancer.fandom.com
 0.0.0.0 www.crypt-of-the-necrodancer.fandom.com
+0.0.0.0 cultic.fandom.com
+0.0.0.0 www.cultic.fandom.com
 0.0.0.0 cyberknightsflashpoint.fandom.com
 0.0.0.0 www.cyberknightsflashpoint.fandom.com
 0.0.0.0 d2mc.fandom.com
@@ -642,6 +644,8 @@
 0.0.0.0 www.goldensun.fandom.com
 0.0.0.0 goldensun.neoseeker.com
 0.0.0.0 www.goldensun.neoseeker.com
+0.0.0.0 gorebox.fandom.com
+0.0.0.0 www.gorebox.fandom.com
 0.0.0.0 gothic.fandom.com
 0.0.0.0 www.gothic.fandom.com
 0.0.0.0 graalmilitary.fandom.com

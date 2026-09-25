@@ -462,6 +462,8 @@
 0.0.0.0 www.crystal-realms.fandom.com
 0.0.0.0 cuisineer.fandom.com
 0.0.0.0 www.cuisineer.fandom.com
+0.0.0.0 cultic.fandom.com
+0.0.0.0 www.cultic.fandom.com
 0.0.0.0 cuphead.fandom.com
 0.0.0.0 www.cuphead.fandom.com
 0.0.0.0 cyberknightsflashpoint.fandom.com
@@ -920,6 +922,8 @@
 0.0.0.0 www.goldensun.fandom.com
 0.0.0.0 goldensun.neoseeker.com
 0.0.0.0 www.goldensun.neoseeker.com
+0.0.0.0 gorebox.fandom.com
+0.0.0.0 www.gorebox.fandom.com
 0.0.0.0 gothic.fandom.com
 0.0.0.0 www.gothic.fandom.com
 0.0.0.0 graalmilitary.fandom.com
