@@ -973,6 +973,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.warhammer40k.fandom.com/wiki/*
 *://*.webfishing.fandom.com/wiki/*
 *://*.weezer.fandom.com/wiki/*
+*://*.welcome-to-enderfield.fandom.com/wiki/*
 *://*.wesnoth.fandom.com/wiki/*
 *://*.white-knuckle.fandom.com/wiki/*
 *://*.whoniverse.fandom.com/wiki/*

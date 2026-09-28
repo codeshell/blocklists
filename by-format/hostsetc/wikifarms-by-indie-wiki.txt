@@ -851,6 +851,7 @@
 "*://*.warhammer40k.fandom.com/*",
 "*://*.webfishing.fandom.com/*",
 "*://*.weezer.fandom.com/*",
+"*://*.welcome-to-enderfield.fandom.com/*",
 "*://*.wesnoth.fandom.com/*",
 "*://*.white-knuckle.fandom.com/*",
 "*://*.whoniverse.fandom.com/*",

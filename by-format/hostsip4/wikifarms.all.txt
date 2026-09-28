@@ -2444,6 +2444,8 @@
 0.0.0.0 www.webfishing.fandom.com
 0.0.0.0 weezer.fandom.com
 0.0.0.0 www.weezer.fandom.com
+0.0.0.0 welcome-to-enderfield.fandom.com
+0.0.0.0 www.welcome-to-enderfield.fandom.com
 0.0.0.0 wesnoth.fandom.com
 0.0.0.0 www.wesnoth.fandom.com
 0.0.0.0 westofloathing.fandom.com

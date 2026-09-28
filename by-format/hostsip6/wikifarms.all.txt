@@ -2444,6 +2444,8 @@
 ::1 www.webfishing.fandom.com
 ::1 weezer.fandom.com
 ::1 www.weezer.fandom.com
+::1 welcome-to-enderfield.fandom.com
+::1 www.welcome-to-enderfield.fandom.com
 ::1 wesnoth.fandom.com
 ::1 www.wesnoth.fandom.com
 ::1 westofloathing.fandom.com

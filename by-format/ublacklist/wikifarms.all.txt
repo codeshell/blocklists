@@ -1308,6 +1308,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.wautah.fandom.com/*
 *://*.webfishing.fandom.com/wiki/*
 *://*.weezer.fandom.com/wiki/*
+*://*.welcome-to-enderfield.fandom.com/wiki/*
 *://*.wesnoth.fandom.com/wiki/*
 *://*.westofloathing.fandom.com/*
 *://*.white-knuckle.fandom.com/wiki/*

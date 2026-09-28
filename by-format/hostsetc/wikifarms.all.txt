@@ -1221,6 +1221,7 @@
 "*://*.wautah.fandom.com/*",
 "*://*.webfishing.fandom.com/*",
 "*://*.weezer.fandom.com/*",
+"*://*.welcome-to-enderfield.fandom.com/*",
 "*://*.wesnoth.fandom.com/*",
 "*://*.westofloathing.fandom.com/*",
 "*://*.white-knuckle.fandom.com/*",

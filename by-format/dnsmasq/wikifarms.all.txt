@@ -1221,6 +1221,7 @@ address=/warhammer40k.fandom.com/
 address=/wautah.fandom.com/
 address=/webfishing.fandom.com/
 address=/weezer.fandom.com/
+address=/welcome-to-enderfield.fandom.com/
 address=/wesnoth.fandom.com/
 address=/westofloathing.fandom.com/
 address=/white-knuckle.fandom.com/
