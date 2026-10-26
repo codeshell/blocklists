@@ -282,6 +282,8 @@
 ::1 www.content-warning-landfall.fandom.com
 ::1 content-warning.fandom.com
 ::1 www.content-warning.fandom.com
+::1 convallaria.fandom.com
+::1 www.convallaria.fandom.com
 ::1 conways-game-of-life.fandom.com
 ::1 www.conways-game-of-life.fandom.com
 ::1 cookie.fandom.com
@@ -398,6 +400,8 @@
 ::1 www.discworld.fandom.com
 ::1 disfigure.fandom.com
 ::1 www.disfigure.fandom.com
+::1 disillusion-st.fandom.com
+::1 www.disillusion-st.fandom.com
 ::1 disney-dreamlight-valley.fandom.com
 ::1 www.disney-dreamlight-valley.fandom.com
 ::1 disneydreamlightvalley.fandom.com
@@ -414,6 +418,8 @@
 ::1 www.dofuswiki.fandom.com
 ::1 dogcraft.fandom.com
 ::1 www.dogcraft.fandom.com
+::1 doloctown.fandom.com
+::1 www.doloctown.fandom.com
 ::1 dome-keeper.fandom.com
 ::1 www.dome-keeper.fandom.com
 ::1 dominioncg.fandom.com
@@ -636,6 +642,8 @@
 ::1 www.girls-frontline.fandom.com
 ::1 girls-last-tour.fandom.com
 ::1 www.girls-last-tour.fandom.com
+::1 gloomwood.fandom.com
+::1 www.gloomwood.fandom.com
 ::1 gnorp-apologue.fandom.com
 ::1 www.gnorp-apologue.fandom.com
 ::1 godzilla.fandom.com
@@ -658,6 +666,8 @@
 ::1 www.greenday.fandom.com
 ::1 grepolis.fandom.com
 ::1 www.grepolis.fandom.com
+::1 grimdawn.fandom.com
+::1 www.grimdawn.fandom.com
 ::1 gronkh.fandom.com
 ::1 www.gronkh.fandom.com
 ::1 grounded.fandom.com
@@ -734,6 +744,8 @@
 ::1 www.horticular.fandom.com
 ::1 houkai2nd.fandom.com
 ::1 www.houkai2nd.fandom.com
+::1 huntdown.fandom.com
+::1 www.huntdown.fandom.com
 ::1 hunter-the-parenting.fandom.com
 ::1 www.hunter-the-parenting.fandom.com
 ::1 hyblock.fandom.com
@@ -756,6 +768,8 @@
 ::1 www.icarus.fandom.com
 ::1 iceandfire.fandom.com
 ::1 www.iceandfire.fandom.com
+::1 idle-boss-rush.fandom.com
+::1 www.idle-boss-rush.fandom.com
 ::1 idle-wizard.fandom.com
 ::1 www.idle-wizard.fandom.com
 ::1 idling-to-rule-the-gods.fandom.com
@@ -804,6 +818,8 @@
 ::1 www.kairosoft.fandom.com
 ::1 kancolle.fandom.com
 ::1 www.kancolle.fandom.com
+::1 kartrider.fandom.com
+::1 www.kartrider.fandom.com
 ::1 katamari.fandom.com
 ::1 www.katamari.fandom.com
 ::1 katana-zero.fandom.com
@@ -902,6 +918,8 @@
 ::1 www.mabinogi.fandom.com
 ::1 madoka.fandom.com
 ::1 www.madoka.fandom.com
+::1 mafiagame.fandom.com
+::1 www.mafiagame.fandom.com
 ::1 magicalstarsign.fandom.com
 ::1 www.magicalstarsign.fandom.com
 ::1 magicalvacation.fandom.com
@@ -1112,6 +1130,8 @@
 ::1 www.palia.fandom.com
 ::1 palworld.fandom.com
 ::1 www.palworld.fandom.com
+::1 paper-lily.fandom.com
+::1 www.paper-lily.fandom.com
 ::1 papermario.fandom.com
 ::1 www.papermario.fandom.com
 ::1 papers-pls.fandom.com
@@ -1238,6 +1258,8 @@
 ::1 www.rammstein.fandom.com
 ::1 ratatan.fandom.com
 ::1 www.ratatan.fandom.com
+::1 ravenswatch.fandom.com
+::1 www.ravenswatch.fandom.com
 ::1 rayman-game.fandom.com
 ::1 www.rayman-game.fandom.com
 ::1 rayman.fandom.com
@@ -1730,6 +1752,8 @@
 ::1 www.wizard101.fandom.com
 ::1 wizardry.fandom.com
 ::1 www.wizardry.fandom.com
+::1 wobbly-life.fandom.com
+::1 www.wobbly-life.fandom.com
 ::1 world-of-babel.fandom.com
 ::1 www.world-of-babel.fandom.com
 ::1 worldtrigger.fandom.com

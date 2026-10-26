@@ -216,6 +216,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.content-warning-landfall.fandom.com/*
 *://*.content-warning.fandom.com/wiki/*
 *://*.continentalwarserver.fandom.com/*
+*://*.convallaria.fandom.com/wiki/*
 *://*.conways-game-of-life.fandom.com/wiki/*
 *://*.cookie.fandom.com/zh/wiki/*
 *://*.cookieclicker.fandom.com/*
@@ -299,6 +300,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.discoelysium.fandom.com/wiki/*
 *://*.discworld.fandom.com/wiki/*
 *://*.disfigure.fandom.com/*
+*://*.disillusion-st.fandom.com/wiki/*
 *://*.disney-dreamlight-valley.fandom.com/wiki/*
 *://*.disneydreamlightvalley.fandom.com/wiki/*
 *://*.divinity-original-sin-enhanced-edition.fandom.com/*
@@ -311,6 +313,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.dofuswiki.fandom.com/fr/wiki/*
 *://*.dogcraft.fandom.com/wiki/*
 *://*.doggytalents.fandom.com/*
+*://*.doloctown.fandom.com/wiki/*
 *://*.dome-keeper.fandom.com/*
 *://*.dominioncg.fandom.com/wiki/*
 *://*.dominionstrategy.fandom.com/wiki/*
@@ -471,6 +474,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.gimkit.fandom.com/wiki/*
 *://*.girls-frontline.fandom.com/wiki/*
 *://*.girls-last-tour.fandom.com/wiki/*
+*://*.gloomwood.fandom.com/wiki/*
 *://*.gm-ce.fandom.com/*
 *://*.gnorp-apologue.fandom.com/*
 *://*.goatsimulator.fandom.com/*
@@ -488,6 +492,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.greavesoyl.fandom.com/*
 *://*.greenday.fandom.com/wiki/*
 *://*.grepolis.fandom.com/fr/wiki/*
+*://*.grimdawn.fandom.com/wiki/*
 *://*.grimms-notes-jp.fandom.com/*
 *://*.grimshire.fandom.com/*
 *://*.gronkh.fandom.com/de/wiki/*
@@ -546,6 +551,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.horticular.fandom.com/*
 *://*.houkai2nd.fandom.com/wiki/*
 *://*.houseflipper.fandom.com/*
+*://*.huntdown.fandom.com/wiki/*
 *://*.hunter-the-parenting.fandom.com/wiki/*
 *://*.hyblock.fandom.com/wiki/*
 *://*.hyboriangates.fandom.com/*
@@ -561,6 +567,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.hytale.fandom.com/wiki/*
 *://*.icarus.fandom.com/*
 *://*.iceandfire.fandom.com/wiki/*
+*://*.idle-boss-rush.fandom.com/wiki/*
 *://*.idle-wizard.fandom.com/*
 *://*.idling-to-rule-the-gods.fandom.com/wiki/*
 *://*.idolish7.fandom.com/wiki/*
@@ -684,6 +691,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.mabinogi.fandom.com/wiki/*
 *://*.madeon.fandom.com/*
 *://*.madoka.fandom.com/wiki/*
+*://*.mafiagame.fandom.com/wiki/*
 *://*.magicalstarsign.fandom.com/wiki/*
 *://*.magicalvacation.fandom.com/wiki/*
 *://*.mahjong.fandom.com/wiki/*
@@ -844,6 +852,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.pale-beyond.fandom.com/*
 *://*.palia.fandom.com/*
 *://*.palworld.fandom.com/*
+*://*.paper-lily.fandom.com/wiki/*
 *://*.paper-planet.fandom.com/*
 *://*.papermario.fandom.com/wiki/*
 *://*.papers-pls.fandom.com/wiki/*
@@ -943,6 +952,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.rainworld.fandom.com/ru/wiki/*
 *://*.rammstein.fandom.com/wiki/*
 *://*.ratatan.fandom.com/wiki/*
+*://*.ravenswatch.fandom.com/wiki/*
 *://*.rayman-game.fandom.com/wiki/*
 *://*.rayman.fandom.com/pl/wiki/*
 *://*.rayman.fandom.com/wiki/*
@@ -1323,6 +1333,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.witchfire.fandom.com/*
 *://*.wizard101.fandom.com/wiki/*
 *://*.wizardry.fandom.com/*
+*://*.wobbly-life.fandom.com/wiki/*
 *://*.world-of-babel.fandom.com/*
 *://*.worldofgrimm.fandom.com/*
 *://*.worldofwarcraft.fandom.com/*

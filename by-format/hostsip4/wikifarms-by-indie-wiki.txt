@@ -282,6 +282,8 @@
 0.0.0.0 www.content-warning-landfall.fandom.com
 0.0.0.0 content-warning.fandom.com
 0.0.0.0 www.content-warning.fandom.com
+0.0.0.0 convallaria.fandom.com
+0.0.0.0 www.convallaria.fandom.com
 0.0.0.0 conways-game-of-life.fandom.com
 0.0.0.0 www.conways-game-of-life.fandom.com
 0.0.0.0 cookie.fandom.com
@@ -398,6 +400,8 @@
 0.0.0.0 www.discworld.fandom.com
 0.0.0.0 disfigure.fandom.com
 0.0.0.0 www.disfigure.fandom.com
+0.0.0.0 disillusion-st.fandom.com
+0.0.0.0 www.disillusion-st.fandom.com
 0.0.0.0 disney-dreamlight-valley.fandom.com
 0.0.0.0 www.disney-dreamlight-valley.fandom.com
 0.0.0.0 disneydreamlightvalley.fandom.com
@@ -414,6 +418,8 @@
 0.0.0.0 www.dofuswiki.fandom.com
 0.0.0.0 dogcraft.fandom.com
 0.0.0.0 www.dogcraft.fandom.com
+0.0.0.0 doloctown.fandom.com
+0.0.0.0 www.doloctown.fandom.com
 0.0.0.0 dome-keeper.fandom.com
 0.0.0.0 www.dome-keeper.fandom.com
 0.0.0.0 dominioncg.fandom.com
@@ -636,6 +642,8 @@
 0.0.0.0 www.girls-frontline.fandom.com
 0.0.0.0 girls-last-tour.fandom.com
 0.0.0.0 www.girls-last-tour.fandom.com
+0.0.0.0 gloomwood.fandom.com
+0.0.0.0 www.gloomwood.fandom.com
 0.0.0.0 gnorp-apologue.fandom.com
 0.0.0.0 www.gnorp-apologue.fandom.com
 0.0.0.0 godzilla.fandom.com
@@ -658,6 +666,8 @@
 0.0.0.0 www.greenday.fandom.com
 0.0.0.0 grepolis.fandom.com
 0.0.0.0 www.grepolis.fandom.com
+0.0.0.0 grimdawn.fandom.com
+0.0.0.0 www.grimdawn.fandom.com
 0.0.0.0 gronkh.fandom.com
 0.0.0.0 www.gronkh.fandom.com
 0.0.0.0 grounded.fandom.com
@@ -734,6 +744,8 @@
 0.0.0.0 www.horticular.fandom.com
 0.0.0.0 houkai2nd.fandom.com
 0.0.0.0 www.houkai2nd.fandom.com
+0.0.0.0 huntdown.fandom.com
+0.0.0.0 www.huntdown.fandom.com
 0.0.0.0 hunter-the-parenting.fandom.com
 0.0.0.0 www.hunter-the-parenting.fandom.com
 0.0.0.0 hyblock.fandom.com
@@ -756,6 +768,8 @@
 0.0.0.0 www.icarus.fandom.com
 0.0.0.0 iceandfire.fandom.com
 0.0.0.0 www.iceandfire.fandom.com
+0.0.0.0 idle-boss-rush.fandom.com
+0.0.0.0 www.idle-boss-rush.fandom.com
 0.0.0.0 idle-wizard.fandom.com
 0.0.0.0 www.idle-wizard.fandom.com
 0.0.0.0 idling-to-rule-the-gods.fandom.com
@@ -804,6 +818,8 @@
 0.0.0.0 www.kairosoft.fandom.com
 0.0.0.0 kancolle.fandom.com
 0.0.0.0 www.kancolle.fandom.com
+0.0.0.0 kartrider.fandom.com
+0.0.0.0 www.kartrider.fandom.com
 0.0.0.0 katamari.fandom.com
 0.0.0.0 www.katamari.fandom.com
 0.0.0.0 katana-zero.fandom.com
@@ -902,6 +918,8 @@
 0.0.0.0 www.mabinogi.fandom.com
 0.0.0.0 madoka.fandom.com
 0.0.0.0 www.madoka.fandom.com
+0.0.0.0 mafiagame.fandom.com
+0.0.0.0 www.mafiagame.fandom.com
 0.0.0.0 magicalstarsign.fandom.com
 0.0.0.0 www.magicalstarsign.fandom.com
 0.0.0.0 magicalvacation.fandom.com
@@ -1112,6 +1130,8 @@
 0.0.0.0 www.palia.fandom.com
 0.0.0.0 palworld.fandom.com
 0.0.0.0 www.palworld.fandom.com
+0.0.0.0 paper-lily.fandom.com
+0.0.0.0 www.paper-lily.fandom.com
 0.0.0.0 papermario.fandom.com
 0.0.0.0 www.papermario.fandom.com
 0.0.0.0 papers-pls.fandom.com
@@ -1238,6 +1258,8 @@
 0.0.0.0 www.rammstein.fandom.com
 0.0.0.0 ratatan.fandom.com
 0.0.0.0 www.ratatan.fandom.com
+0.0.0.0 ravenswatch.fandom.com
+0.0.0.0 www.ravenswatch.fandom.com
 0.0.0.0 rayman-game.fandom.com
 0.0.0.0 www.rayman-game.fandom.com
 0.0.0.0 rayman.fandom.com
@@ -1730,6 +1752,8 @@
 0.0.0.0 www.wizard101.fandom.com
 0.0.0.0 wizardry.fandom.com
 0.0.0.0 www.wizardry.fandom.com
+0.0.0.0 wobbly-life.fandom.com
+0.0.0.0 www.wobbly-life.fandom.com
 0.0.0.0 world-of-babel.fandom.com
 0.0.0.0 www.world-of-babel.fandom.com
 0.0.0.0 worldtrigger.fandom.com

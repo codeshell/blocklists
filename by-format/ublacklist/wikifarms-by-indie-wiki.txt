@@ -163,6 +163,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.commodore64.fandom.com/wiki/*
 *://*.content-warning-landfall.fandom.com/wiki/*
 *://*.content-warning.fandom.com/wiki/*
+*://*.convallaria.fandom.com/wiki/*
 *://*.conways-game-of-life.fandom.com/wiki/*
 *://*.cookie.fandom.com/zh/wiki/*
 *://*.cookieclicker.fandom.com/wiki/*
@@ -228,6 +229,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.discoelysium.fandom.com/wiki/*
 *://*.discworld.fandom.com/wiki/*
 *://*.disfigure.fandom.com/wiki/*
+*://*.disillusion-st.fandom.com/wiki/*
 *://*.disney-dreamlight-valley.fandom.com/wiki/*
 *://*.disneydreamlightvalley.fandom.com/wiki/*
 *://*.dni.fandom.com/wiki/*
@@ -236,6 +238,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.doctorwhotv.fandom.com/wiki/*
 *://*.dofuswiki.fandom.com/fr/wiki/*
 *://*.dogcraft.fandom.com/wiki/*
+*://*.doloctown.fandom.com/wiki/*
 *://*.dome-keeper.fandom.com/wiki/*
 *://*.dominioncg.fandom.com/wiki/*
 *://*.dominionstrategy.fandom.com/wiki/*
@@ -355,6 +358,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.gimkit.fandom.com/wiki/*
 *://*.girls-frontline.fandom.com/wiki/*
 *://*.girls-last-tour.fandom.com/wiki/*
+*://*.gloomwood.fandom.com/wiki/*
 *://*.gnorp-apologue.fandom.com/wiki/*
 *://*.godzilla.fandom.com/wiki/*
 *://*.goldensun.fandom.com/wiki/*
@@ -366,6 +370,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.granblue.fandom.com/wiki/*
 *://*.greenday.fandom.com/wiki/*
 *://*.grepolis.fandom.com/fr/wiki/*
+*://*.grimdawn.fandom.com/wiki/*
 *://*.gronkh.fandom.com/de/wiki/*
 *://*.grounded.fandom.com/wiki/*
 *://*.growtopia.fandom.com/wiki/*
@@ -408,6 +413,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.horizonxi.fandom.com/wiki/*
 *://*.horticular.fandom.com/wiki/*
 *://*.houkai2nd.fandom.com/wiki/*
+*://*.huntdown.fandom.com/wiki/*
 *://*.hunter-the-parenting.fandom.com/wiki/*
 *://*.hyblock.fandom.com/wiki/*
 *://*.hybridanimals.fandom.com/wiki/*
@@ -421,6 +427,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.hytale.fandom.com/wiki/*
 *://*.icarus.fandom.com/wiki/*
 *://*.iceandfire.fandom.com/wiki/*
+*://*.idle-boss-rush.fandom.com/wiki/*
 *://*.idle-wizard.fandom.com/wiki/*
 *://*.idling-to-rule-the-gods.fandom.com/wiki/*
 *://*.idolish7.fandom.com/wiki/*
@@ -445,6 +452,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.k9tv.fandom.com/wiki/*
 *://*.kairosoft.fandom.com/wiki/*
 *://*.kancolle.fandom.com/wiki/*
+*://*.kartrider.fandom.com/zh/wiki/*
 *://*.katamari.fandom.com/wiki/*
 *://*.katana-zero.fandom.com/wiki/*
 *://*.katawashoujo.fandom.com/wiki/*
@@ -499,6 +507,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.luigi-mansion.fandom.com/wiki/*
 *://*.mabinogi.fandom.com/wiki/*
 *://*.madoka.fandom.com/wiki/*
+*://*.mafiagame.fandom.com/wiki/*
 *://*.magicalstarsign.fandom.com/wiki/*
 *://*.magicalvacation.fandom.com/wiki/*
 *://*.mahjong.fandom.com/wiki/*
@@ -624,6 +633,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.pale-beyond.fandom.com/wiki/*
 *://*.palia.fandom.com/wiki/*
 *://*.palworld.fandom.com/wiki/*
+*://*.paper-lily.fandom.com/wiki/*
 *://*.papermario.fandom.com/wiki/*
 *://*.papers-pls.fandom.com/wiki/*
 *://*.parkour-reborn.fandom.com/wiki/*
@@ -697,6 +707,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.rainworld.fandom.com/ru/wiki/*
 *://*.rammstein.fandom.com/wiki/*
 *://*.ratatan.fandom.com/wiki/*
+*://*.ravenswatch.fandom.com/wiki/*
 *://*.rayman-game.fandom.com/wiki/*
 *://*.rayman.fandom.com/pl/wiki/*
 *://*.rayman.fandom.com/wiki/*
@@ -986,6 +997,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.witchfire.fandom.com/wiki/*
 *://*.wizard101.fandom.com/wiki/*
 *://*.wizardry.fandom.com/wiki/*
+*://*.wobbly-life.fandom.com/wiki/*
 *://*.world-of-babel.fandom.com/wiki/*
 *://*.worldtrigger.fandom.com/wiki/*
 *://*.worshipcrg.fandom.com/wiki/*
