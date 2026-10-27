@@ -86,6 +86,8 @@
 ::1 www.apexlegends.fandom.com
 ::1 apico.fandom.com
 ::1 www.apico.fandom.com
+::1 approximately-up.fandom.com
+::1 www.approximately-up.fandom.com
 ::1 arc-raiders.fandom.com
 ::1 www.arc-raiders.fandom.com
 ::1 argo-bdp.fandom.com
@@ -564,6 +566,8 @@
 ::1 www.fatalframe.fandom.com
 ::1 fearandhunger.fandom.com
 ::1 www.fearandhunger.fandom.com
+::1 feed-the-pit.fandom.com
+::1 www.feed-the-pit.fandom.com
 ::1 ffxiv.fandom.com
 ::1 www.ffxiv.fandom.com
 ::1 fields-of-mistria.fandom.com

@@ -69,6 +69,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.apexlegends.fandom.com/*
 *://*.apexracer.fandom.com/*
 *://*.apico.fandom.com/wiki/*
+*://*.approximately-up.fandom.com/wiki/*
 *://*.arc-raiders.fandom.com/wiki/*
 *://*.argo-bdp.fandom.com/wiki/*
 *://*.ark-survival-evolved-archive.fandom.com/*
@@ -415,6 +416,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.fatalframe.fandom.com/wiki/*
 *://*.fearandhunger.fandom.com/*
 *://*.fearstofathom.fandom.com/*
+*://*.feed-the-pit.fandom.com/wiki/*
 *://*.felvidek.fandom.com/*
 *://*.ffxiv.fandom.com/wiki/*
 *://*.fields-of-mistria.fandom.com/*

@@ -47,6 +47,7 @@
 ||apex--legends-archive.fandom.com/wiki^
 ||apexlegends.fandom.com/wiki^
 ||apico.fandom.com/wiki^
+||approximately-up.fandom.com/wiki^
 ||arc-raiders.fandom.com/wiki^
 ||argo-bdp.fandom.com/wiki^
 ||ark-survival-evolved-archive.fandom.com/wiki^
@@ -309,6 +310,7 @@
 ||farthest-frontier.fandom.com/wiki^
 ||fatalframe.fandom.com/wiki^
 ||fearandhunger.fandom.com/wiki^
+||feed-the-pit.fandom.com/wiki^
 ||ffxiv.fandom.com/wiki^
 ||fields-of-mistria.fandom.com/wiki^
 ||fight-knight.fandom.com/wiki^

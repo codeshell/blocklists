@@ -124,6 +124,8 @@
 0.0.0.0 www.apexracer.fandom.com
 0.0.0.0 apico.fandom.com
 0.0.0.0 www.apico.fandom.com
+0.0.0.0 approximately-up.fandom.com
+0.0.0.0 www.approximately-up.fandom.com
 0.0.0.0 arc-raiders.fandom.com
 0.0.0.0 www.arc-raiders.fandom.com
 0.0.0.0 argo-bdp.fandom.com
@@ -798,6 +800,8 @@
 0.0.0.0 www.fearandhunger.fandom.com
 0.0.0.0 fearstofathom.fandom.com
 0.0.0.0 www.fearstofathom.fandom.com
+0.0.0.0 feed-the-pit.fandom.com
+0.0.0.0 www.feed-the-pit.fandom.com
 0.0.0.0 felvidek.fandom.com
 0.0.0.0 www.felvidek.fandom.com
 0.0.0.0 ffxiv.fandom.com

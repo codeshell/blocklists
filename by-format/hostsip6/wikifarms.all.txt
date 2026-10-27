@@ -124,6 +124,8 @@
 ::1 www.apexracer.fandom.com
 ::1 apico.fandom.com
 ::1 www.apico.fandom.com
+::1 approximately-up.fandom.com
+::1 www.approximately-up.fandom.com
 ::1 arc-raiders.fandom.com
 ::1 www.arc-raiders.fandom.com
 ::1 argo-bdp.fandom.com
@@ -798,6 +800,8 @@
 ::1 www.fearandhunger.fandom.com
 ::1 fearstofathom.fandom.com
 ::1 www.fearstofathom.fandom.com
+::1 feed-the-pit.fandom.com
+::1 www.feed-the-pit.fandom.com
 ::1 felvidek.fandom.com
 ::1 www.felvidek.fandom.com
 ::1 ffxiv.fandom.com
