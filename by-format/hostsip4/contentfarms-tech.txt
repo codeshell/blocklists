@@ -10,3 +10,5 @@
 0.0.0.0 www.sysinfotools.com
 0.0.0.0 systoolsgroup.com
 0.0.0.0 www.systoolsgroup.com
+0.0.0.0 vinchin.com
+0.0.0.0 www.vinchin.com

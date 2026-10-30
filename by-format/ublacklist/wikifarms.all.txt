@@ -139,6 +139,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.blight.fandom.com/*
 *://*.block-n-load-2.fandom.com/*
 *://*.block-story.fandom.com/*
+*://*.block-tales.fandom.com/wiki/*
 *://*.blockate.fandom.com/wiki/*
 *://*.blockfrontmc.fandom.com/*
 *://*.blockstarplanet.fandom.com/*

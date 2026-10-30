@@ -131,6 +131,7 @@ address=/blhx.fandom.com/
 address=/blight.fandom.com/
 address=/block-n-load-2.fandom.com/
 address=/block-story.fandom.com/
+address=/block-tales.fandom.com/
 address=/blockate.fandom.com/
 address=/blockfrontmc.fandom.com/
 address=/blockstarplanet.fandom.com/

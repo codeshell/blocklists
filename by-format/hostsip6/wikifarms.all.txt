@@ -264,6 +264,8 @@
 ::1 www.block-n-load-2.fandom.com
 ::1 block-story.fandom.com
 ::1 www.block-story.fandom.com
+::1 block-tales.fandom.com
+::1 www.block-tales.fandom.com
 ::1 blockate.fandom.com
 ::1 www.blockate.fandom.com
 ::1 blockfrontmc.fandom.com

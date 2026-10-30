@@ -186,6 +186,8 @@
 0.0.0.0 www.bleed-game.fandom.com
 0.0.0.0 blhx.fandom.com
 0.0.0.0 www.blhx.fandom.com
+0.0.0.0 block-tales.fandom.com
+0.0.0.0 www.block-tales.fandom.com
 0.0.0.0 blockate.fandom.com
 0.0.0.0 www.blockate.fandom.com
 0.0.0.0 blockfrontmc.fandom.com
@@ -1080,6 +1082,8 @@
 0.0.0.0 www.ninesols.fandom.com
 0.0.0.0 nitrome.fandom.com
 0.0.0.0 www.nitrome.fandom.com
+0.0.0.0 nivalisgame.fandom.com
+0.0.0.0 www.nivalisgame.fandom.com
 0.0.0.0 noisz.fandom.com
 0.0.0.0 www.noisz.fandom.com
 0.0.0.0 noita.fandom.com
@@ -1546,6 +1550,8 @@
 0.0.0.0 www.the-fire-rises-unoffical-database.fandom.com
 0.0.0.0 the-hundred-line.fandom.com
 0.0.0.0 www.the-hundred-line.fandom.com
+0.0.0.0 the-infected.fandom.com
+0.0.0.0 www.the-infected.fandom.com
 0.0.0.0 the-magical-mixture-mill.fandom.com
 0.0.0.0 www.the-magical-mixture-mill.fandom.com
 0.0.0.0 the-matchless-kungfu.fandom.com

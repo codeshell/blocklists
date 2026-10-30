@@ -10,3 +10,4 @@ variants: contentfarms-gaming, contentfarms-tech, contentfarms.all
 *://*.securityonline.info/*
 *://*.sysinfotools.com/blog/*
 *://*.systoolsgroup.com/*
+*://*.vinchin.com/*

@@ -264,6 +264,8 @@
 0.0.0.0 www.block-n-load-2.fandom.com
 0.0.0.0 block-story.fandom.com
 0.0.0.0 www.block-story.fandom.com
+0.0.0.0 block-tales.fandom.com
+0.0.0.0 www.block-tales.fandom.com
 0.0.0.0 blockate.fandom.com
 0.0.0.0 www.blockate.fandom.com
 0.0.0.0 blockfrontmc.fandom.com

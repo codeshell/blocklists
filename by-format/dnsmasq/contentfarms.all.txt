@@ -8,3 +8,4 @@ address=/regainsoftware.com/
 address=/securityonline.info/
 address=/sysinfotools.com/
 address=/systoolsgroup.com/
+address=/vinchin.com/

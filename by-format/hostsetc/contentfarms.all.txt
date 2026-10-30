@@ -8,3 +8,4 @@
 "*://*.securityonline.info/*",
 "*://*.sysinfotools.com/*",
 "*://*.systoolsgroup.com/*",
+"*://*.vinchin.com/*",

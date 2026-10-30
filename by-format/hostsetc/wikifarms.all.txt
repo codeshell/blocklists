@@ -131,6 +131,7 @@
 "*://*.blight.fandom.com/*",
 "*://*.block-n-load-2.fandom.com/*",
 "*://*.block-story.fandom.com/*",
+"*://*.block-tales.fandom.com/*",
 "*://*.blockate.fandom.com/*",
 "*://*.blockfrontmc.fandom.com/*",
 "*://*.blockstarplanet.fandom.com/*",
