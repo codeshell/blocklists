@@ -1,6 +1,7 @@
 "*://*.dannyda.com/*",
 "*://*.gachago.com/*",
 "*://*.ldplayer.net/*",
+"*://*.lowcode.agency/*",
 "*://*.mumuplayer.com/*",
 "*://*.pocketgamer.com/*",
 "*://*.recoverytools.com/*",

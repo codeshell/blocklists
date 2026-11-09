@@ -1,4 +1,5 @@
 "*://*.dannyda.com/*",
+"*://*.lowcode.agency/*",
 "*://*.recoverytools.com/*",
 "*://*.regainsoftware.com/*",
 "*://*.securityonline.info/*",

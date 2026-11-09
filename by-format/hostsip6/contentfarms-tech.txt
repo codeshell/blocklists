@@ -1,5 +1,7 @@
 ::1 dannyda.com
 ::1 www.dannyda.com
+::1 lowcode.agency
+::1 www.lowcode.agency
 ::1 recoverytools.com
 ::1 www.recoverytools.com
 ::1 regainsoftware.com

@@ -1,5 +1,7 @@
 0.0.0.0 dannyda.com
 0.0.0.0 www.dannyda.com
+0.0.0.0 lowcode.agency
+0.0.0.0 www.lowcode.agency
 0.0.0.0 recoverytools.com
 0.0.0.0 www.recoverytools.com
 0.0.0.0 regainsoftware.com
