@@ -239,6 +239,7 @@
 "*://*.dustbunny.fandom.com/*",
 "*://*.dwarffortress.fandom.com/*",
 "*://*.dyinglight.fandom.com/*",
+"*://*.dynamixc4cat.fandom.com/*",
 "*://*.dyson-sphere-program.fandom.com/*",
 "*://*.earthbound.fandom.com/*",
 "*://*.easternmind.fandom.com/*",

@@ -688,6 +688,8 @@
 ::1 www.dwarffortress.fandom.com
 ::1 dyinglight.fandom.com
 ::1 www.dyinglight.fandom.com
+::1 dynamixc4cat.fandom.com
+::1 www.dynamixc4cat.fandom.com
 ::1 dyson-sphere-program.fandom.com
 ::1 www.dyson-sphere-program.fandom.com
 ::1 earthbound.fandom.com

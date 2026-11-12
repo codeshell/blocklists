@@ -688,6 +688,8 @@
 0.0.0.0 www.dwarffortress.fandom.com
 0.0.0.0 dyinglight.fandom.com
 0.0.0.0 www.dyinglight.fandom.com
+0.0.0.0 dynamixc4cat.fandom.com
+0.0.0.0 www.dynamixc4cat.fandom.com
 0.0.0.0 dyson-sphere-program.fandom.com
 0.0.0.0 www.dyson-sphere-program.fandom.com
 0.0.0.0 earthbound.fandom.com
