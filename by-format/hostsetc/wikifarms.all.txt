@@ -154,6 +154,7 @@
 "*://*.bugfables.fandom.com/*",
 "*://*.buildabear.fandom.com/*",
 "*://*.builderment.fandom.com/*",
+"*://*.bungo-stray-dogs.fandom.com/*",
 "*://*.bzrockcom.fandom.com/*",
 "*://*.cake-team-towers.fandom.com/*",
 "*://*.calamitymod.fandom.com/*",

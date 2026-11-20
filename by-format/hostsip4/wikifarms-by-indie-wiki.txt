@@ -220,6 +220,8 @@
 0.0.0.0 www.bugfables.fandom.com
 0.0.0.0 buildabear.fandom.com
 0.0.0.0 www.buildabear.fandom.com
+0.0.0.0 bungo-stray-dogs.fandom.com
+0.0.0.0 www.bungo-stray-dogs.fandom.com
 0.0.0.0 bzrockcom.fandom.com
 0.0.0.0 www.bzrockcom.fandom.com
 0.0.0.0 calamitymod.fandom.com

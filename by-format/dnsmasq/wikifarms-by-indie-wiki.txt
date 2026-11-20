@@ -109,6 +109,7 @@ address=/brotato.fandom.com/
 address=/bubsy.fandom.com/
 address=/bugfables.fandom.com/
 address=/buildabear.fandom.com/
+address=/bungo-stray-dogs.fandom.com/
 address=/bzrockcom.fandom.com/
 address=/calamitymod.fandom.com/
 address=/camerapedia.fandom.com/

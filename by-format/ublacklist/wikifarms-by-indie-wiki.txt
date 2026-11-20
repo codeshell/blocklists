@@ -130,6 +130,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.bubsy.fandom.com/wiki/*
 *://*.bugfables.fandom.com/wiki/*
 *://*.buildabear.fandom.com/wiki/*
+*://*.bungo-stray-dogs.fandom.com/fr/wiki/*
 *://*.bzrockcom.fandom.com/wiki/*
 *://*.calamitymod.fandom.com/es/wiki/*
 *://*.calamitymod.fandom.com/wiki/*

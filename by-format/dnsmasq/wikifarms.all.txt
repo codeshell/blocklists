@@ -154,6 +154,7 @@ address=/bubsy.fandom.com/
 address=/bugfables.fandom.com/
 address=/buildabear.fandom.com/
 address=/builderment.fandom.com/
+address=/bungo-stray-dogs.fandom.com/
 address=/bzrockcom.fandom.com/
 address=/cake-team-towers.fandom.com/
 address=/calamitymod.fandom.com/

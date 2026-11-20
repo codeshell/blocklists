@@ -220,6 +220,8 @@
 ::1 www.bugfables.fandom.com
 ::1 buildabear.fandom.com
 ::1 www.buildabear.fandom.com
+::1 bungo-stray-dogs.fandom.com
+::1 www.bungo-stray-dogs.fandom.com
 ::1 bzrockcom.fandom.com
 ::1 www.bzrockcom.fandom.com
 ::1 calamitymod.fandom.com

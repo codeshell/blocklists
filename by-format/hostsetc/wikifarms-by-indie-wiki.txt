@@ -109,6 +109,7 @@
 "*://*.bubsy.fandom.com/*",
 "*://*.bugfables.fandom.com/*",
 "*://*.buildabear.fandom.com/*",
+"*://*.bungo-stray-dogs.fandom.com/*",
 "*://*.bzrockcom.fandom.com/*",
 "*://*.calamitymod.fandom.com/*",
 "*://*.camerapedia.fandom.com/*",

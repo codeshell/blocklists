@@ -310,6 +310,8 @@
 0.0.0.0 www.buildabear.fandom.com
 0.0.0.0 builderment.fandom.com
 0.0.0.0 www.builderment.fandom.com
+0.0.0.0 bungo-stray-dogs.fandom.com
+0.0.0.0 www.bungo-stray-dogs.fandom.com
 0.0.0.0 bzrockcom.fandom.com
 0.0.0.0 www.bzrockcom.fandom.com
 0.0.0.0 cake-team-towers.fandom.com

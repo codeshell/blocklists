@@ -162,6 +162,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.bugfables.fandom.com/wiki/*
 *://*.buildabear.fandom.com/wiki/*
 *://*.builderment.fandom.com/*
+*://*.bungo-stray-dogs.fandom.com/fr/wiki/*
 *://*.bzrockcom.fandom.com/wiki/*
 *://*.cake-team-towers.fandom.com/*
 *://*.calamitymod.fandom.com/*
