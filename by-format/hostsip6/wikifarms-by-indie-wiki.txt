@@ -1510,6 +1510,8 @@
 ::1 www.tallyhall.fandom.com
 ::1 tardis.fandom.com
 ::1 www.tardis.fandom.com
+::1 taskmaster.fandom.com
+::1 www.taskmaster.fandom.com
 ::1 tbcte.fandom.com
 ::1 www.tbcte.fandom.com
 ::1 tboirevelations.fandom.com

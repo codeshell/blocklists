@@ -1072,6 +1072,7 @@ address=/taintedgrail-thefallofavalon.fandom.com/
 address=/tales-of-enaria.fandom.com/
 address=/tallyhall.fandom.com/
 address=/tardis.fandom.com/
+address=/taskmaster.fandom.com/
 address=/tbcte.fandom.com/
 address=/tboi-epiphany.fandom.com/
 address=/tboirevelations.fandom.com/

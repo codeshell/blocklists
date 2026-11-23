@@ -1143,6 +1143,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.tallyhall.fandom.com/wiki/*
 *://*.tardis.fandom.com/wiki/*
 *://*.tardis.fandom.com/zh/wiki/*
+*://*.taskmaster.fandom.com/wiki/*
 *://*.tbcte.fandom.com/*
 *://*.tboi-epiphany.fandom.com/*
 *://*.tboirevelations.fandom.com/*

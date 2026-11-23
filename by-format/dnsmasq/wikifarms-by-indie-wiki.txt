@@ -754,6 +754,7 @@ address=/survivingmars.fandom.com/
 address=/synthetik.fandom.com/
 address=/tallyhall.fandom.com/
 address=/tardis.fandom.com/
+address=/taskmaster.fandom.com/
 address=/tbcte.fandom.com/
 address=/tboirevelations.fandom.com/
 address=/tds.fandom.com/

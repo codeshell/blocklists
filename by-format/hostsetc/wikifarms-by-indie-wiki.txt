@@ -754,6 +754,7 @@
 "*://*.synthetik.fandom.com/*",
 "*://*.tallyhall.fandom.com/*",
 "*://*.tardis.fandom.com/*",
+"*://*.taskmaster.fandom.com/*",
 "*://*.tbcte.fandom.com/*",
 "*://*.tboirevelations.fandom.com/*",
 "*://*.tds.fandom.com/*",

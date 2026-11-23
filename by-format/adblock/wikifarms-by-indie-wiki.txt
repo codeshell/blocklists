@@ -843,6 +843,7 @@
 ||tallyhall.fandom.com/wiki^
 ||tardis.fandom.com/wiki^
 ||tardis.fandom.com/zh/wiki^
+||taskmaster.fandom.com/wiki^
 ||tbcte.fandom.com/wiki^
 ||tboirevelations.fandom.com/wiki^
 ||tds.fandom.com/wiki^
