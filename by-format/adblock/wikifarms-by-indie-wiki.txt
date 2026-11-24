@@ -281,6 +281,7 @@
 ||elderscrollslegends.wiki.fextralife.com^
 ||elderscrollsonline.wiki.fextralife.com^
 ||ember-knights-game.fandom.com/wiki^
+||emberward.fandom.com/wiki^
 ||empireofsin.fandom.com/wiki^
 ||empires-of-the-undergrowth.fandom.com/wiki^
 ||enajoelg.fandom.com/wiki^
@@ -419,6 +420,7 @@
 ||hyperdimensionneptunia.fandom.com/wiki^
 ||hyperrogue.fandom.com/wiki^
 ||hypixel-skyblock.fandom.com/wiki^
+||hypixel.fandom.com/wiki^
 ||hypnospace.fandom.com/wiki^
 ||hytale-game.fandom.com/wiki^
 ||hytale.fandom.com/de/wiki^
@@ -450,6 +452,7 @@
 ||junkjack.fandom.com/wiki^
 ||k9tv.fandom.com/wiki^
 ||kairosoft.fandom.com/wiki^
+||kaiserreich.fandom.com/wiki^
 ||kancolle.fandom.com/wiki^
 ||kartrider.fandom.com/zh/wiki^
 ||katamari.fandom.com/wiki^
@@ -614,6 +617,7 @@
 ||oaklands.fandom.com/wiki^
 ||oathbreakersvr.fandom.com/wiki^
 ||obby.fandom.com/wiki^
+||obeliskminer.fandom.com/wiki^
 ||obey-me.fandom.com/wiki^
 ||oblivionremastered.wiki.fextralife.com^
 ||oldschoolrunescape.fandom.com/wiki^

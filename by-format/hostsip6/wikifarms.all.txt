@@ -724,6 +724,8 @@
 ::1 www.eldrum.fandom.com
 ::1 ember-knights-game.fandom.com
 ::1 www.ember-knights-game.fandom.com
+::1 emberward.fandom.com
+::1 www.emberward.fandom.com
 ::1 empireofsin.fandom.com
 ::1 www.empireofsin.fandom.com
 ::1 empires-of-the-undergrowth.fandom.com
@@ -1086,6 +1088,8 @@
 ::1 www.hyperrogue.fandom.com
 ::1 hypixel-skyblock.fandom.com
 ::1 www.hypixel-skyblock.fandom.com
+::1 hypixel.fandom.com
+::1 www.hypixel.fandom.com
 ::1 hypnospace.fandom.com
 ::1 www.hypnospace.fandom.com
 ::1 hytale-game.fandom.com
@@ -1176,6 +1180,8 @@
 ::1 www.kairosoft.fandom.com
 ::1 kairosptu.fandom.com
 ::1 www.kairosptu.fandom.com
+::1 kaiserreich.fandom.com
+::1 www.kaiserreich.fandom.com
 ::1 kalterkrieg.fandom.com
 ::1 www.kalterkrieg.fandom.com
 ::1 kancolle.fandom.com
@@ -1566,6 +1572,8 @@
 ::1 www.oathbreakersvr.fandom.com
 ::1 obby.fandom.com
 ::1 www.obby.fandom.com
+::1 obeliskminer.fandom.com
+::1 www.obeliskminer.fandom.com
 ::1 obey-me.fandom.com
 ::1 www.obey-me.fandom.com
 ::1 oblivionremastered.wiki.fextralife.com

@@ -512,6 +512,8 @@
 0.0.0.0 www.elderscrollsonline.wiki.fextralife.com
 0.0.0.0 ember-knights-game.fandom.com
 0.0.0.0 www.ember-knights-game.fandom.com
+0.0.0.0 emberward.fandom.com
+0.0.0.0 www.emberward.fandom.com
 0.0.0.0 empireofsin.fandom.com
 0.0.0.0 www.empireofsin.fandom.com
 0.0.0.0 empires-of-the-undergrowth.fandom.com
@@ -768,6 +770,8 @@
 0.0.0.0 www.hyperrogue.fandom.com
 0.0.0.0 hypixel-skyblock.fandom.com
 0.0.0.0 www.hypixel-skyblock.fandom.com
+0.0.0.0 hypixel.fandom.com
+0.0.0.0 www.hypixel.fandom.com
 0.0.0.0 hypnospace.fandom.com
 0.0.0.0 www.hypnospace.fandom.com
 0.0.0.0 hytale-game.fandom.com
@@ -826,6 +830,8 @@
 0.0.0.0 www.k9tv.fandom.com
 0.0.0.0 kairosoft.fandom.com
 0.0.0.0 www.kairosoft.fandom.com
+0.0.0.0 kaiserreich.fandom.com
+0.0.0.0 www.kaiserreich.fandom.com
 0.0.0.0 kancolle.fandom.com
 0.0.0.0 www.kancolle.fandom.com
 0.0.0.0 kartrider.fandom.com
@@ -1104,6 +1110,8 @@
 0.0.0.0 www.oathbreakersvr.fandom.com
 0.0.0.0 obby.fandom.com
 0.0.0.0 www.obby.fandom.com
+0.0.0.0 obeliskminer.fandom.com
+0.0.0.0 www.obeliskminer.fandom.com
 0.0.0.0 obey-me.fandom.com
 0.0.0.0 www.obey-me.fandom.com
 0.0.0.0 oblivionremastered.wiki.fextralife.com

@@ -376,6 +376,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.elderscrollsonline.wiki.fextralife.com/*
 *://*.eldrum.fandom.com/*
 *://*.ember-knights-game.fandom.com/*
+*://*.emberward.fandom.com/wiki/*
 *://*.empireofsin.fandom.com/wiki/*
 *://*.empires-of-the-undergrowth.fandom.com/wiki/*
 *://*.enajoelg.fandom.com/*
@@ -565,6 +566,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.hyperlightbreaker.fandom.com/*
 *://*.hyperrogue.fandom.com/wiki/*
 *://*.hypixel-skyblock.fandom.com/wiki/*
+*://*.hypixel.fandom.com/wiki/*
 *://*.hypnospace.fandom.com/*
 *://*.hytale-game.fandom.com/wiki/*
 *://*.hytale.fandom.com/de/wiki/*
@@ -612,6 +614,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.kaiju-no-8.fandom.com/*
 *://*.kairosoft.fandom.com/*
 *://*.kairosptu.fandom.com/*
+*://*.kaiserreich.fandom.com/wiki/*
 *://*.kalterkrieg.fandom.com/*
 *://*.kancolle.fandom.com/wiki/*
 *://*.karmaslayers.fandom.com/*
@@ -830,6 +833,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.oaklands.fandom.com/wiki/*
 *://*.oathbreakersvr.fandom.com/wiki/*
 *://*.obby.fandom.com/wiki/*
+*://*.obeliskminer.fandom.com/wiki/*
 *://*.obey-me.fandom.com/wiki/*
 *://*.oblivionremastered.wiki.fextralife.com/*
 *://*.octohill.fandom.com/*
