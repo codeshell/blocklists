@@ -530,6 +530,7 @@
 ||mccisland.fandom.com/wiki^
 ||mcpc.fandom.com/wiki^
 ||medabots.fandom.com/wiki^
+||meettheresidents.fandom.com/wiki^
 ||megabonk.fandom.com/wiki^
 ||megamitensei.fandom.com/wiki^
 ||megamitensei.neoseeker.com/wiki^
@@ -578,9 +579,11 @@
 ||mlp-gameloft.fandom.com/wiki^
 ||mlp.fandom.com/wiki^
 ||monster-prom.fandom.com/wiki^
+||monster-sanctuary.fandom.com/wiki^
 ||monsters-and-memories.fandom.com/wiki^
 ||moshimonsters.fandom.com/wiki^
 ||mother.neoseeker.com/wiki^
+||moviestarplanet.fandom.com/wiki^
 ||mr-love-queens-choice.fandom.com/wiki^
 ||mrdriller.fandom.com/wiki^
 ||mtg.fandom.com/wiki^

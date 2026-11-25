@@ -1388,6 +1388,8 @@
 ::1 www.mechat.fandom.com
 ::1 medabots.fandom.com
 ::1 www.medabots.fandom.com
+::1 meettheresidents.fandom.com
+::1 www.meettheresidents.fandom.com
 ::1 megabonk.fandom.com
 ::1 www.megabonk.fandom.com
 ::1 megaman.fandom.com
@@ -1478,6 +1480,8 @@
 ::1 www.momodora.fandom.com
 ::1 monster-prom.fandom.com
 ::1 www.monster-prom.fandom.com
+::1 monster-sanctuary.fandom.com
+::1 www.monster-sanctuary.fandom.com
 ::1 monsternevercry.fandom.com
 ::1 www.monsternevercry.fandom.com
 ::1 monsters-and-memories.fandom.com
@@ -1494,6 +1498,8 @@
 ::1 www.moshionline.fandom.com
 ::1 mother.neoseeker.com
 ::1 www.mother.neoseeker.com
+::1 moviestarplanet.fandom.com
+::1 www.moviestarplanet.fandom.com
 ::1 mr-love-queens-choice.fandom.com
 ::1 www.mr-love-queens-choice.fandom.com
 ::1 mrdriller.fandom.com

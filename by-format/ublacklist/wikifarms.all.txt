@@ -725,6 +725,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.mcpc.fandom.com/wiki/*
 *://*.mechat.fandom.com/*
 *://*.medabots.fandom.com/wiki/*
+*://*.meettheresidents.fandom.com/wiki/*
 *://*.megabonk.fandom.com/wiki/*
 *://*.megaman.fandom.com/*
 *://*.megamitensei.fandom.com/wiki/*
@@ -786,6 +787,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.moekuri.fandom.com/*
 *://*.momodora.fandom.com/*
 *://*.monster-prom.fandom.com/*
+*://*.monster-sanctuary.fandom.com/wiki/*
 *://*.monsternevercry.fandom.com/*
 *://*.monsters-and-memories.fandom.com/wiki/*
 *://*.monumentammo.fandom.com/*
@@ -794,6 +796,7 @@ variants: wikifarms-by-indie-wiki, wikifarms-by-wiki-gg, wikifarms.all
 *://*.moshimonsters.fandom.com/*
 *://*.moshionline.fandom.com/*
 *://*.mother.neoseeker.com/wiki/*
+*://*.moviestarplanet.fandom.com/wiki/*
 *://*.mr-love-queens-choice.fandom.com/wiki/*
 *://*.mrdriller.fandom.com/wiki/*
 *://*.mtg.fandom.com/wiki/*

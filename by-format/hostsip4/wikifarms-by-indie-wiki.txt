@@ -972,6 +972,8 @@
 0.0.0.0 www.mcpc.fandom.com
 0.0.0.0 medabots.fandom.com
 0.0.0.0 www.medabots.fandom.com
+0.0.0.0 meettheresidents.fandom.com
+0.0.0.0 www.meettheresidents.fandom.com
 0.0.0.0 megabonk.fandom.com
 0.0.0.0 www.megabonk.fandom.com
 0.0.0.0 megamitensei.fandom.com
@@ -1036,12 +1038,16 @@
 0.0.0.0 www.mlp.fandom.com
 0.0.0.0 monster-prom.fandom.com
 0.0.0.0 www.monster-prom.fandom.com
+0.0.0.0 monster-sanctuary.fandom.com
+0.0.0.0 www.monster-sanctuary.fandom.com
 0.0.0.0 monsters-and-memories.fandom.com
 0.0.0.0 www.monsters-and-memories.fandom.com
 0.0.0.0 moshimonsters.fandom.com
 0.0.0.0 www.moshimonsters.fandom.com
 0.0.0.0 mother.neoseeker.com
 0.0.0.0 www.mother.neoseeker.com
+0.0.0.0 moviestarplanet.fandom.com
+0.0.0.0 www.moviestarplanet.fandom.com
 0.0.0.0 mr-love-queens-choice.fandom.com
 0.0.0.0 www.mr-love-queens-choice.fandom.com
 0.0.0.0 mrdriller.fandom.com
